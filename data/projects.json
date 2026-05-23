@@ -1,0 +1,182 @@
+[
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "yit",
+    "district": "Ķīpsala",
+    "energyClass": "unknown",
+    "id": "yit--03aa423f23bd0249",
+    "location": {
+      "lat": 56.9514363,
+      "lng": 24.0846423,
+      "source": "nominatim"
+    },
+    "name": "Ķīpsalas 41 - 1.kārta",
+    "scrapedAt": "2026-05-23T14:12:36.208Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/kipsala/riverstone"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "yit",
+    "district": "Dreiliņi",
+    "energyClass": "A+",
+    "id": "yit--0f7ab7740a3ca64c",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Kaivas kvartāls 2",
+    "scrapedAt": "2026-05-23T14:11:52.065Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "yit",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "id": "yit--1beb10532426fde7",
+    "location": {
+      "lat": 56.9299289,
+      "lng": 24.0723103,
+      "source": "nominatim"
+    },
+    "name": "Mārpagalmi 3",
+    "scrapedAt": "2026-05-23T14:11:54.226Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-3"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "yit",
+    "district": "Dreiliņi",
+    "energyClass": "unknown",
+    "id": "yit--3595812d1f652588",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Kaivas kvartāls 1",
+    "scrapedAt": "2026-05-23T14:12:00.092Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "yit",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "id": "yit--563cc7c4d0b8acc5",
+    "location": {
+      "lat": 56.9370249,
+      "lng": 24.0697444,
+      "source": "nominatim"
+    },
+    "name": "Mārpagalmi 4",
+    "scrapedAt": "2026-05-23T14:11:56.428Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-4"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "yit",
+    "district": "Zolitūde",
+    "energyClass": "unknown",
+    "id": "yit--64c2e6ccaa13ad72",
+    "location": {
+      "lat": 56.9415992,
+      "lng": 24.0118932,
+      "source": "nominatim"
+    },
+    "name": "Anniņmuižas iela 15A",
+    "scrapedAt": "2026-05-23T14:12:15.113Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/zolitude/anninmuizas-iela-15a"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "yit",
+    "district": "Bišumuiža ",
+    "energyClass": "unknown",
+    "id": "yit--8d053b0aac4c3ef8",
+    "location": {
+      "lat": 56.902731,
+      "lng": 24.1457827,
+      "source": "nominatim"
+    },
+    "name": "Bauskas 191 - 1.karta",
+    "scrapedAt": "2026-05-23T14:12:30.062Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/bisumuiza/bauskas-191"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "yit",
+    "district": "Āgenskalns",
+    "energyClass": "A",
+    "id": "yit--ef847be61b92b040",
+    "location": {
+      "lat": 56.9282661,
+      "lng": 24.0720201,
+      "source": "nominatim"
+    },
+    "name": "Mārpagalmi 5",
+    "scrapedAt": "2026-05-23T14:11:55.326Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "yit",
+    "district": "Purvciems",
+    "energyClass": "unknown",
+    "id": "yit--f19bae23c3e5c9a2",
+    "location": {
+      "lat": 56.9521528,
+      "lng": 24.2105802,
+      "source": "nominatim"
+    },
+    "name": "Silvas Nami 6",
+    "scrapedAt": "2026-05-23T14:11:53.127Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "yit",
+    "district": "Purvciems",
+    "energyClass": "unknown",
+    "id": "yit--f34067645ca12109",
+    "location": {
+      "lat": 56.9530754,
+      "lng": 24.2123591,
+      "source": "nominatim"
+    },
+    "name": "Silvas Nami 5",
+    "scrapedAt": "2026-05-23T14:11:57.537Z",
+    "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-5"
+  }
+]

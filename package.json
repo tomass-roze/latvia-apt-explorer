@@ -12,10 +12,13 @@
     "check": "biome check --write",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "scrape": "tsx scripts/run-scraper.ts",
+    "build-payload": "tsx scripts/build-payload.ts"
   },
   "dependencies": {
     "@radix-ui/react-slider": "1.3.6",
+    "cheerio": "1.2.0",
     "lucide-react": "1.16.0",
     "maplibre-gl": "5.24.0",
     "next": "16.2.6",
@@ -39,6 +42,7 @@
     "eslint-config-next": "16.2.6",
     "jsdom": "29.1.1",
     "tailwindcss": "4.3.0",
+    "tsx": "4.22.3",
     "typescript": "5.9.3",
     "vitest": "4.1.7"
   },

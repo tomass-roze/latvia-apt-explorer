@@ -1,0 +1,87 @@
+name: Nightly Scrape
+
+on:
+  schedule:
+    # 02:00 UTC = 04:00 / 05:00 Riga time depending on DST
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      developer:
+        description: 'Single developer to scrape (default: matrix)'
+        required: false
+        default: ''
+
+# Security: never run on pull_request_target. Secrets stay scoped to push/schedule/dispatch.
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    name: ${{ matrix.developer }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        developer: [yit]
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run scraper
+        env:
+          JANAS_SETA_API_KEY: ${{ secrets.JANAS_SETA_API_KEY }}
+        run: pnpm scrape ${{ matrix.developer }}
+
+      - name: Commit scraped data
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: 'data(${{ matrix.developer }}): nightly scrape'
+          file_pattern: 'data/scraped/${{ matrix.developer }}.json data/runs/${{ matrix.developer }}.json data/cache/geocoding.json'
+          commit_user_name: 'apt-explorer-bot'
+          commit_user_email: 'noreply@github.com'
+
+  rebuild-payload:
+    name: Rebuild payload
+    needs: scrape
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # Pull latest commits from the scrape jobs above.
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Pull latest (in case other matrix jobs raced)
+        run: git pull --rebase origin ${{ github.ref_name }}
+
+      - name: Build payload
+        run: pnpm build-payload
+
+      - name: Commit payload
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: 'build: rebuild payload after nightly scrape'
+          file_pattern: 'data/projects.json data/apartments/*.json data/manifest.json'
+          commit_user_name: 'apt-explorer-bot'
+          commit_user_email: 'noreply@github.com'

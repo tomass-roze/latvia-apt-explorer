@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Security: PR runs do NOT get access to secrets via pull_request_target.
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Format check
+        run: pnpm exec biome check
+
+      - name: Unit tests
+        run: pnpm test
+
+      - name: Audit
+        run: pnpm audit --prod --audit-level=high
+        continue-on-error: true
+
+      - name: Manifest consistency check
+        run: |
+          if [ -f data/manifest.json ]; then
+            EXPECTED=$(jq '.projectIds | length' data/manifest.json)
+            ACTUAL=$(ls data/apartments/*.json 2>/dev/null | wc -l | tr -d ' ')
+            if [ "$EXPECTED" != "$ACTUAL" ]; then
+              echo "Manifest mismatch: manifest=$EXPECTED files=$ACTUAL"
+              exit 1
+            fi
+            echo "Manifest OK: $EXPECTED projects = $ACTUAL apartment files"
+          else
+            echo "No manifest.json yet — skipping consistency check."
+          fi
+
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

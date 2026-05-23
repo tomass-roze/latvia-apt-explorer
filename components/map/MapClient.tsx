@@ -1,11 +1,10 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import type { SlimProject } from '@/lib/data.server';
 
-// MapLibre touches `window` at module-eval time, so the Map component cannot
-// run during SSR. Next 16 only allows `ssr: false` inside Client Components,
-// so this thin wrapper is the seam between the server-rendered page shell and
-// the client-only map canvas.
+// MapLibre touches `window` at module-eval time; Next 16 requires `ssr: false`
+// to live inside a Client Component, which this wrapper provides.
 const Map = dynamic(() => import('./Map'), {
   ssr: false,
   loading: () => (
@@ -15,6 +14,10 @@ const Map = dynamic(() => import('./Map'), {
   ),
 });
 
-export default function MapClient() {
-  return <Map />;
+interface MapClientProps {
+  projects: SlimProject[];
+}
+
+export default function MapClient({ projects }: MapClientProps) {
+  return <Map projects={projects} />;
 }

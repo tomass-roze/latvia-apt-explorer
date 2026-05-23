@@ -1,0 +1,26 @@
+{
+  "apartmentCount": 0,
+  "developer": "yit",
+  "errors": [
+    {
+      "kind": "fetch",
+      "message": "HTTP 404 https://www.yit.lv/dzivojamas-majas/riga/teika/bikerziedi5maja",
+      "url": "https://www.yit.lv/dzivojamas-majas/riga/teika/bikerziedi5maja"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"kaivas iela 48a, lv-1021 rīga\"",
+      "projectId": "yit--3595812d1f652588"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"kaivas iela 48b, lv-1021 rīga\"",
+      "projectId": "yit--0f7ab7740a3ca64c"
+    }
+  ],
+  "finishedAt": "2026-05-23T14:15:46.419Z",
+  "lastSuccessAt": "2026-05-23T14:11:41.608Z",
+  "projectCount": 10,
+  "startedAt": "2026-05-23T14:11:41.608Z",
+  "status": "partial"
+}

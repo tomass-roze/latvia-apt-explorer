@@ -1,6 +1,10 @@
-// Server-only schema helpers — uses node:crypto and must not be imported from client code.
+// Server-only schema helpers — uses node:crypto. The `.server.ts` suffix is
+// the convention for "do not import from a 'use client' module"; Next.js will
+// also hard-fail any client bundle that pulls in `node:crypto`, which is the
+// real enforcement. We don't import 'server-only' explicitly because it always
+// throws (it's a Next compile-time marker, not a runtime guard) and that
+// breaks scripts run via tsx.
 
-import 'server-only';
 import { createHash } from 'node:crypto';
 import type { Developer, ProjectId } from './schema';
 import { normalizeAddress } from './schema';
