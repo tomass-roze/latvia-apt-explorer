@@ -1,0 +1,47 @@
+import type { NextConfig } from 'next';
+
+const cspDirectives = [
+  "default-src 'self'",
+  // 'unsafe-inline' on style-src is required by MapLibre and many React setups; revisit with nonces post-MVP.
+  "style-src 'self' 'unsafe-inline'",
+  "script-src 'self' 'unsafe-eval'", // 'unsafe-eval' required by Next dev/Turbopack; tighten in production via env-driven config later.
+  "img-src 'self' https: data: blob:", // hotlinked developer floorplans, OpenFreeMap tiles
+  "font-src 'self' data:", // next/font self-hosts; data: covers WOFF inlining edge cases
+  "connect-src 'self' https://tiles.openfreemap.org https://*.openfreemap.org",
+  "worker-src 'self' blob:", // MapLibre uses workers
+  "frame-ancestors 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "object-src 'none'",
+  "upgrade-insecure-requests",
+].join('; ');
+
+const securityHeaders = [
+  { key: 'Content-Security-Policy', value: cspDirectives },
+  { key: 'X-Content-Type-Options', value: 'nosniff' },
+  { key: 'Referrer-Policy', value: 'no-referrer' },
+  { key: 'X-Frame-Options', value: 'DENY' },
+  {
+    key: 'Permissions-Policy',
+    value: 'geolocation=(self), camera=(), microphone=(), payment=(), usb=()',
+  },
+  { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
+];
+
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  poweredByHeader: false,
+  turbopack: {
+    root: __dirname,
+  },
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: securityHeaders,
+      },
+    ];
+  },
+};
+
+export default nextConfig;

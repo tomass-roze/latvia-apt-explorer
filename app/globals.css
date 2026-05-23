@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+/* Latvia Apartment Explorer palette. "Quiet cartographer" — restrained, paper-like neutrals
+   so map pins and score bars carry the visual weight. See design spec in plan. */
+:root {
+  /* Surfaces */
+  --paper: #f5f2ec;
+  --paper-2: #ece7dd;
+
+  /* Ink */
+  --ink: #1a1a17;
+  --ink-2: #4c4a44;
+  --ink-3: #8a857b;
+
+  /* Lines & accents */
+  --line: #d9d3c6;
+  --accent: #c3471a;
+  --accent-soft: #f1d6c7;
+
+  /* Status (categorical) — used on pins + chips. Var name matches Status enum value. */
+  --status-new: #5d8aa8;
+  --status-interested: #1f6feb;
+  --status-visited: #6b4fbb;
+  --status-passed: #8a857b;
+
+  /* Score gradient (used on pins + breakdown bars when no status set) */
+  --score-0: #b23a2a;
+  --score-50: #d9a441;
+  --score-100: #4f8a4a;
+
+  /* Build stage (border / stroke encoding) */
+  --stage-pre: #8a857b;
+  --stage-under: #4c4a44;
+  --stage-near: #1a1a17;
+  --stage-ready: #c3471a;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-feature-settings: 'cv11', 'ss01';
+  font-variant-numeric: tabular-nums;
+}
+
+/* Use display serif for prices, scores, big numerals — opt-in via Tailwind `font-display`. */
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
