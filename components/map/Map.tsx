@@ -22,6 +22,7 @@ interface MapProject {
   apartmentCount: number;
   score?: number;
   percentile?: number;
+  status?: 'new' | 'interested' | 'visited' | 'passed' | null;
 }
 
 interface MapProps {
@@ -43,6 +44,8 @@ function toFeatureCollection(projects: MapProject[]): GeoJSON.FeatureCollection 
         buildStage: p.buildStage,
         score: p.score ?? 0,
         percentile: p.percentile ?? 0,
+        // Plain string (or empty) so MapLibre can `==` compare in expressions.
+        status: p.status ?? '',
       },
       geometry: { type: 'Point', coordinates: [p.location.lng, p.location.lat] },
     })),
@@ -111,24 +114,36 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
           type="circle"
           filter={['!', ['has', 'point_count']]}
           paint={{
-            // Color interpolates red → amber → green on the percentile.
+            // Status (when set) overrides the score gradient.
             'circle-color': [
-              'interpolate',
-              ['linear'],
-              ['get', 'percentile'],
-              0,
-              '#B23A2A',
-              0.5,
-              '#D9A441',
-              1,
-              '#4F8A4A',
-            ],
-            'circle-radius': [
               'case',
-              ['==', ['get', 'id'], selectedId ?? ''],
-              12,
-              8,
+              ['==', ['get', 'status'], 'interested'],
+              '#1F6FEB',
+              ['==', ['get', 'status'], 'visited'],
+              '#6B4FBB',
+              ['==', ['get', 'status'], 'passed'],
+              '#8A857B',
+              ['==', ['get', 'status'], 'new'],
+              '#5D8AA8',
+              [
+                'interpolate',
+                ['linear'],
+                ['get', 'percentile'],
+                0,
+                '#B23A2A',
+                0.5,
+                '#D9A441',
+                1,
+                '#4F8A4A',
+              ],
             ],
+            'circle-opacity': [
+              'case',
+              ['==', ['get', 'status'], 'passed'],
+              0.55,
+              0.95,
+            ],
+            'circle-radius': ['case', ['==', ['get', 'id'], selectedId ?? ''], 12, 8],
             'circle-stroke-color': '#1A1A17',
             'circle-stroke-width': [
               'match',

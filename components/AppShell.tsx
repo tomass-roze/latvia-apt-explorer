@@ -1,12 +1,15 @@
 'use client';
 
+import Link from 'next/link';
 import { type ReactNode, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { FilterPanel } from '@/components/filters/FilterPanel';
 import { ProjectDetail } from '@/components/project/ProjectDetail';
 import { WeightSliders } from '@/components/scoring/WeightSliders';
+import { SettingsMenu } from '@/components/settings/SettingsMenu';
 import { FILTER_DEFAULTS, filterApartments, filtersAreDefault } from '@/lib/filtering';
-import type { Apartment, Project } from '@/lib/schema';
+import { usePersonalState } from '@/lib/personal/hooks';
+import type { Apartment, Project, Status } from '@/lib/schema';
 import { buildScoringContext } from '@/lib/scoring/context';
 import { groupByProjectId, rankProjects } from '@/lib/scoring/rank';
 import { normalizeWeights } from '@/lib/scoring/registry';
@@ -21,6 +24,7 @@ interface MapProject {
   apartmentCount: number;
   score?: number;
   percentile?: number;
+  status?: Status | null;
 }
 
 interface MapProps {
@@ -48,6 +52,7 @@ interface AppShellProps {
 export default function AppShell({ projects, apartments }: AppShellProps) {
   const [filters, setFilters] = useFilters();
   const [weights] = useWeights();
+  const { state: personal } = usePersonalState();
   const normalizedWeights = useMemo(() => normalizeWeights(weights), [weights]);
 
   const projectsById = useMemo(() => {
@@ -93,9 +98,10 @@ export default function AppShell({ projects, apartments }: AppShellProps) {
         apartmentCount: r.matchingApartmentCount,
         score: r.best.total,
         percentile: r.percentile,
+        status: personal.status[project.id] ?? null,
       };
     });
-  }, [ranked, projectsById]);
+  }, [ranked, projectsById, personal.status]);
 
   const selectedProject = filters.p ? (projectsById.get(filters.p) ?? null) : null;
   const selectedApartments = selectedProject
@@ -116,8 +122,22 @@ export default function AppShell({ projects, apartments }: AppShellProps) {
           <h1 className="font-display text-xl tracking-tight">Latvijas dzīvokļu karte</h1>
           <span className="text-[var(--ink-3)] text-xs">Jauno projektu apkopojums</span>
         </div>
-        <div className="text-xs text-[var(--ink-3)] tabular-nums">
-          {totalApartments} dzīvokļi · {totalProjects} projekti
+        <div className="flex items-center gap-4">
+          <span className="text-xs text-[var(--ink-3)] tabular-nums">
+            {totalApartments} dzīvokļi · {totalProjects} projekti
+          </span>
+          <Link
+            href="/compare"
+            className="text-xs text-[var(--ink-2)] hover:text-[var(--ink)] flex items-center gap-1.5"
+          >
+            <span>Salīdzināt</span>
+            {personal.saved.length > 0 ? (
+              <span className="inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 rounded-full bg-[var(--accent)] text-[var(--paper)] text-[10px] tabular-nums">
+                {personal.saved.length}
+              </span>
+            ) : null}
+          </Link>
+          <SettingsMenu />
         </div>
       </header>
 

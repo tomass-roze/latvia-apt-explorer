@@ -3,6 +3,8 @@
 import type { Apartment, Project } from '@/lib/schema';
 import { formatArea, formatCompletion, formatPrice, formatPricePerSqm } from '@/lib/format';
 import { ScoreBreakdownDetail } from '@/components/scoring/ScoreBreakdown';
+import { StatusNotes } from '@/components/project/StatusNotes';
+import { usePersonalState } from '@/lib/personal/hooks';
 import type { ScoreBreakdown } from '@/lib/scoring/score';
 
 interface ProjectDetailProps {
@@ -40,6 +42,9 @@ const AVAILABILITY_LABELS: Record<Apartment['availability'], string> = {
 };
 
 export function ProjectDetail({ project, apartments, score, onClose }: ProjectDetailProps) {
+  const { state, toggleSaved } = usePersonalState();
+  const isSaved = state.saved.includes(project.id);
+
   const sortedApts = [...apartments].sort((a, b) => {
     const aPrice = a.price.kind === 'amount' ? a.price.eur : Number.POSITIVE_INFINITY;
     const bPrice = b.price.kind === 'amount' ? b.price.eur : Number.POSITIVE_INFINITY;
@@ -56,14 +61,31 @@ export function ProjectDetail({ project, apartments, score, onClose }: ProjectDe
         >
           ← Atpakaļ
         </button>
-        <button
-          type="button"
-          onClick={onClose}
-          aria-label="Aizvērt"
-          className="text-[var(--ink-3)] hover:text-[var(--ink)] text-lg leading-none"
-        >
-          ×
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => toggleSaved(project.id)}
+            aria-pressed={isSaved}
+            aria-label={isSaved ? 'Noņemt no salīdzināšanas' : 'Pievienot salīdzināšanai'}
+            className="h-7 px-2 text-xs rounded-md border transition-colors flex items-center gap-1.5"
+            style={
+              isSaved
+                ? { borderColor: 'var(--accent)', color: 'var(--accent)', backgroundColor: 'var(--accent-soft)' }
+                : { borderColor: 'var(--line)', color: 'var(--ink-2)' }
+            }
+          >
+            <span>{isSaved ? '★' : '☆'}</span>
+            <span>Salīdzināt</span>
+          </button>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Aizvērt"
+            className="text-[var(--ink-3)] hover:text-[var(--ink)] text-lg leading-none px-1"
+          >
+            ×
+          </button>
+        </div>
       </header>
 
       <div className="p-6 bg-[var(--paper-2)] space-y-3">
@@ -112,6 +134,8 @@ export function ProjectDetail({ project, apartments, score, onClose }: ProjectDe
           </ul>
         )}
       </section>
+
+      <StatusNotes projectId={project.id} />
 
       <footer className="px-6 py-4 border-t border-[var(--line)] text-xs">
         <a
