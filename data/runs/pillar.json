@@ -1,0 +1,16 @@
+{
+  "apartmentCount": 0,
+  "developer": "pillar",
+  "errors": [
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"2.kārta drīzumā eizenšteina iela 47/47a, rīga\"",
+      "projectId": "pillar--af40a85e978794df"
+    }
+  ],
+  "finishedAt": "2026-05-23T16:16:11.669Z",
+  "lastSuccessAt": "2026-05-23T16:16:05.763Z",
+  "projectCount": 5,
+  "startedAt": "2026-05-23T16:16:05.763Z",
+  "status": "partial"
+}
