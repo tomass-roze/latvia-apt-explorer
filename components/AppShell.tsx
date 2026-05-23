@@ -246,7 +246,7 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
       </main>
 
       <footer className="px-6 py-3 border-t border-[var(--line)] text-xs text-[var(--ink-3)] flex flex-wrap items-center gap-x-4 gap-y-1 shrink-0">
-        <span>© OpenStreetMap kartes dati · © OpenFreeMap flīzes</span>
+        <span>© OpenStreetMap kartes dati · © CARTO basemaps</span>
         <span>Personīgie dati glabājas tikai jūsu pārlūkā — nav sīkdatņu, nav izsekošanas.</span>
       </footer>
     </div>

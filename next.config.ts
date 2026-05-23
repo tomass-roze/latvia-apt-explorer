@@ -16,7 +16,9 @@ const cspDirectives = [
   "script-src 'self' 'unsafe-eval' 'unsafe-inline' 'wasm-unsafe-eval'",
   "img-src 'self' https: data: blob:", // hotlinked developer floorplans, OpenFreeMap tiles
   "font-src 'self' data:", // next/font self-hosts; data: covers WOFF inlining edge cases
-  "connect-src 'self' https://tiles.openfreemap.org https://*.openfreemap.org",
+  // basemaps.cartocdn.com serves raster tiles; demotiles.maplibre.org serves
+  // glyph fonts. Subdomains a/b/c/d for Carto, so we use a wildcard.
+  "connect-src 'self' https://*.basemaps.cartocdn.com https://demotiles.maplibre.org",
   "worker-src 'self' blob:", // MapLibre uses workers
   "frame-ancestors 'none'",
   "base-uri 'self'",

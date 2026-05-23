@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import type maplibregl from 'maplibre-gl';
 import {
   AttributionControl,
   Layer,
@@ -18,7 +19,31 @@ import {
   useOverlayData,
 } from './OverlayToggle';
 
-const MAP_STYLE = 'https://tiles.openfreemap.org/styles/liberty';
+// Inline style using Carto Voyager raster tiles. Free, no API key, low-volume
+// public use is fine. OSM data + Carto styling. Attribution baked into the
+// source as MapLibre requires.
+//
+// Swapped from OpenFreeMap because their Cloudflare edge currently 403s any
+// request with an Origin header — making the service unusable from browsers.
+// Revisit later if MapTiler vector tiles become preferable (better quality
+// but requires an API key + domain restriction).
+const CARTO_SUBDOMAINS = ['a', 'b', 'c', 'd'] as const;
+const MAP_STYLE: maplibregl.StyleSpecification = {
+  version: 8,
+  sources: {
+    osm: {
+      type: 'raster',
+      tiles: CARTO_SUBDOMAINS.map(
+        (s) => `https://${s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png`,
+      ),
+      tileSize: 256,
+      attribution:
+        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> © <a href="https://carto.com/attributions">CARTO</a>',
+    },
+  },
+  layers: [{ id: 'osm-base', type: 'raster', source: 'osm' }],
+  glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
+};
 
 interface MapProject {
   id: string;
@@ -89,11 +114,7 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
       cursor="pointer"
     >
       <NavigationControl position="bottom-left" />
-      <AttributionControl
-        position="bottom-right"
-        compact={false}
-        customAttribution="© OpenFreeMap"
-      />
+      <AttributionControl position="bottom-right" compact={false} />
 
       <OverlayToggle active={activeOverlays} setActive={setActiveOverlays} />
 

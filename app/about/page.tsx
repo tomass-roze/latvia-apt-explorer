@@ -38,23 +38,23 @@ export default function AboutPage() {
             <li>
               <strong>Karte un flīzes:</strong>{' '}
               <a
-                href="https://openfreemap.org/"
+                href="https://carto.com/attributions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--accent)] hover:underline"
               >
-                OpenFreeMap
+                CARTO
               </a>{' '}
-              ar OpenStreetMap datiem (
+              Voyager basemaps ar{' '}
               <a
                 href="https://www.openstreetmap.org/copyright"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--accent)] hover:underline"
               >
-                © OpenStreetMap contributors
-              </a>
-              ).
+                OpenStreetMap
+              </a>{' '}
+              datiem.
             </li>
             <li>
               <strong>Ģeokodēšana:</strong>{' '}
@@ -160,7 +160,7 @@ export default function AboutPage() {
       </main>
 
       <footer className="px-6 py-3 border-t border-[var(--line)] text-xs text-[var(--ink-3)] shrink-0">
-        © OpenStreetMap kartes dati · © OpenFreeMap flīzes · Nominatim ģeokodēšana
+        © OpenStreetMap kartes dati · © CARTO basemaps · Nominatim ģeokodēšana
       </footer>
     </div>
   );
