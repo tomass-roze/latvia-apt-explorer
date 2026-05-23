@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import {
   AttributionControl,
   Layer,
@@ -10,6 +11,12 @@ import {
 } from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { LATVIA_CENTER } from '@/lib/geo';
+import {
+  OVERLAY_COLORS,
+  OverlayToggle,
+  type OverlayKey,
+  useOverlayData,
+} from './OverlayToggle';
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/liberty';
 
@@ -54,6 +61,8 @@ function toFeatureCollection(projects: MapProject[]): GeoJSON.FeatureCollection 
 
 export default function Map({ projects, selectedId, onSelect }: MapProps) {
   const data = toFeatureCollection(projects);
+  const [activeOverlays, setActiveOverlays] = useState<Set<OverlayKey>>(new Set());
+  const { data: overlayData } = useOverlayData(activeOverlays);
 
   const handleClick = (e: MapLayerMouseEvent) => {
     const feature = e.features?.[0];
@@ -85,6 +94,37 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
         customAttribution="© OpenFreeMap"
       />
 
+      <OverlayToggle active={activeOverlays} setActive={setActiveOverlays} />
+
+      {/* Overlay layers — rendered before project pins so pins stay on top. */}
+      {(Object.entries(overlayData) as [OverlayKey, GeoJSON.FeatureCollection][]).map(
+        ([key, fc]) => (
+          <Source key={key} id={`overlay-${key}`} type="geojson" data={fc}>
+            <Layer
+              id={`overlay-${key}-layer`}
+              type="circle"
+              paint={{
+                'circle-color': OVERLAY_COLORS[key],
+                'circle-radius': [
+                  'interpolate',
+                  ['linear'],
+                  ['zoom'],
+                  8,
+                  1.5,
+                  12,
+                  3,
+                  15,
+                  5,
+                ],
+                'circle-opacity': 0.5,
+                'circle-stroke-color': '#1A1A17',
+                'circle-stroke-width': 0.3,
+              }}
+            />
+          </Source>
+        ),
+      )}
+
       <Source id="projects" type="geojson" data={data} cluster clusterMaxZoom={12} clusterRadius={50}>
         <Layer
           id="clusters"
@@ -114,7 +154,6 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
           type="circle"
           filter={['!', ['has', 'point_count']]}
           paint={{
-            // Status (when set) overrides the score gradient.
             'circle-color': [
               'case',
               ['==', ['get', 'status'], 'interested'],
@@ -137,12 +176,7 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
                 '#4F8A4A',
               ],
             ],
-            'circle-opacity': [
-              'case',
-              ['==', ['get', 'status'], 'passed'],
-              0.55,
-              0.95,
-            ],
+            'circle-opacity': ['case', ['==', ['get', 'status'], 'passed'], 0.55, 0.95],
             'circle-radius': ['case', ['==', ['get', 'id'], selectedId ?? ''], 12, 8],
             'circle-stroke-color': '#1A1A17',
             'circle-stroke-width': [

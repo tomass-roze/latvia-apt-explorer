@@ -4,10 +4,18 @@
 
 import { readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { type Apartment, ApartmentSchema, type Project, ProjectSchema } from './schema';
+import {
+  type Apartment,
+  ApartmentSchema,
+  type Project,
+  ProjectSchema,
+  type ScraperRunResult,
+  ScraperRunResultSchema,
+} from './schema';
 
 const REPO_ROOT = process.cwd();
 const SCRAPED_DIR = join(REPO_ROOT, 'data', 'scraped');
+const RUNS_DIR = join(REPO_ROOT, 'data', 'runs');
 const APARTMENTS_FLAT = join(REPO_ROOT, 'data', 'apartments.json');
 
 async function readJsonOr<T>(path: string, fallback: T): Promise<T | string> {
@@ -54,4 +62,26 @@ export async function loadApartments(): Promise<Apartment[]> {
     return [];
   }
   return result.data;
+}
+
+/** Load every per-developer scraper run report. */
+export async function loadRuns(): Promise<ScraperRunResult[]> {
+  let files: string[];
+  try {
+    files = await readdir(RUNS_DIR);
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return [];
+    throw err;
+  }
+  const all: ScraperRunResult[] = [];
+  for (const file of files.filter((f) => f.endsWith('.json'))) {
+    const raw = await readFile(join(RUNS_DIR, file), 'utf8');
+    try {
+      const result = ScraperRunResultSchema.safeParse(JSON.parse(raw));
+      if (result.success) all.push(result.data);
+    } catch {
+      // ignore malformed run files
+    }
+  }
+  return all;
 }

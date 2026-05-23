@@ -1,0 +1,8769 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          21.0053918,
+          56.4917068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1457719509",
+        "name": "Ventas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0054817,
+          56.49088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2958667249",
+        "name": "Ventas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0056332,
+          56.4870105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435084040",
+        "name": "Klaipēdas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0056608,
+          56.487273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435084037",
+        "name": "Klaipēdas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0062074,
+          56.5008912
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4448137599",
+        "name": "Jūrmalas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0062103,
+          56.5006353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4448132471",
+        "name": "Jūrmalas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0064676,
+          56.4974336
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435035971",
+        "name": "Līvas laukums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0066679,
+          56.5048835
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "904214120",
+        "name": "Pētertirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0067157,
+          56.4979946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435035972",
+        "name": "Līvas laukums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0068111,
+          56.5054586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435066860",
+        "name": "Pētertirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0093524,
+          56.4871576
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4347409456",
+        "name": "Tukuma iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0100325,
+          56.4872225
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4347409457",
+        "name": "Tukuma iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0127416,
+          56.4854114
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4444529468",
+        "name": "Vaiņodes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0130366,
+          56.4851378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4444529467",
+        "name": "Vaiņodes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0137593,
+          56.5108883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11012919823",
+        "name": "Koncertzāle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0138125,
+          56.5109704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11012919822",
+        "name": "Koncertzāle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0150743,
+          56.5160534
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11012838430",
+        "name": "Esperanto iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0158124,
+          56.483772
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435105197",
+        "name": "Ganību iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0161513,
+          56.5202527
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3647433080",
+        "name": "Olimpiskais centrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0162931,
+          56.5206203
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11012884311",
+        "name": "Olimpiskais centrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0164593,
+          56.4836279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435105200",
+        "name": "Ganību iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0169256,
+          56.5231751
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435017962",
+        "name": "Stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0171213,
+          56.5244358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799314251",
+        "name": "Liepāja"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0180671,
+          56.5236795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435017963",
+        "name": "Stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0212483,
+          56.4827777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435104046",
+        "name": "Cieceres iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0219616,
+          56.4826235
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435114122",
+        "name": "Cieceres iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0259937,
+          56.4818986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4435104049",
+        "name": "Mirdzas Ķempes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0267451,
+          56.4817339
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2633774441",
+        "name": "Mirdzas Ķempes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0271023,
+          56.5241739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4592664077",
+        "name": "Metalurgs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0302334,
+          56.5255611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "897590757",
+        "name": "Brīvības iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0953542,
+          55.7691484
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9094118521",
+        "name": "Giruliai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.1252107,
+          55.7865206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161775435",
+        "name": "Kalotė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.1357899,
+          55.7211079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "99172829",
+        "name": "Klaipėda"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.1800447,
+          55.834792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6638637083",
+        "name": "Kretingalė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.222024,
+          55.8713894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6638679732",
+        "name": "Bajorai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.2294455,
+          55.8868814
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "974930325",
+        "name": "Kretinga"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.4754981,
+          55.9625129
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6639992679",
+        "name": "Kūlupėnai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5327743,
+          57.3877778
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "380321127",
+        "name": "Pludmale"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5346975,
+          57.3864137
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "361488465",
+        "name": "Muzejs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5440135,
+          57.3807268
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1888118014",
+        "name": "Priedes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5484954,
+          57.376082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "927243562",
+        "name": "Kalns"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5927986,
+          57.3916955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "252636397",
+        "name": "Ventspils-1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.6471046,
+          55.9605822
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161769932",
+        "name": "Šateikiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.6699824,
+          57.3843461
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9087715792",
+        "name": "Ventspils II"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.778907,
+          57.3544657
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7623760243",
+        "name": "Elkšķene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.8521084,
+          55.9193031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9094092055",
+        "name": "Plungė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.970696,
+          55.9465842
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161768151",
+        "name": "Tarvainiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.0123895,
+          57.2819829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60679362",
+        "name": "Ugāle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.0126929,
+          56.6805803
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799314250",
+        "name": "Skrunda"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.099253,
+          55.9715775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161768821",
+        "name": "Lieplaukė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.1705211,
+          57.2502096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60679336",
+        "name": "Usma"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.2515497,
+          55.9928428
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9094092039",
+        "name": "Telšiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.2655356,
+          57.2153493
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5783720034",
+        "name": "Spāre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.3396359,
+          56.3125546
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1127720728",
+        "name": "Mažeikiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.4200404,
+          57.1786125
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60679295",
+        "name": "Līči"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.4604133,
+          55.978104
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "99177936",
+        "name": "Dūseikiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.4719549,
+          56.6857989
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799371881",
+        "name": "Saldus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.5194301,
+          56.2646881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12952872271",
+        "name": "Viekšniai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.538545,
+          57.1436556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60679289",
+        "name": "Stende"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.5874585,
+          55.9914041
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3805448866",
+        "name": "Tryškiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.6518553,
+          57.1314915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60679285",
+        "name": "Sabile"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.6955449,
+          56.1955252
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11986169095",
+        "name": "Akmenė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.7263838,
+          55.9988842
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4568615015",
+        "name": "Raudėnai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.8075211,
+          56.1494487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5753749044",
+        "name": "Papilė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.821207,
+          57.0830655
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60679281",
+        "name": "Kandava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.895926,
+          57.0623734
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60679278",
+        "name": "Pūre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.9357532,
+          55.9791356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "301945169",
+        "name": "Pavenčiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.9809597,
+          56.6914441
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799371880",
+        "name": "Biksti"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.9825807,
+          56.0345892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1818531917",
+        "name": "Kuršėnai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.001443,
+          57.0186589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9087748531",
+        "name": "Zvāre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.0687638,
+          56.4802125
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9087748468",
+        "name": "Bēne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.1153718,
+          56.9596943
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800554370",
+        "name": "Tukums II"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.1219211,
+          55.979084
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1559089811",
+        "name": "Kužiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.1698621,
+          56.9658645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800554369",
+        "name": "Tukums I"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.2267618,
+          56.9700286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1663546746",
+        "name": "Milzkalne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.258349,
+          55.9516868
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "748297322",
+        "name": "Voveriškiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.2848922,
+          56.6286382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799371879",
+        "name": "Dobele"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.2908453,
+          56.8441328
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8612649597",
+        "name": "Slampe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3139116,
+          55.9230702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1370770391",
+        "name": "Šiauliai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3340858,
+          56.8076006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "428937629",
+        "name": "Džūkste"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.336617,
+          56.9551601
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222261",
+        "name": "Smārde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3639068,
+          55.9003005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1659033632",
+        "name": "Zokniai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3921322,
+          55.8797555
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161763778",
+        "name": "Sodai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4103556,
+          55.8163481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8570395076",
+        "name": "Jonaitiškiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4139255,
+          55.8638214
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "773113288",
+        "name": "Šilėnai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4369458,
+          55.8436091
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1659033630",
+        "name": "Mankiškiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4632631,
+          56.7027427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "61846939",
+        "name": "Līvbērze"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4757863,
+          55.832453
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "773113292",
+        "name": "Kutiškiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4761187,
+          56.0544429
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12484881965",
+        "name": "Meškuičiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4904404,
+          56.9382389
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800554368",
+        "name": "Ķemeri"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4949129,
+          56.5995153
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "59834456",
+        "name": "Glūda"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.5123664,
+          55.8229487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7623822129",
+        "name": "Durpynas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.5364777,
+          55.8055806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1370770381",
+        "name": "Radviliškis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.5459605,
+          56.9286071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222265",
+        "name": "Kūdra"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.5992553,
+          56.2310953
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5809998656",
+        "name": "Joniškis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6183433,
+          56.9474052
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800554367",
+        "name": "Sloka"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6643183,
+          55.7255692
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4131315933",
+        "name": "Gimbogala"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6687844,
+          56.9549653
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222267",
+        "name": "Vaivari"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6770716,
+          56.408743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410180271",
+        "name": "Meitene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6904176,
+          56.9572254
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222268",
+        "name": "Asari"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7138375,
+          56.9587846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222269",
+        "name": "Melluži"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7339107,
+          56.641437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799371878",
+        "name": "Jelgava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7371855,
+          56.9599394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222270",
+        "name": "Pumpuri"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7575111,
+          56.9609659
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222271",
+        "name": "Jaundubulti"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7583917,
+          56.6529619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7626840929",
+        "name": "Cukurfabrika"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7767275,
+          56.9696556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800623829",
+        "name": "Dubulti"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7777081,
+          55.7382735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2319626569",
+        "name": "Šeduva"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7967943,
+          56.9713141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222273",
+        "name": "Majori"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8062429,
+          56.6864447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7658875060",
+        "name": "Ozolnieki"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8218431,
+          56.973554
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222274",
+        "name": "Dzintari"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8329847,
+          56.7087036
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799405227",
+        "name": "Cena"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8519856,
+          56.9810595
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7626948261",
+        "name": "Bulduri"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8703117,
+          56.9820714
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7732222276",
+        "name": "Lielupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8754681,
+          56.741648
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "466344712",
+        "name": "Dalbe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8869427,
+          56.9718965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800645043",
+        "name": "Priedaine"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.912197,
+          55.7443053
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "91092243",
+        "name": "Laba"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.946611,
+          56.7865359
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799405226",
+        "name": "Olaine"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.9495704,
+          56.6505589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "443688930",
+        "name": "Garoza"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.9532747,
+          56.9572013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2794446666",
+        "name": "Babīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.9844623,
+          56.8064878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "33326581",
+        "name": "Jaunolaine"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.9854051,
+          55.7441307
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161755290",
+        "name": "Labučiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0009752,
+          56.9502893
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2794446672",
+        "name": "Imanta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0081235,
+          56.9661947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "348117014",
+        "name": "Imanta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0089092,
+          56.965772
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "348117006",
+        "name": "Imanta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0137844,
+          56.9613067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733023",
+        "name": "Dammes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0141062,
+          56.9609557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733021",
+        "name": "Dammes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.019697,
+          56.960076
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733032",
+        "name": "Kleistu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0202488,
+          56.9598903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733030",
+        "name": "Kleistu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0223682,
+          56.9492348
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "246519725",
+        "name": "Zolitūde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0264989,
+          56.9576058
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733028",
+        "name": "Imantas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0266594,
+          56.9575761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733027",
+        "name": "Imantas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0347135,
+          56.956798
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733034",
+        "name": "Bebru iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0348367,
+          56.9525821
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733029",
+        "name": "Jūrmalas gatve"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0348521,
+          56.9569102
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733022",
+        "name": "Bebru iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0350409,
+          56.952628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437733033",
+        "name": "Kurzemes prospekts"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0392014,
+          56.9465407
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2792261350",
+        "name": "Depo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0455694,
+          56.9548322
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "267495111",
+        "name": "Jaunsaules iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0456226,
+          56.9551171
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "267495094",
+        "name": "Jaunsaules iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0457953,
+          56.9520314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1364000110",
+        "name": "Jūrmalas gatve"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0458858,
+          56.969676
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6391872577",
+        "name": "Lāčupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0460946,
+          56.9509529
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3087872166",
+        "name": "Jūrmalas gatve"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0464006,
+          56.9576647
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2941720100",
+        "name": "Tapešu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0468242,
+          56.9489973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1364000114",
+        "name": "Kandavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0469138,
+          56.948922
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1364000113",
+        "name": "Kandavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0484857,
+          56.9461346
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1364000108",
+        "name": "Elvīras iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.048627,
+          56.9458806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1364000107",
+        "name": "Elvīras iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0496854,
+          57.0192259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1995751447",
+        "name": "Bolderāja"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0522052,
+          56.9409622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800645042",
+        "name": "Zasulauks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.052207,
+          56.9421545
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3087872169",
+        "name": "Zasulauka stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0529561,
+          56.9512169
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5907970706",
+        "name": "Botāniskais dārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0531536,
+          56.9419117
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2941720301",
+        "name": "Zasulauka stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0536938,
+          56.9512611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1337239573",
+        "name": "Botāniskais dārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.057305,
+          56.9408206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786914",
+        "name": "Kalnciema iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0575597,
+          56.9404777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786906",
+        "name": "Kalnciema iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0584416,
+          56.8549455
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12425916807",
+        "name": "Medemciems"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0592432,
+          56.9373645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5135193132",
+        "name": "Ormaņu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0596146,
+          56.9371838
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5135193125",
+        "name": "Ormaņu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0601887,
+          56.9592651
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988857",
+        "name": "Saldus iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.060392,
+          56.9589702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11657446704",
+        "name": "Saldus iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0622708,
+          56.9636851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11657446702",
+        "name": "Buļļu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0626267,
+          56.9639291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11657446703",
+        "name": "Buļļu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.062986,
+          56.9546904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11673062405",
+        "name": "Pulka sēta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0630399,
+          56.95504
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11673062407",
+        "name": "Pulka sēta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0633911,
+          56.9366509
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786907",
+        "name": "Pārslas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0635676,
+          56.9365997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786913",
+        "name": "Pārslas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0657208,
+          56.9507441
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5141131809",
+        "name": "Baldones iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0665778,
+          56.9506541
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5141131805",
+        "name": "Baldones iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0680024,
+          56.9648844
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11657446700",
+        "name": "Iļģuciems"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.068692,
+          56.9648591
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11657446701",
+        "name": "Iļģuciems"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0700968,
+          56.9356627
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786908",
+        "name": "Āgenskalna tirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.070684,
+          56.972654
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2790112177",
+        "name": "Iļģuciema Kravas stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.070786,
+          56.9355873
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786912",
+        "name": "Āgenskalna tirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0721594,
+          56.9484918
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675900",
+        "name": "Mārtiņa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0724478,
+          56.948179
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5141131733",
+        "name": "Mārtiņa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0739051,
+          56.8868426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7737926820",
+        "name": "Tīraine"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0739711,
+          56.9460573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675899",
+        "name": "Valsts arhīvs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0743964,
+          56.9455743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5141131599",
+        "name": "Valsts arhīvs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0758722,
+          56.9366015
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786911",
+        "name": "Eduarda Smiļģa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0769707,
+          56.9367446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786909",
+        "name": "Eduarda Smiļģa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0770651,
+          56.9433971
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675898",
+        "name": "Nometņu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0781068,
+          56.9430047
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675897",
+        "name": "Nometņu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0816248,
+          56.9219983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11162610216",
+        "name": "Bieriņi/Bērnu slimnīca"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0822779,
+          56.9420254
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3024177771",
+        "name": "Aleksandra Grīna bulvāris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0826068,
+          56.9419673
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363149369",
+        "name": "Aleksandra Grīna bulvāris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.082628,
+          56.9413977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2883591819",
+        "name": "Aleksandra Grīna bulvāris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0828294,
+          56.9416146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2883591820",
+        "name": "Aleksandra Grīna bulvāris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0833042,
+          56.9327889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005174",
+        "name": "Arkādijas parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0837311,
+          56.9328903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005165",
+        "name": "Arkādijas parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0855503,
+          56.6414702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8613669592",
+        "name": "Zālīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0869624,
+          56.9305091
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005166",
+        "name": "Torņakalna stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0883718,
+          56.9301449
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005173",
+        "name": "Torņakalna stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0889021,
+          56.9199954
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005172",
+        "name": "Telts iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0891593,
+          56.9326665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799405225",
+        "name": "Torņakalns"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0895538,
+          56.9211797
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3714969943",
+        "name": "Vienības gatve/Bērnu slimnīca"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0897926,
+          56.9237193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "681497351",
+        "name": "Jelgavas iela/Bērnu slimnīca"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0898812,
+          56.9238867
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005168",
+        "name": "Jelgavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0902255,
+          56.9391091
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005175",
+        "name": "Uzvaras parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.090313,
+          56.9401146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3024177773",
+        "name": "Uzvaras parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0907227,
+          56.9272661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005167",
+        "name": "Satiksmes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0907799,
+          56.9276854
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "681497354",
+        "name": "Satiksmes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0908374,
+          56.9399631
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "960494669",
+        "name": "Uzvaras parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0911048,
+          56.9395521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005164",
+        "name": "Uzvaras parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0943924,
+          56.9413019
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1478360634",
+        "name": "Nacionālā bibliotēka"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0950226,
+          56.9415888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2875046413",
+        "name": "Nacionālā bibliotēka"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0973219,
+          56.9202793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005171",
+        "name": "Viesītes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0977981,
+          56.9197165
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3544777070",
+        "name": "Viesītes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0979144,
+          56.968319
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988848",
+        "name": "Eksportosta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.098289,
+          56.9685502
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988863",
+        "name": "Eksportosta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0983084,
+          56.9626481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988862",
+        "name": "Vašingtona laukums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0984077,
+          56.9619119
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988849",
+        "name": "Vašingtona laukums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1000195,
+          56.9587338
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2970239730",
+        "name": "Ausekļa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1004376,
+          56.9578273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988861",
+        "name": "Ausekļa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1006656,
+          56.9681941
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988847",
+        "name": "Katrīnas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1008935,
+          56.9574012
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988850",
+        "name": "Ausekļa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1014129,
+          56.9681176
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988864",
+        "name": "Katrīnas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1035414,
+          56.917882
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157213",
+        "name": "Skaistkalnes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1038698,
+          56.9177479
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005170",
+        "name": "Skaistkalnes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1042956,
+          56.9536419
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988851",
+        "name": "Nacionālais teātris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1044607,
+          56.9534085
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5091296368",
+        "name": "Nacionālais teātris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1051775,
+          56.9677278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988846",
+        "name": "Pētersala"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1056859,
+          56.9459476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363149372",
+        "name": "Grēcinieku iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1059028,
+          56.9678354
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988865",
+        "name": "Pētersala"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1061051,
+          56.9456632
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "479720503",
+        "name": "Grēcinieku iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.107022,
+          57.0580847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2004669638",
+        "name": "Vecdaugava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1084812,
+          56.9703699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2905018979",
+        "name": "Kultūru vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1087275,
+          56.9706019
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2905018980",
+        "name": "Kultūru vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1118578,
+          56.9745146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3223537750",
+        "name": "Lugažu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1118847,
+          56.9151091
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157215",
+        "name": "Stērstu iela/CSDD"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.112018,
+          56.9746368
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3223537751",
+        "name": "Lugažu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.112408,
+          56.9149184
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157214",
+        "name": "Stērstu iela/CSDD"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1132016,
+          56.9457643
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363149383",
+        "name": "13. janvāra iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1136575,
+          57.0362361
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806389350",
+        "name": "Ziemeļblāzma"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1137588,
+          56.945973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770786910",
+        "name": "13. janvāra iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1138359,
+          56.948908
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363235547",
+        "name": "Nacionālā opera"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1140097,
+          56.9771173
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090562",
+        "name": "Bukultu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1140208,
+          56.9485274
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988860",
+        "name": "Nacionālā opera"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1144165,
+          56.9441493
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2903158987",
+        "name": "Centrāltirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1144191,
+          56.9776471
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090570",
+        "name": "Bukultu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1149257,
+          56.9481356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770623978",
+        "name": "Aspazijas bulvāris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1151351,
+          56.9443839
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675896",
+        "name": "Autoosta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1159127,
+          56.9794648
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090613",
+        "name": "Rankas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1160191,
+          56.948258
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5596486311",
+        "name": "Stacijas laukums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1161418,
+          56.9796779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090616",
+        "name": "Rankas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1161921,
+          57.0749763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806361311",
+        "name": "Vecāķi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1162316,
+          56.9423312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11734144483",
+        "name": "Spīķeri"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.116343,
+          56.9476515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "29783876",
+        "name": "Stacijas laukums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1163915,
+          56.9137947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771005169",
+        "name": "Mazā Stērstu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1168149,
+          56.9421927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11734144484",
+        "name": "Spīķeri"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1170416,
+          56.9136884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157209",
+        "name": "Mazā Stērstu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1185832,
+          56.9499283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675894",
+        "name": "Merķeļa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1191816,
+          56.9833833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090618",
+        "name": "Rāmuļu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1192722,
+          56.9835611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090626",
+        "name": "Rāmuļu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.119502,
+          56.9503318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675895",
+        "name": "Merķeļa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.12102,
+          56.9409293
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869263",
+        "name": "Jēzusbaznīcas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1214473,
+          56.9140438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157220",
+        "name": "Ziepniekkalna iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1215763,
+          56.9406478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869262",
+        "name": "Jēzusbaznīcas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1215997,
+          56.987324
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363241633",
+        "name": "1. trolejbusu parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1216086,
+          56.987604
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "777938575",
+        "name": "1. trolejbusu parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1220743,
+          56.9907618
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988866",
+        "name": "Rūpnīca \"RER\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1222079,
+          56.9901593
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363241629",
+        "name": "Rūpnīca \"RER\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1229108,
+          56.9463999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7799405223",
+        "name": "Rīgas Centrālā stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.122952,
+          56.9150384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157221",
+        "name": "Ziepniekkalna iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1230511,
+          56.9932579
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1270097592",
+        "name": "Duntes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1231561,
+          57.0172004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1362313739",
+        "name": "Mīlgrāvis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1233174,
+          56.9934347
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1270097577",
+        "name": "Duntes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1233839,
+          56.9523082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5091385684",
+        "name": "Dzirnavu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1233851,
+          57.0016186
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363241628",
+        "name": "Aldaris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1234056,
+          57.0018095
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1362313736",
+        "name": "Aldaris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1234882,
+          56.9981797
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090555",
+        "name": "Allažu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1236199,
+          56.9984536
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090560",
+        "name": "Allažu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1236479,
+          56.9523888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5091385647",
+        "name": "Dzirnavu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1242393,
+          56.9157455
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157208",
+        "name": "Mazā Bauskas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1251343,
+          57.0101344
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090629",
+        "name": "Daudersala"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1251568,
+          57.0063461
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090578",
+        "name": "Gaujienas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1251809,
+          57.0062079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090577",
+        "name": "Gaujienas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1252854,
+          56.9398315
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5125809113",
+        "name": "Elijas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1255576,
+          57.0093116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1363090631",
+        "name": "Daudersala"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1260023,
+          56.9398834
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869264",
+        "name": "Elijas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1260612,
+          56.9953388
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988845",
+        "name": "Sarkandaugava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1261553,
+          57.0019045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12425914193",
+        "name": "Dauderi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1262732,
+          56.99508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770988867",
+        "name": "Sarkandaugava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1277069,
+          56.9543965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675893",
+        "name": "Ģertrūdes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1281152,
+          56.9546446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770623979",
+        "name": "Ģertrūdes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1290924,
+          56.959379
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771107390",
+        "name": "Brīvības iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1291623,
+          56.9601861
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035476",
+        "name": "Brīvības iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1296303,
+          57.0185944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1879110371",
+        "name": "Mangaļi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1317185,
+          56.9633897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771107389",
+        "name": "Laima"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1318336,
+          56.9635735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035477",
+        "name": "Laima"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1323329,
+          56.9158224
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437133444",
+        "name": "Doles iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1323736,
+          56.9567223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675892",
+        "name": "\"Bērnu pasaule\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1329516,
+          56.9572381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5134398659",
+        "name": "\"Bērnu pasaule\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1331079,
+          56.9652061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771107388",
+        "name": "Dzemdību nams"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1334214,
+          56.957284
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770623980",
+        "name": "\"Bērnu pasaule\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1335907,
+          56.9660194
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2812858005",
+        "name": "Dzemdību nams"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1337976,
+          56.9933162
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806657162",
+        "name": "Sarkandaugava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1344381,
+          56.9158728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1437157206",
+        "name": "Doles iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1354116,
+          56.9395554
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869265",
+        "name": "Katoļu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1355589,
+          56.9687447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035478",
+        "name": "Mēness iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1356071,
+          56.9395437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5125809043",
+        "name": "Katoļu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1359446,
+          56.9689816
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771107387",
+        "name": "Mēness iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1402094,
+          56.9389244
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869266",
+        "name": "Daugavpils iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1405277,
+          56.9608245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675891",
+        "name": "Tallinas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1406163,
+          56.9387286
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869261",
+        "name": "Daugavpils iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1407072,
+          56.9146061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "987510966",
+        "name": "Bišumuiža"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1407606,
+          56.9609862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770623981",
+        "name": "Tallinas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1417782,
+          56.9730104
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5091297209",
+        "name": "Kazarmu iela/Lielie kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1420089,
+          56.9732975
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035479",
+        "name": "Kazarmu iela/Lielie kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1440443,
+          56.9626074
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675890",
+        "name": "Sporta nams \"Daugava\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1443208,
+          56.9627989
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770623982",
+        "name": "Sporta nams \"Daugava\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1444968,
+          56.9758566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035480",
+        "name": "Brasas stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1446665,
+          56.9759658
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771107386",
+        "name": "Brasas stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1460232,
+          56.9378683
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869260",
+        "name": "Mazā Kalna iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1463585,
+          56.9774697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1879110288",
+        "name": "Brasa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1464551,
+          56.9378857
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869267",
+        "name": "Mazā Kalna iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1486542,
+          56.9649659
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675889",
+        "name": "Pērnavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1493204,
+          56.9655988
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770623983",
+        "name": "Pērnavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1506948,
+          56.9676961
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770623984",
+        "name": "Krišjāņa Barona iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1507348,
+          56.9825917
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1313343983",
+        "name": "Brāļu kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1510381,
+          56.9680333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675888",
+        "name": "Brīvības iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.151309,
+          56.982768
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "517875835",
+        "name": "Brāļu kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1516988,
+          57.0860163
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "467091568",
+        "name": "Kalngale"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1546004,
+          56.9366381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869259",
+        "name": "Latgales parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.155184,
+          56.9428123
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "467137257",
+        "name": "Vagonu parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.15551,
+          56.9842355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771107385",
+        "name": "2. Meža kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1556193,
+          56.9842997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1400028247",
+        "name": "2. Meža kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.156021,
+          56.93588
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869268",
+        "name": "Latgales parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1560975,
+          56.9442948
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "976576898",
+        "name": "Vagonu parks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1562997,
+          56.9654952
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1715831264",
+        "name": "Zemitāni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1570214,
+          57.0047849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3685409701",
+        "name": "Mežaparks / ZOO"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1594499,
+          56.9857497
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035484",
+        "name": "Gaujas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1595055,
+          57.0005733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035482",
+        "name": "Visbijas prospekts"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1597236,
+          57.0002979
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1400028210",
+        "name": "Visbijas prospekts"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1599498,
+          56.9333995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869269",
+        "name": "Rēznas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1599906,
+          56.9711796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1385168022",
+        "name": "VEF"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1600462,
+          56.9332346
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5126253965",
+        "name": "Rēznas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1603246,
+          55.7444661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161755464",
+        "name": "Gustonys"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1604993,
+          56.9865037
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2812858004",
+        "name": "Gaujas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1608583,
+          56.9714167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675887",
+        "name": "VEF"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.161324,
+          56.9976322
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1400028170",
+        "name": "Hamburgas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.161396,
+          56.9974348
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7771035481",
+        "name": "Hamburgas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1625226,
+          57.0067988
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3689213193",
+        "name": "Ezermalas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1636399,
+          56.9937748
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7729032363",
+        "name": "Mirdzas Ķempes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1637189,
+          56.9935536
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7729032362",
+        "name": "Mirdzas Ķempes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1637291,
+          56.9294414
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869270",
+        "name": "Atpūtas centrs \"Lido\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1639202,
+          56.9291551
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869258",
+        "name": "Atpūtas centrs \"Lido\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1646286,
+          56.9895396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1400028196",
+        "name": "Rusova iela/Valsts ieņēmumu dienests"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1648767,
+          56.989805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1400028193",
+        "name": "Rusova iela/Valsts ieņēmumu dienests"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1660496,
+          56.9736149
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1930743971",
+        "name": "Gustava Zemgala gatve"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1665457,
+          56.9738859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1930743951",
+        "name": "Gustava Zemgala gatve"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1681351,
+          56.9255968
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869271",
+        "name": "Krasta masīvs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1684121,
+          56.9252057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770869257",
+        "name": "Krasta masīvs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1685323,
+          56.9802881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7803882004",
+        "name": "Čiekurkalns"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1710797,
+          56.9213814
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "410984675",
+        "name": "Dienvidu tilts"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1712144,
+          56.9210684
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1367047923",
+        "name": "Dienvidu tilts"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.171908,
+          56.9772438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1375396112",
+        "name": "Lēdmanes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1720986,
+          56.9773808
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1375396113",
+        "name": "Lēdmanes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1732596,
+          56.918471
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1367202489",
+        "name": "Ķengaraga iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1734492,
+          56.9180691
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "410984681",
+        "name": "Ķengaraga iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1754776,
+          56.9789793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2924617129",
+        "name": "45. vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1755602,
+          56.9146987
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "410984683",
+        "name": "Prūšu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1757355,
+          56.0277266
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12352264620",
+        "name": "Joniškėlio geležinkelio stotis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1757677,
+          56.9142732
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "428076164",
+        "name": "Prūšu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1765136,
+          56.9793033
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675885",
+        "name": "45. vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1794542,
+          56.910437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1367202465",
+        "name": "Rušonu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1798825,
+          56.9100806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "428076165",
+        "name": "Rušonu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1824288,
+          56.980954
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13230350033",
+        "name": "Džutas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1830911,
+          56.9087214
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1367202476",
+        "name": "Malnavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1832735,
+          56.9811558
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1121925592",
+        "name": "Džutas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1835749,
+          56.9085027
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "410984693",
+        "name": "Malnavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1859546,
+          56.9190176
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800729535",
+        "name": "Jāņavārti"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1880358,
+          56.9064267
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "949076282",
+        "name": "Eglaines iela/Dole"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1882183,
+          56.9063765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2970239740",
+        "name": "Eglaines iela/Dole"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1940728,
+          56.9832589
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1375396125",
+        "name": "Krustabaznīcas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1946933,
+          56.9833838
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1375396126",
+        "name": "Krustabaznīcas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.200014,
+          56.910314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7794271587",
+        "name": "Daugmale"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2003089,
+          56.9856238
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12425917056",
+        "name": "Šmerlis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.202262,
+          56.984268
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3034439633",
+        "name": "Alfa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.202582,
+          56.9843235
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1358581215",
+        "name": "Alfa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2055334,
+          57.1018531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806361320",
+        "name": "Garciems"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2076079,
+          56.9853039
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4725868205",
+        "name": "Sporta akadēmija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2083181,
+          56.9854389
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "443610620",
+        "name": "Sporta akadēmija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2110939,
+          56.9046971
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800729534",
+        "name": "Šķirotava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.214687,
+          56.9863687
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7770675886",
+        "name": "Meža skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.215363,
+          56.9864215
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2924617114",
+        "name": "Meža skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2219673,
+          56.9872078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "443610625",
+        "name": "Tirzas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2227287,
+          56.9872708
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2924617115",
+        "name": "Tirzas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2239201,
+          56.9199998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9156040654",
+        "name": "Rīga-Preču"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2288125,
+          56.9880141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10783819121",
+        "name": "Mārkalnes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2288154,
+          56.9880124
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "446294698",
+        "name": "Mārkalnes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2294991,
+          56.9880754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10783823327",
+        "name": "Mārkalnes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.229503,
+          56.9880746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4727970278",
+        "name": "Mārkalnes iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2320485,
+          56.8940575
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "467137252",
+        "name": "Gaisma"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2348401,
+          56.6286451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "443688901",
+        "name": "Iecava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2350441,
+          56.9921661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7803974031",
+        "name": "Jugla"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2406238,
+          56.9897599
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1721824080",
+        "name": "Jugla"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2414084,
+          56.9897456
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1721822412",
+        "name": "Jugla"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2458006,
+          57.1144674
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806361327",
+        "name": "Garupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2518884,
+          56.8839755
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "447643520",
+        "name": "Rumbula"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2788334,
+          57.1279075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2017901110",
+        "name": "Carnikava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2807169,
+          56.8701703
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "467137251",
+        "name": "Dārziņi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.288925,
+          57.1419959
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2017901048",
+        "name": "Gauja"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2990273,
+          56.9210012
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9156040653",
+        "name": "Acone"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3238181,
+          56.8643491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7623796061",
+        "name": "Dole"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.33576,
+          57.1816701
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2017923683",
+        "name": "Lilaste"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3531225,
+          56.8604988
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800729533",
+        "name": "Salaspils"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3546846,
+          55.745499
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5753746373",
+        "name": "Panevėžys"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3619811,
+          56.9170469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11748735653",
+        "name": "Saurieši"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3620015,
+          56.9170668
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60683721",
+        "name": "Saurieši"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3933524,
+          56.5918102
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "443688911",
+        "name": "Misa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3977027,
+          57.2246399
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806244324",
+        "name": "Inčupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4083001,
+          57.242135
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806244332",
+        "name": "Pabaži"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4144193,
+          57.0468866
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60660345",
+        "name": "Garkalne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4268513,
+          57.2694052
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806111493",
+        "name": "Saulkrasti"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4330855,
+          57.2866023
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806111495",
+        "name": "Ķīšupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4358742,
+          56.8495096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "26890152",
+        "name": "Saulkalne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4424767,
+          57.3065829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7806111498",
+        "name": "Zvejniekciems"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4640594,
+          57.3337572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "268563803",
+        "name": "Skulte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.5061429,
+          56.8395343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "478939686",
+        "name": "Ikšķile"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.508867,
+          57.0645733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60660344",
+        "name": "Krievupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.5352864,
+          55.7708673
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161755148",
+        "name": "Karsakiškis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.5371837,
+          56.5903529
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1427507162",
+        "name": "Vecumnieki"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.5492035,
+          55.7310201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "617015186",
+        "name": "Taruškos"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.5817629,
+          56.82183
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7794268762",
+        "name": "Jaunogre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.5872763,
+          57.0785113
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60660343",
+        "name": "Vangaži"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6020435,
+          56.8157685
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800729532",
+        "name": "Ogre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.615745,
+          56.8089078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7794420745",
+        "name": "Pārogre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6221669,
+          55.7097911
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3823087872",
+        "name": "Rekstino miškas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6478397,
+          55.7013429
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1934888969",
+        "name": "Bajoriškiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6502991,
+          55.7707453
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1584569152",
+        "name": "Bygailiai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6542507,
+          56.7817174
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5849470186",
+        "name": "Ciemupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.68654,
+          57.096265
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60660342",
+        "name": "Inčukalns"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.7081528,
+          55.682405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "617014928",
+        "name": "Raguvėlė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.725227,
+          56.7420497
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "467137258",
+        "name": "Ķegums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.7409638,
+          57.1073552
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "262272927",
+        "name": "Egļupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.7928115,
+          56.575738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1427507098",
+        "name": "Lāčplēsis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8077859,
+          56.72221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800752441",
+        "name": "Lielvārde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8555149,
+          57.1531642
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "34032910",
+        "name": "Sigulda"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8863707,
+          55.7694748
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3161755455",
+        "name": "Radžiūnai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8887286,
+          56.7031751
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "467137248",
+        "name": "Kaibala"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.9356912,
+          56.5615773
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1427507094",
+        "name": "Taurkalne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.9692376,
+          56.6798787
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7795313195",
+        "name": "Jumprava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.991979,
+          55.82636
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3805448881",
+        "name": "Kupiškis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.0239619,
+          57.1842749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60660175",
+        "name": "Līgatne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.0979531,
+          56.5384549
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1386389199",
+        "name": "Menta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.123241,
+          56.6471934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800795822",
+        "name": "Skrīveri"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.1727864,
+          57.1995089
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804066716",
+        "name": "Ieriķi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.2067029,
+          56.631076
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7019093027",
+        "name": "Muldakmens"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.2343968,
+          57.2075489
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804086571",
+        "name": "Melturi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.2443181,
+          56.5084274
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1497220017",
+        "name": "Daudzeva"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.2746471,
+          56.6226963
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800795821",
+        "name": "Aizkraukle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.283162,
+          57.3140258
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804291193",
+        "name": "Cēsis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.3011972,
+          57.2381165
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804291197",
+        "name": "Āraiši"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.3394989,
+          57.3439226
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "717658583",
+        "name": "Jāņamuiža"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.3681127,
+          56.5100984
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1386389051",
+        "name": "Sece"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4143294,
+          57.3882564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "60660250",
+        "name": "Lode"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4392666,
+          56.6509809
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800795820",
+        "name": "Koknese"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4403565,
+          57.5219786
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "480843792",
+        "name": "Valmiera"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4412648,
+          57.4578433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804350256",
+        "name": "Bāle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4591345,
+          55.9157184
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1728856869",
+        "name": "Tindžiuliai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4767499,
+          56.88932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5109989222",
+        "name": "Baltava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.5580831,
+          57.5585468
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804438008",
+        "name": "Brenguļi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.5850916,
+          56.6331407
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "27132663",
+        "name": "Alotene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.6176323,
+          56.5258262
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1497353160",
+        "name": "Sēlpils"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.6983304,
+          57.6339601
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804438005",
+        "name": "Strenči"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.7168784,
+          56.6171681
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800795819",
+        "name": "Pļaviņas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.7194893,
+          56.5380115
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "573215794",
+        "name": "Daugava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.7928938,
+          56.7295801
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3394981506",
+        "name": "Veseta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.8582963,
+          56.5216659
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800795818",
+        "name": "Krustpils"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.893268,
+          57.693753
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804438004",
+        "name": "Saule"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.9773342,
+          56.6871358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7801873747",
+        "name": "Jaunkalsnava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.0027075,
+          57.7540786
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804438003",
+        "name": "Lugaži"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.0183426,
+          56.7336395
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7801873745",
+        "name": "Kalsnava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.0532643,
+          57.7746749
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7804437999",
+        "name": "Valga"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.0599022,
+          56.54011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800956041",
+        "name": "Kūkas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.0757983,
+          56.4384889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800852787",
+        "name": "Trepe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.0970757,
+          56.7717378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7801873740",
+        "name": "Mārciena"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.180671,
+          56.3513216
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800852786",
+        "name": "Līvāni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.1888515,
+          57.8639291
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693628317",
+        "name": "Sangaste"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2103137,
+          56.2545557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800852785",
+        "name": "Jersika"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2203005,
+          56.8508458
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7801873739",
+        "name": "Madona"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2311087,
+          58.0103485
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693628313",
+        "name": "Mägiste"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2390324,
+          57.9468011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693628316",
+        "name": "Keeni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2398282,
+          58.0549895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8761131045",
+        "name": "Puka"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2515377,
+          56.5418585
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800956042",
+        "name": "Mežāre"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.3317659,
+          56.9581724
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7626915645",
+        "name": "Cesvaine"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.3717334,
+          56.1354471
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800844384",
+        "name": "Nīcgale"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.4083956,
+          56.5301266
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800956043",
+        "name": "Atašiene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.4528314,
+          55.9980045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800844382",
+        "name": "Līksna"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.4576057,
+          56.0407508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800844383",
+        "name": "Vabole"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.4653861,
+          55.6995275
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1051717364",
+        "name": "Turmantas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5029621,
+          55.8789479
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3745291119",
+        "name": "Cietoksnis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.512069,
+          55.8773985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "257308133",
+        "name": "Balvu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5124687,
+          55.8772696
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9418117556",
+        "name": "Balvu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5124912,
+          55.8772903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061930444",
+        "name": "Balvu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5153782,
+          55.8707
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6610190696",
+        "name": "Vienības nams"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5156136,
+          55.8705364
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061677230",
+        "name": "Vienības nams"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5162895,
+          55.8745076
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061930443",
+        "name": "Kandavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5171529,
+          55.8690164
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061806626",
+        "name": "Universitāte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5173572,
+          55.8688843
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "896468929",
+        "name": "Universitāte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5177371,
+          55.8731309
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061930442",
+        "name": "Tirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5180255,
+          55.8725645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181269",
+        "name": "Tirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5183701,
+          55.8727438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181271",
+        "name": "Tirgus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5200713,
+          55.8663615
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061677229",
+        "name": "Vienības iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5202917,
+          55.8660883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061806627",
+        "name": "Vienības iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5219467,
+          55.874363
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4138956615",
+        "name": "Alejas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5221683,
+          55.8745265
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4138956616",
+        "name": "Alejas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5244347,
+          55.8665453
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061806628",
+        "name": "Cietokšņa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5248458,
+          55.8666774
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061677228",
+        "name": "Cietokšņa iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5253184,
+          55.876356
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181256",
+        "name": "Stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5254569,
+          55.8761927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6610510986",
+        "name": "Stacija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5281408,
+          55.8674245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061806629",
+        "name": "Pilsētas poliklīnika"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5283553,
+          55.8746957
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800844381",
+        "name": "Daugavpils"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5287975,
+          55.8676159
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "896412225",
+        "name": "Pilsētas poliklīnika"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5322271,
+          55.89403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "469939623",
+        "name": "Maizes kombināts"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5336365,
+          55.8911168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061851416",
+        "name": "Lokomotīvju demo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5336936,
+          55.8907846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061851415",
+        "name": "Lokomotīvju depo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5360566,
+          55.8853965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717446061",
+        "name": "Andreja Pumpura iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5364659,
+          55.885391
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11591610674",
+        "name": "Andreja Pumpura iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5388431,
+          55.8851763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13098936216",
+        "name": "Aglonas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5388787,
+          55.8852583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717446062",
+        "name": "Aglonas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5394451,
+          55.8812949
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13098936217",
+        "name": "Jātnieku iela (Forštate)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5394619,
+          55.8815495
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717446063",
+        "name": "Jātnieku iela (Forštate)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5400523,
+          55.8776742
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717446064",
+        "name": "Arodu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5400812,
+          55.8777704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11591610695",
+        "name": "Arodu iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5403772,
+          55.8708862
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061630107",
+        "name": "Baznīcu kalns"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5407815,
+          55.8710818
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061806630",
+        "name": "Baznīcu kalns"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5450768,
+          55.8741476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061880571",
+        "name": "Ventspils iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.54537,
+          55.8738372
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181294",
+        "name": "Ventspils iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.545798,
+          55.8741467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061630106",
+        "name": "Ventspils iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5493216,
+          55.8762035
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061814907",
+        "name": "Jelgavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.549688,
+          55.8764706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717446065",
+        "name": "Jelgavas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5526143,
+          55.8863295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717446067",
+        "name": "Kultūras un sporta pils"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5528756,
+          55.8891586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8796762671",
+        "name": "Jātnieku iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5528805,
+          55.8864367
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8804779649",
+        "name": "Kultūras un sporta pils"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5534496,
+          55.8786857
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181279",
+        "name": "Tukuma iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5534627,
+          55.8901775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3708312298",
+        "name": "Jātnieku iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5538175,
+          55.8789537
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061630621",
+        "name": "Tukuma iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5552364,
+          55.8828208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1416153118",
+        "name": "Iespēju vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5555051,
+          55.882628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1416153126",
+        "name": "Iespēju vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5556594,
+          55.8914447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6592254124",
+        "name": "Zeļinska iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5563788,
+          55.89192
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717452445",
+        "name": "Zeļinska iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.557582,
+          55.8808925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181241",
+        "name": "Valkas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.557739,
+          55.8814132
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061598553",
+        "name": "Valkas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5586405,
+          55.881233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061910009",
+        "name": "Valkas iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5595835,
+          55.8943563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6592254117",
+        "name": "Cialkovska iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5601584,
+          55.8948805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717456362",
+        "name": "Cialkovska iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5615298,
+          55.8959666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6592254112",
+        "name": "Butļerova iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5615587,
+          55.8960406
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3717461271",
+        "name": "Butļerova iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5642715,
+          55.8830172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061910008",
+        "name": "Klusā iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5651546,
+          55.883309
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061910007",
+        "name": "Klusā iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5697188,
+          55.8847993
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9871042855",
+        "name": "4. līnija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5700666,
+          55.8849138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410182907",
+        "name": "4. līnija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5717318,
+          55.9019859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11563735874",
+        "name": "Stropu sporta trase"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5721384,
+          55.9019833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11591599247",
+        "name": "Stropu sporta trase"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5724734,
+          55.9376524
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9904435379",
+        "name": "524. kilometrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5730956,
+          55.8859278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181083",
+        "name": "Komunālie kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5734421,
+          55.885991
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9522665103",
+        "name": "Komunālie kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5735351,
+          55.886042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9522665097",
+        "name": "Komunālie kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5787899,
+          55.8878212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9862336492",
+        "name": "Brāļu kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5791623,
+          55.8879352
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5061931249",
+        "name": "Brāļu kapi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5839916,
+          55.9048829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11591599245",
+        "name": "Stropu ezers"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5847798,
+          55.9051127
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1419851367",
+        "name": "Stropu ezers"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5888605,
+          55.8983552
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7188670918",
+        "name": "Pilsētas slimnīca"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5889959,
+          55.8981073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11487025272",
+        "name": "Pilsētas slimnīca"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5902252,
+          55.8908481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6515562152",
+        "name": "Čiekuru iela"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.6041878,
+          57.0702233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4936656058",
+        "name": "Jaungulbene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.6268433,
+          55.9924025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11061375233",
+        "name": "Zaļumi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.6371755,
+          56.5657897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800956044",
+        "name": "Stirniene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.7378716,
+          56.0815274
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5763093919",
+        "name": "Višķi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.752862,
+          55.9348893
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11016167528",
+        "name": "Naujene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.7659153,
+          57.1830868
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "180285876",
+        "name": "Gulbene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.7694002,
+          56.5605787
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800956045",
+        "name": "Varakļāni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.8301112,
+          57.21617
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4936968087",
+        "name": "Pūriņi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.8830165,
+          57.2358958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1288285690",
+        "name": "Stāmeriene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.8907303,
+          56.1782441
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5763093316",
+        "name": "Aglona"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9380672,
+          57.2586958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2111363820",
+        "name": "Kalniena"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9386689,
+          56.5610158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800862648",
+        "name": "Viļāni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.997171,
+          57.3070224
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1288285230",
+        "name": "Paparde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.0502838,
+          56.2727444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "290688772",
+        "name": "Krāce"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.0913373,
+          58.0699732
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693632885",
+        "name": "Põlva"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1455513,
+          55.9253138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "185614111",
+        "name": "Krāslava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1520385,
+          56.5364737
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800862649",
+        "name": "Sakstagals"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1954351,
+          58.05487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693667204",
+        "name": "Holvandi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.2198821,
+          56.414579
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11061375262",
+        "name": "Pūpoli"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.2735329,
+          58.0423886
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693685205",
+        "name": "Ruusa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3150111,
+          56.5016416
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5763094884",
+        "name": "Rēzekne 1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3454704,
+          56.5867148
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7626973692",
+        "name": "Burzava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3459849,
+          56.5199784
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800848460",
+        "name": "Rēzekne-2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3536649,
+          58.0060304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693685206",
+        "name": "Veriora"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4109268,
+          57.967794
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693685208",
+        "name": "Ilumetsa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4540492,
+          56.5321543
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800848461",
+        "name": "Taudejāņi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4675347,
+          57.8400337
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693685211",
+        "name": "Piusa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4736143,
+          57.9197807
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10693685210",
+        "name": "Orava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4803948,
+          55.7783723
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "306065017",
+        "name": "Друя"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5250981,
+          56.6948056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7616408151",
+        "name": "Mežvidi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5338149,
+          56.5336838
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800848462",
+        "name": "Cirma"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5412545,
+          55.8763825
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "194292068",
+        "name": "Indra"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5755936,
+          57.8369265
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8761131037",
+        "name": "Koidula"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.580696,
+          55.7013214
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "664271334",
+        "name": "Ідолта"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.6034983,
+          56.7511242
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7744835210",
+        "name": "Pureņi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.632577,
+          57.837932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "731426985",
+        "name": "Печоры-Псковские"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.689831,
+          57.8268705
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2850044382",
+        "name": "Пуравица"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.6941018,
+          56.8155132
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "283359950",
+        "name": "Kārsava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.7211554,
+          56.533158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800848463",
+        "name": "Ludza"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.732676,
+          56.8836902
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10695614690",
+        "name": "Скангали"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.7374436,
+          55.8343968
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3396725382",
+        "name": "Бігосава"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.783751,
+          57.7978902
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1487931621",
+        "name": "Ливамяэ"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.821772,
+          57.0276497
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4420976335",
+        "name": "Белкино"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.8291278,
+          56.4822458
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800848464",
+        "name": "Istalsna"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.8718233,
+          55.8336986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1613918486",
+        "name": "Сарʼянка"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.8842966,
+          57.7822739
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10695631874",
+        "name": "Вилье"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.9109931,
+          57.0648048
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3964449892",
+        "name": "Пыталово"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.94006,
+          55.8169101
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "306064913",
+        "name": "Верхнядзвінск"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.959211,
+          56.4308036
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800848465",
+        "name": "Nerza"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.9694929,
+          57.7746884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1088069409",
+        "name": "Новоизборск"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.041992,
+          57.1222333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "840177934",
+        "name": "Пираги"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.0525938,
+          56.4147872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7797287997",
+        "name": "Briģi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.071801,
+          57.1537857
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4834764854",
+        "name": "Ритупе"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.0798953,
+          57.7792629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10695639628",
+        "name": "18 км"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.1077498,
+          55.7544647
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3407424294",
+        "name": "Свольна"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.1130022,
+          57.1923669
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "840177988",
+        "name": "349 км"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.1178674,
+          56.3917485
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7800848466",
+        "name": "Zilupe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.1318719,
+          57.2179353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "840177992",
+        "name": "345 км"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.1674191,
+          57.7827666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8058980007",
+        "name": "Моглино"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.213164,
+          57.261067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10695492374",
+        "name": "Брянчаниново"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.2147934,
+          55.7148513
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "746916778",
+        "name": "Беніслаўскага"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

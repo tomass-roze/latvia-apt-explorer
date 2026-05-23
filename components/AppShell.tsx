@@ -3,13 +3,14 @@
 import Link from 'next/link';
 import { type ReactNode, useMemo } from 'react';
 import dynamic from 'next/dynamic';
+import { DataFreshness, StalenessBanner } from '@/components/map/DataFreshness';
 import { FilterPanel } from '@/components/filters/FilterPanel';
 import { ProjectDetail } from '@/components/project/ProjectDetail';
 import { WeightSliders } from '@/components/scoring/WeightSliders';
 import { SettingsMenu } from '@/components/settings/SettingsMenu';
 import { FILTER_DEFAULTS, filterApartments, filtersAreDefault } from '@/lib/filtering';
 import { usePersonalState } from '@/lib/personal/hooks';
-import type { Apartment, Project, Status } from '@/lib/schema';
+import type { Apartment, Project, ScraperRunResult, Status } from '@/lib/schema';
 import { buildScoringContext } from '@/lib/scoring/context';
 import { groupByProjectId, rankProjects } from '@/lib/scoring/rank';
 import { normalizeWeights } from '@/lib/scoring/registry';
@@ -47,9 +48,10 @@ const MapCanvas = dynamic(() => import('@/components/map/Map'), {
 interface AppShellProps {
   projects: Project[];
   apartments: Apartment[];
+  runs: ScraperRunResult[];
 }
 
-export default function AppShell({ projects, apartments }: AppShellProps) {
+export default function AppShell({ projects, apartments, runs }: AppShellProps) {
   const [filters, setFilters] = useFilters();
   const [weights] = useWeights();
   const { state: personal } = usePersonalState();
@@ -123,6 +125,7 @@ export default function AppShell({ projects, apartments }: AppShellProps) {
           <span className="text-[var(--ink-3)] text-xs">Jauno projektu apkopojums</span>
         </div>
         <div className="flex items-center gap-4">
+          <DataFreshness runs={runs} />
           <span className="text-xs text-[var(--ink-3)] tabular-nums">
             {totalApartments} dzīvokļi · {totalProjects} projekti
           </span>
@@ -136,6 +139,12 @@ export default function AppShell({ projects, apartments }: AppShellProps) {
                 {personal.saved.length}
               </span>
             ) : null}
+          </Link>
+          <Link
+            href="/about"
+            className="text-xs text-[var(--ink-2)] hover:text-[var(--ink)]"
+          >
+            Par
           </Link>
           <SettingsMenu />
         </div>
@@ -155,6 +164,7 @@ export default function AppShell({ projects, apartments }: AppShellProps) {
             selectedId={filters.p}
             onSelect={(id) => setFilters({ p: id })}
           />
+          <StalenessBanner runs={runs} />
           {showEmptyState ? (
             <EmptyState onReset={() => resetFilters(setFilters)} hadFilters={!filtersAreDefault(filters)} />
           ) : null}

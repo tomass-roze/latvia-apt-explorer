@@ -1,0 +1,3813 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          21.0028538,
+          56.508288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3647306656",
+        "name": "Liepājas centra sākumskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0044231,
+          56.5029211
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10726902964",
+        "name": "Liepājas Mūzikas, mākslas un dizaina vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0045418,
+          56.5037202
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9925643267",
+        "name": "Liepājas Bērnu Mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.0065569,
+          56.5053359
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "904214021",
+        "name": "Liepājas katoļu pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.006589,
+          56.5028432
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4840631923",
+        "name": "Liepājas Pilsētas 10. vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.139834,
+          55.7049295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4362709897",
+        "name": "Putinelis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.3713983,
+          56.5873259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3359633602",
+        "name": "Ābolītis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.4780173,
+          56.3614411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1909857870",
+        "name": "Kalētu pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5065461,
+          56.8029195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10757154763",
+        "name": "Apriķu skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5614269,
+          57.3913111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1837460304",
+        "name": "Zīlīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.5846738,
+          56.7494062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8429772630",
+        "name": "Padures pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.6041201,
+          56.3681223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "561313582",
+        "name": "Gramzdas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.613417,
+          56.5727401
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5098835177",
+        "name": "Krusātas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.7303659,
+          56.6040446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8430063392",
+        "name": "Kalvenes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.8883707,
+          56.6446576
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10004561672",
+        "name": "Oskara Kalpaka Rudbāržu pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.9686062,
+          56.9699839
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5570970922",
+        "name": "Kuldīgas novada Bērnu un jauniešu centrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.9733299,
+          56.9684443
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3704549655",
+        "name": "Latvijas Universitātes Kuldīgas filiāle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.0141433,
+          57.277382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "760668809",
+        "name": "Ugāles vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.3540701,
+          57.506289
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "429992093",
+        "name": "Dundagas vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.4542914,
+          56.8632501
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "565390319",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.4907217,
+          57.3459006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1326239735",
+        "name": "Pūņu pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.5195365,
+          57.2238519
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10635703655",
+        "name": "Pastendes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.56273,
+          56.9235095
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "565381286",
+        "name": "Vānes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.5922338,
+          57.2442634
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3956141111",
+        "name": "Talsu mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.6482153,
+          57.1270049
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12647339529",
+        "name": "Zīļuks"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.6924553,
+          56.7404701
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "538886759",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.6940685,
+          56.739577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7557459551",
+        "name": "Remtes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.7268398,
+          57.0595074
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "571819488",
+        "name": "Rūmene"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.7323976,
+          56.8362182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1912685291",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.737944,
+          56.8361065
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1912685245",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.7952774,
+          56.927596
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13073253491",
+        "name": "Zemītes bērnudārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.8065143,
+          57.5012091
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5422600323",
+        "name": "Rojas Vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.8802339,
+          56.3166644
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10045357934",
+        "name": "Akmenės rajono meno mokykla"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.9895098,
+          56.8811153
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "465222028",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.0692321,
+          55.7417079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2671313850",
+        "name": "Vijurkų globos namai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.071431,
+          56.4832015
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2287715258",
+        "name": "Bēnes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.1349343,
+          55.8565951
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "979749140",
+        "name": "Bubių darželis Saulutė"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.1589868,
+          56.9648075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2854871124",
+        "name": "Dzīvā skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.2453044,
+          55.9167516
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13825564715",
+        "name": "Tarptautinė Ukrainos mokykla"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3033974,
+          55.928294
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1648584944",
+        "name": "Sporto mokykla Dubysa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3037103,
+          55.9281489
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1648584931",
+        "name": "Jaunųjų technikų centras"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3039962,
+          55.9282243
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1648584818",
+        "name": "Dailės mokykla"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3043821,
+          55.9302925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "954754242",
+        "name": "Energetikų mokymo centras, Šiaulių skyrius"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3143441,
+          55.9345101
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13103415521",
+        "name": "Mažylis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.31574,
+          55.9291092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1079054025",
+        "name": "Šiaulių Sauliaus Sondeckio konservatorija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3209888,
+          55.9461493
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1905981677",
+        "name": "Yvas suagusiųjų mokymas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3340235,
+          56.4048494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5928937335",
+        "name": "Augstkalnes vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6183798,
+          56.9414421
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "890993105",
+        "name": "Jūrmalas pilsētas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6252265,
+          56.8089354
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1824110133",
+        "name": "Kalnciema skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6266458,
+          56.4207142
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7692375931",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.659373,
+          56.4522444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5921349113",
+        "name": "Lielplatones vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6893113,
+          56.95669
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5418607859",
+        "name": "Jūrmalas Montessori bērnudārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7408372,
+          56.6726379
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1163223595",
+        "name": "Saules skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7610459,
+          56.9626795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11950653290",
+        "name": "Jaundubultu pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7614119,
+          56.9631891
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "369729640",
+        "name": "Jaundubultu vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.7619858,
+          56.9628216
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3778242576",
+        "name": "Jūrmalas vakara vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.8512899,
+          56.9724644
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11439899797",
+        "name": "Jūrmalas Aspazijas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.9349295,
+          56.8817771
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2182263870",
+        "name": "Mārupes Mūzikas un mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.9852943,
+          56.926031
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5772427154",
+        "name": "AirBaltic Flight School Boeing 737 CL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.9886008,
+          56.7994398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3626451952",
+        "name": "Jaunolaines sākumskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.002133,
+          56.95239
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3334028395",
+        "name": "Rīgas Mākslas un mediju tehnikums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0082284,
+          56.9512367
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9386745300",
+        "name": "Namiņš"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0210548,
+          56.9639304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4301645291",
+        "name": "Montessori Pluss"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0392165,
+          56.9621758
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10129132529",
+        "name": "Burtu pasaulīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0469861,
+          57.0322423
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2426859536",
+        "name": "Bolderājas mūzikas un mākslu skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0537473,
+          56.8850246
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1752585719",
+        "name": "Mazulītis Rū"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0573649,
+          56.4409008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13512079466",
+        "name": "Pasaulīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0637741,
+          56.9678634
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4695404494",
+        "name": "Rakaris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0647893,
+          56.9368855
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8421278013",
+        "name": "Dimantiņi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0651929,
+          56.9505591
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13138028634",
+        "name": "Putnu dārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0704611,
+          56.9313671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9243154417",
+        "name": "Atjaunomās enerģētiskas starptautiskais kvalifikācijas un mācību centrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0735048,
+          56.9446013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5796691448",
+        "name": "Putnu dārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0762307,
+          56.9452746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3500627469",
+        "name": "Rīgas Doma kora skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0767816,
+          56.9455953
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3500627470",
+        "name": "Rīgas horeogrāfijas vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0777627,
+          56.9338079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11703412406",
+        "name": "Ketes māja"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0855021,
+          56.9278398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2154422168",
+        "name": "\"Bambino\" attīstības studija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.089123,
+          56.9428212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7934956154",
+        "name": "BeBe.lv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.0986078,
+          56.9654965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11989008357",
+        "name": "Protu Protu"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1022723,
+          56.9658859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9655609993",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1022841,
+          56.9115863
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13386224969",
+        "name": "Boarding school"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1032093,
+          56.902611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7598547504",
+        "name": "BeBe.lv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1033258,
+          56.9506138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1570464369",
+        "name": "Svētdienas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1033615,
+          56.9541811
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8340197492",
+        "name": "Rīgas Tehniskās Universitātes Inženierzinātņu vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1044655,
+          56.9642044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5808881156",
+        "name": "Bona Favola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1045372,
+          56.9590317
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13105243501",
+        "name": "Montesori privātā pirmsskolas izglītības iestāde \"Pērļu māja\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1071527,
+          56.9745692
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5477530825",
+        "name": "Rīgas 36. pirmsskolas izglītības iestāde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1093326,
+          56.9599652
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10716077282",
+        "name": "Rīgas vācu skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1095921,
+          56.9600637
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9560367524",
+        "name": "Rīgas vācu skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1097747,
+          56.9504871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9008695971",
+        "name": "egoPERFECTUS"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1107986,
+          56.9543859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9490786819",
+        "name": "Rīgas Valda Zālīša sākumskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1189944,
+          56.9611171
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13602754352",
+        "name": "Pirmie Soļi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1196647,
+          56.8780725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1939299862",
+        "name": "Bērnu centrs \"Raibā pupa\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.11995,
+          56.878348
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1939299858",
+        "name": "Bērnudārzs \"Zemene\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1219666,
+          56.951418
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13680433245",
+        "name": "Patnis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1239157,
+          56.9533204
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12825332621",
+        "name": "Rīgas sākumskola \"Valodiņa\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1241501,
+          56.9573443
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4497033893",
+        "name": "TDMK „Liesma”"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1277872,
+          56.9586958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9325967734",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1283905,
+          56.9539771
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8538951617",
+        "name": "Māras Muižnieces Rīgas Mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1302786,
+          56.951951
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4411379992",
+        "name": "Rīgas Dizaina un mākslas vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1313414,
+          56.9558622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12684067887",
+        "name": "Andžeja Grauda bungu skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1317965,
+          56.9416122
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1644064397",
+        "name": "Habad ebreju privātā vidusskola un bērnudārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1324556,
+          56.9559819
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12825308102",
+        "name": "Tince"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1331316,
+          56.9524635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4389031090",
+        "name": "Izglītības centrs Latvikon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1336891,
+          56.9488243
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1382136255",
+        "name": "Web-tehnoloģiju skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1350589,
+          56.9412328
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5594839122",
+        "name": "Fototelpa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1362674,
+          56.9563915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "479394796",
+        "name": "Nākotne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1365796,
+          56.9624009
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10852483506",
+        "name": "Krāsainās pērles"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1373014,
+          56.982487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2984815403",
+        "name": "RSU ortopēdijas katedra"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1375359,
+          56.9824378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2984815402",
+        "name": "LU medicīnas fakultāte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1379289,
+          56.9536103
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9955749616",
+        "name": "Alfa Robot"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1393337,
+          56.9740307
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2159662888",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1408695,
+          56.9475329
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12377446784",
+        "name": "CreaKids"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1449166,
+          56.8798779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1687160385",
+        "name": "Bērnudārzs \"Lāsīte\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1455151,
+          56.9635474
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9962700432",
+        "name": "Maziņš es"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1459297,
+          56.9533472
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "724215509",
+        "name": "Zemenīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1462673,
+          56.9529145
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4363270690",
+        "name": "Zemenīte ABC"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1477109,
+          56.9647239
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4591470992",
+        "name": "Rīgas Šaha skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1478786,
+          56.8801547
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3957028175",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1497182,
+          56.9590057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10992263826",
+        "name": "Mans lācis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1549339,
+          56.8793362
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2279212218",
+        "name": "Zelta rasa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1581369,
+          56.9690368
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4321079561",
+        "name": "Pamatskola \"Harmonija\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1592575,
+          57.0005516
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13236019213",
+        "name": "Laumiņas Rezidences"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1608975,
+          56.9717202
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1969712780",
+        "name": "Rīgas Zaļā skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1630859,
+          56.9933564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13235939311",
+        "name": "Laumiņas Rezidences"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1674627,
+          56.9759646
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11912263675",
+        "name": "Dudiņdārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1727285,
+          56.9724607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4194677690",
+        "name": "Rotaļu nams"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1740206,
+          56.9756832
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4864890731",
+        "name": "Sākumskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.175556,
+          56.969107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13622107597",
+        "name": "Rotaļdārzs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1760058,
+          56.9107775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12382272908",
+        "name": "Bitīte Maija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1789599,
+          56.8880753
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1939309827",
+        "name": "Bērnu centrs \"Raibā pupa\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1797524,
+          56.9693553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13357262471",
+        "name": "Maziņš ES"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1809339,
+          56.969119
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3511965897",
+        "name": "Montesori Kates skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.184273,
+          56.9169327
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9156311773",
+        "name": "Karlson"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1866855,
+          56.4019633
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8251240291",
+        "name": "Bauskas sporta skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1887841,
+          56.9778556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3511965896",
+        "name": "First step"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1889131,
+          56.9143359
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2270838042",
+        "name": "Laisma"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1914091,
+          56.9453617
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11341629206",
+        "name": "Rīgas Tālmācības vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1938604,
+          56.9416782
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5873990316",
+        "name": "MAXVEL"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1964477,
+          56.4083057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4633359489",
+        "name": "BUTS mācību centrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.1970551,
+          56.9471013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4185522692",
+        "name": "Norma"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2451809,
+          56.9559283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5270495920",
+        "name": "Mazie stārķēni"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2514877,
+          56.9496277
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12672925793",
+        "name": "Creakids"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.2585552,
+          56.317831
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "9273491981",
+        "name": "Lācītis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3217004,
+          57.0761156
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8050571937",
+        "name": "Pasaku valstība"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3362732,
+          56.8566476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8058928530",
+        "name": "Salaspils 1. vidusskolas 2. korpuss"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3546332,
+          57.7663756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5146863078",
+        "name": "Salacgrīvas vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3559741,
+          57.8592523
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2593971800",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.356379,
+          57.0718438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8883243241",
+        "name": "Patnis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3770271,
+          57.9042146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10742263212",
+        "name": "Kabli Lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3826645,
+          57.7024455
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5484543617",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3854272,
+          56.923946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2386219889",
+        "name": "Upesleju sākumskolas pirmsskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3859053,
+          56.924792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10554721642",
+        "name": "Upesleju sākumskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.3936328,
+          56.5896782
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4285030913",
+        "name": "Misas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4177513,
+          57.261145
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "98092257",
+        "name": "Saulkrastu vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4914391,
+          56.836488
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "462243037",
+        "name": "Ikšķiles mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.4968335,
+          56.8243973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3832244494",
+        "name": "Mazulītis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.5969837,
+          57.6147325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "86888123",
+        "name": "Viļķenes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6036708,
+          56.8161917
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "479364244",
+        "name": "Ogres mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6059855,
+          56.8221872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5489770484",
+        "name": "Ogres Centra pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6086721,
+          56.8244651
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13301441067",
+        "name": "Ogres Valsts ģimnāzija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6479946,
+          57.154701
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2106213539",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.6772516,
+          57.1440816
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2096710027",
+        "name": "Murjāņu sporta ģimnāzija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.681956,
+          57.101271
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "356898823",
+        "name": "Inčukalna pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.7080669,
+          57.5118432
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13097950704",
+        "name": "Limbažu Mūzikas un mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.7136397,
+          57.5132796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5300351822",
+        "name": "Buratīno"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8451353,
+          57.1529637
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3726697036",
+        "name": "Mākslu skola \"Baltais Flīģelis\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8679985,
+          57.140746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3726697038",
+        "name": "Siguldas Sporta skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8824559,
+          57.6884692
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4756179335",
+        "name": "Alojas vidusskolas pirmsskolas grupas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.9555636,
+          57.0102652
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5124103986",
+        "name": "Mālpils mūzikas un mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.0143793,
+          56.3652224
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5993587597",
+        "name": "Bērnudārzs - Dienas Centrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.0174788,
+          56.3646944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5993587598",
+        "name": "Mazzelves Pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.0471742,
+          57.6373413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8546382018",
+        "name": "Ozolmuižas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.0497946,
+          57.8615872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "842282777",
+        "name": "Mazsalacas pilsētas pirmsskolas izglītības iestāde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.1526668,
+          57.694644
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "835717127",
+        "name": "Matīšu skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.1910705,
+          57.0656795
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5342555014",
+        "name": "Taurīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.1929623,
+          57.6204308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5389724112",
+        "name": "Jaunburtnieku pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.2665812,
+          56.9991398
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "574254283",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.3375716,
+          57.8944761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3154021869",
+        "name": "Rūjienas vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.3610243,
+          57.313645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "720742775",
+        "name": "Priekuļu vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.366812,
+          57.3136732
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6193909384",
+        "name": "Priekuļu Tehnikums (vecā ēka)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.3680882,
+          57.3114974
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6337376347",
+        "name": "Priekuļu Tehnikuma Kopmītnes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.3684745,
+          57.3135762
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6193909377",
+        "name": "Priekuļu Tehnikums"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4147212,
+          57.2129689
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2677843983",
+        "name": "Rāmuļu pamatskolas pirmsskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4200619,
+          57.5360106
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5485354612",
+        "name": "Zaļā skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4210956,
+          57.3866311
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2688829126",
+        "name": "Liepas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.4900174,
+          56.7201567
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7646965348",
+        "name": "Bebru pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.5783065,
+          57.0789369
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6337239302",
+        "name": "Skujenes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.5828653,
+          55.9509442
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4770163384",
+        "name": "Rokiškio suaugusiųjų ir jaunimo mokymo centras"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.5872467,
+          55.9539559
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4681740329",
+        "name": "Rokiškio choreografijos mokykla"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.5966693,
+          55.9596467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4681740300",
+        "name": "Rokiškio kūno kultūros ir sporto centras"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.60702,
+          56.0866891
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4423678110",
+        "name": "Juodupės lopšelis-darželis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.6136497,
+          57.0810114
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4432138648",
+        "name": "Ežu skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.6577856,
+          57.1553071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4432698735",
+        "name": "Taurenes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.6825312,
+          57.6266987
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2210776971",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.6951469,
+          58.012522
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10290144029",
+        "name": "Ala põhikooli lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.7610421,
+          56.5077949
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6055046177",
+        "name": "Salas Vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.777339,
+          57.437347
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3075559095",
+        "name": "Blomes pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.7773643,
+          57.4376669
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3075559379",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.7977129,
+          55.9460256
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4302281906",
+        "name": "Obelių lopšelis-darželis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.8317434,
+          57.017763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5581946982",
+        "name": "Pirmsskolas Bērnu Dienas Centrs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.8463172,
+          58.0334396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10293440049",
+        "name": "Ritsu lasteaed-algkool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.8463789,
+          58.0335915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10293440050",
+        "name": "Ritsu lasteaed-algkool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.8740221,
+          56.8665895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6329182523",
+        "name": "Vestienas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.9863388,
+          57.4873126
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5333341755",
+        "name": "Bilskas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.0152578,
+          57.7808892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "471562100",
+        "name": "Valkas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.1277531,
+          56.8968427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1769474103",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.1767593,
+          57.9266153
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10291718876",
+        "name": "Õru lasteaed-algkool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.186073,
+          57.3864088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5356489754",
+        "name": "Palsmanes speciālā internātskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.1927264,
+          56.7042111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2110945673",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.221874,
+          57.5628738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5297510709",
+        "name": "Ozolu pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2476432,
+          55.733138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1042389733",
+        "name": "Zarasų „Ąžuolo“ gimnazija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.266684,
+          57.4565463
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5194018126",
+        "name": "Grundzāles pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.2878755,
+          55.9831312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8615871818",
+        "name": "Ilūkstes Raiņa vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.289913,
+          55.9780311
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8615853619",
+        "name": "Ilūkstes Raiņa vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.3050246,
+          56.8246803
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "765767109",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.3531316,
+          57.4242504
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5328955387",
+        "name": "Sikšņu pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.379099,
+          57.753006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1398494571",
+        "name": "Lüllemäe põhikool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.3974398,
+          57.5140368
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "35112607",
+        "name": "Gaujienas O. Vācieša vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.4002507,
+          57.5111203
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5007811021",
+        "name": "Gaujienas pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.415496,
+          57.6147554
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10290152657",
+        "name": "Hargla kooli lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.4368471,
+          58.0126062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10292045428",
+        "name": "Pühajärve Põhikooli lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5024457,
+          57.8931434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10599657518",
+        "name": "Kuldre Kooli lasteaed Sipsik"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.526294,
+          55.8676156
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1410181327",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5553755,
+          57.5941523
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10589684480",
+        "name": "Mõniste Kooli Lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5783711,
+          57.2803094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6257949459",
+        "name": "Kamenīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.6659008,
+          57.6474852
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1754016251",
+        "name": "Varstu kool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.7336028,
+          56.0748779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1419852096",
+        "name": "Špoģu Mūzikas un mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.734915,
+          56.0741719
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7798299163",
+        "name": "Špoģu vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.7625915,
+          56.6078325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5586167521",
+        "name": "Varakļānu vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.7900521,
+          57.2894998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12814049402",
+        "name": "bij. K. Valdemāra pamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.8422434,
+          58.0727068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10751259353",
+        "name": "Krootuse Lasteaed Pesapuu"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9107389,
+          57.5628019
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1763160930",
+        "name": "Veclaicenes skola - muiža"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9300903,
+          57.7312817
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12453093536",
+        "name": "Rõuge Põhikool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9835296,
+          57.9076301
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10792396489",
+        "name": "Terve Pere Aed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9953749,
+          57.8443354
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "8909779324",
+        "name": "Väike Werrone Kool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9961536,
+          57.8486342
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12453093605",
+        "name": "Võru Gümnaasium"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.9992217,
+          57.8440598
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3929238996",
+        "name": "Võru Järve Kool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.0313561,
+          57.7960689
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "6912165787",
+        "name": "Puiga Põhikool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.0505332,
+          57.721882
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10290073849",
+        "name": "Haanja kooli lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.0718662,
+          58.0595927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10773801850",
+        "name": "Põlva Lasteaed \"Mesimumm\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.0724081,
+          58.0595322
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10293483655",
+        "name": "Põlva Roosi kooli lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1280174,
+          56.9995423
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5031977025",
+        "name": "Rugāju novada vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1610542,
+          55.9013199
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1799222074",
+        "name": "Krāslavas ģimnāzija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1648214,
+          56.3501783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1625384397",
+        "name": "Dzīpariņš"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1685724,
+          55.8999783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1799222069",
+        "name": "Krāslavas Mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1800173,
+          57.8627362
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2407822246",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1813874,
+          55.8920102
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1799222107",
+        "name": "PIKC Rīgas Valsts tehnikums Teorētisko mācību priekšmetu un administrācijas ēka"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.2438354,
+          57.1386045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1213541068",
+        "name": "Balvu profesionālā un vispārizglītojošā vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3299935,
+          57.9940508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10779841343",
+        "name": "Veriora Lasteaed \"Õnneseen\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3308086,
+          56.5041901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10991549489",
+        "name": "Austrumlatvijas Tehnoloģiju vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3325636,
+          57.2187243
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1940009124",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3961789,
+          56.1893663
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5732058246",
+        "name": "Avotiņš"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4179042,
+          56.7096564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "2083539416",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4463763,
+          57.8873279
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11385140366",
+        "name": "Orava kool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4584475,
+          57.7483087
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "10599794981",
+        "name": "Meremäe Kooli lasteaed"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4811321,
+          57.3426097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1398859737",
+        "name": "Liepnas internātpamatskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5328472,
+          56.0947054
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13495918484",
+        "name": "Saulīte"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5330713,
+          56.0949459
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "13495918483",
+        "name": "Mūzikas un mākslas skola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5417691,
+          56.331931
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "12710554601",
+        "name": "Kaunatas vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.6190206,
+          57.0412518
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5327513296",
+        "name": "Rekavas vidusskola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.7169583,
+          56.5412256
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1937183756",
+        "name": "Gimnazija"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.7198176,
+          56.5398358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1957968352",
+        "name": "Rukitis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.727001,
+          56.5418865
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1941196230",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.7627863,
+          57.4710454
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1499159049",
+        "name": "Качановский детский сад"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.7628066,
+          57.471151
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "1499159048",
+        "name": "Качановская Школа"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.9876743,
+          56.2595362
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "983130903",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.004613,
+          57.5445746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3554145696",
+        "name": "МБДОУ \"Палкинская средняя общеобразовательная школа\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.0140099,
+          57.5403061
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "4488684935",
+        "name": "МБДОУ \"Детский сад Тополёк\""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.05349,
+          56.4238867
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "11065595097",
+        "name": "Briģu pagasta pirmsskolas izglītības iestāde"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.0860946,
+          56.0159352
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "7236289576",
+        "name": "Музычная школа"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.1000545,
+          57.5787195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "3359314476",
+        "name": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.12155,
+          56.3840702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": "5422680521",
+        "name": ""
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
