@@ -2,56 +2,56 @@
 // (not `import`) so Turbopack doesn't try to bundle the entire payload
 // into the build manifest. Returns typed objects directly to Server Components.
 
-import 'server-only';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { z } from 'zod';
-import {
-  BUILD_STAGES,
-  CITIES,
-  CONSTRUCTION_TYPES,
-  DEVELOPERS,
-  ENERGY_CLASSES,
-  ProjectIdSchema,
-} from './schema';
+import { type Apartment, ApartmentSchema, type Project, ProjectSchema } from './schema';
 
 const REPO_ROOT = process.cwd();
-const PROJECTS_FILE = join(REPO_ROOT, 'data', 'projects.json');
+const SCRAPED_DIR = join(REPO_ROOT, 'data', 'scraped');
+const APARTMENTS_FLAT = join(REPO_ROOT, 'data', 'apartments.json');
 
-// Local mirror of the slim shape emitted by scripts/build-payload.ts.
-// Kept in sync with that file — both derive from the canonical Project schema.
-export const SlimProjectSchema = z.object({
-  id: ProjectIdSchema,
-  developer: z.enum(DEVELOPERS),
-  name: z.string(),
-  city: z.enum(CITIES),
-  district: z.string().optional(),
-  location: z.object({
-    lat: z.number(),
-    lng: z.number(),
-    source: z.enum(['vzd', 'janas-seta', 'nominatim', 'manual']),
-  }),
-  buildStage: z.enum(BUILD_STAGES),
-  energyClass: z.enum(ENERGY_CLASSES),
-  constructionType: z.enum(CONSTRUCTION_TYPES),
-  sourceUrl: z.string().url(),
-  apartmentCount: z.number().int().nonnegative(),
-  scrapedAt: z.string().datetime(),
-});
-export type SlimProject = z.infer<typeof SlimProjectSchema>;
-
-export async function loadSlimProjects(): Promise<SlimProject[]> {
+async function readJsonOr<T>(path: string, fallback: T): Promise<T | string> {
   try {
-    const raw = await readFile(PROJECTS_FILE, 'utf8');
-    const parsed = JSON.parse(raw);
-    const result = SlimProjectSchema.array().safeParse(parsed);
-    if (!result.success) {
-      console.warn('[data.server] projects.json failed schema:', result.error.issues.slice(0, 3));
-      return [];
-    }
-    return result.data;
+    return await readFile(path, 'utf8');
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return fallback;
+    throw err;
+  }
+}
+
+/** Load every scraped project across all developers, full schema-validated. */
+export async function loadProjects(): Promise<Project[]> {
+  let files: string[];
+  try {
+    files = await readdir(SCRAPED_DIR);
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === 'ENOENT') return [];
     throw err;
   }
+
+  const all: Project[] = [];
+  for (const file of files.filter((f) => f.endsWith('.json'))) {
+    const raw = await readFile(join(SCRAPED_DIR, file), 'utf8');
+    const parsed = JSON.parse(raw);
+    const result = ProjectSchema.array().safeParse(parsed);
+    if (!result.success) {
+      console.warn(`[data.server] ${file} failed schema:`, result.error.issues.slice(0, 3));
+      continue;
+    }
+    all.push(...result.data);
+  }
+  return all;
+}
+
+/** Load every apartment (flat). Returns [] if the file doesn't exist yet. */
+export async function loadApartments(): Promise<Apartment[]> {
+  const raw = await readJsonOr<Apartment[]>(APARTMENTS_FLAT, []);
+  if (typeof raw !== 'string') return raw;
+  const parsed = JSON.parse(raw);
+  const result = ApartmentSchema.array().safeParse(parsed);
+  if (!result.success) {
+    console.warn('[data.server] apartments.json failed schema:', result.error.issues.slice(0, 3));
+    return [];
+  }
+  return result.data;
 }

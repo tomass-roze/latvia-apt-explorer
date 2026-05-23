@@ -1,23 +1,26 @@
-// YIT Latvia scraper — project-level data only in Phase 2.
+// YIT Latvia scraper.
 //
-// Per-apartment data on YIT is loaded via a JS-rendered search component
-// (no XHR endpoint discoverable from the static HTML at the time of writing).
-// Phase 3 will either reverse-engineer the search XHR or escalate to Playwright;
-// until then, every Project comes back with `apartments: []` and `unknown`
-// pricing — pins still render on the map, filtering doesn't engage YIT.
+// Project pages: sitemap-driven URLs at depth 4-5; pageType="ProjectPage"
+// dataLayer push pinned as the discriminator. From the page body we extract
+// the street address (regex), build stage, energy class, and construction type.
 //
-// Data sources used here:
-//   - sitemap.xml for project URLs (canonical, sitemap-driven)
-//   - dataLayer pushes embedded in each project page for name/id/city/district
-//   - Project page body text for address pattern + build stage + energy class
+// Apartment pages: depth-6 sitemap URLs. Each apartment page embeds an HTML-
+// entity-encoded JSON blob with `crmId`, `projectCRMId`, `numberOfRooms`,
+// `floorNumber`, `cmsFloorNumberOfTotalFloors`, `apartmentSize`, `salesPrice`,
+// `reservationStatusKey` (Free/Reserved/Sold), and `apartmentType`. We decode
+// the entities, JSON.parse, and link to the parent project via `projectCRMId`.
 //
-// Brittleness expectations: dataLayer is a stable analytics surface — high
-// confidence. Body-text address regex is medium — fall back to "<district>,
-// <city>, Latvia" for geocoding when no street is parseable.
+// The two passes share a YIT-projectCRMId → internal-ProjectId map so apartments
+// land in the right Project bucket. Apartments under projects we don't have
+// (e.g., archived or filtered-out projects) are skipped.
 
 import { load } from 'cheerio';
 import {
+  type Apartment,
+  ApartmentSchema,
+  type ApartmentId,
   type Project,
+  type ProjectId,
   ProjectSchema,
   type ScrapeError,
   type ScraperRunResult,
@@ -32,13 +35,10 @@ import type { Scraper, ScrapeOutput } from '../base/interface';
 const DEVELOPER = 'yit' as const;
 const SITEMAP_URL = 'https://www.yit.lv/sitemap.xml';
 
-// Match `/dzivojamas-majas/<city>/<district>/<project>[/<subproject>]` ONLY.
-// Per-apartment URLs (one more path segment, like `/.../<slug-or-listing-id>`)
-// are intentionally excluded — those land in Phase 3.
+// Project page: 4-5 path segments after `/dzivojamas-majas/`.
 const PROJECT_URL_RE =
   /^https?:\/\/www\.yit\.lv\/dzivojamas-majas\/(?<city>[a-z-]+)\/(?<district>[a-z-]+)\/(?<project>[a-z0-9-]+)(?:\/(?<sub>[a-z0-9-]+))?\/?$/i;
-// Apartment-page URLs follow the same prefix but always include a 5th path segment
-// after the project. We count these per project to populate apartmentCount.
+// Apartment page: 5 path segments after `/dzivojamas-majas/<city>/<district>/<project>/`.
 const APARTMENT_URL_RE =
   /^https?:\/\/www\.yit\.lv\/dzivojamas-majas\/(?<city>[a-z-]+)\/(?<district>[a-z-]+)\/(?<project>[a-z0-9-]+)\/(?<sub>[a-z0-9-]+)\/(?<listing>[a-z0-9-]+)\/?$/i;
 
@@ -56,15 +56,13 @@ const LV_CITY_LABELS: Record<string, Project['city']> = {
 
 interface SitemapInventory {
   projectUrls: string[];
-  apartmentCountByProjectUrl: Map<string, number>;
+  apartmentUrls: string[];
   errors: ScrapeError[];
 }
 
 async function fetchSitemap(): Promise<SitemapInventory> {
   const res = await politeFetch(SITEMAP_URL);
-  if (!res.ok) {
-    return { projectUrls: [], apartmentCountByProjectUrl: new Map(), errors: [res.error] };
-  }
+  if (!res.ok) return { projectUrls: [], apartmentUrls: [], errors: [res.error] };
 
   const $ = load(res.body, { xmlMode: true });
   const projectUrls: string[] = [];
@@ -80,7 +78,7 @@ async function fetchSitemap(): Promise<SitemapInventory> {
     }
   });
 
-  // Dedupe project URLs + drop parent projects when a sub-project exists.
+  // Dedupe project URLs + drop parents when sub-projects exist.
   const projectSet = new Set(projectUrls);
   const leafProjects = projectUrls.filter((url) => {
     const trimmed = url.replace(/\/$/, '');
@@ -89,17 +87,9 @@ async function fetchSitemap(): Promise<SitemapInventory> {
     );
   });
 
-  // Count apartment URLs per leaf project (by URL prefix match).
-  const apartmentCountByProjectUrl = new Map<string, number>();
-  for (const projectUrl of leafProjects) {
-    const prefix = `${projectUrl.replace(/\/$/, '')}/`;
-    const count = apartmentUrls.filter((aptUrl) => aptUrl.startsWith(prefix)).length;
-    apartmentCountByProjectUrl.set(projectUrl, count);
-  }
-
   return {
     projectUrls: [...new Set(leafProjects)],
-    apartmentCountByProjectUrl,
+    apartmentUrls: [...new Set(apartmentUrls)],
     errors: [],
   };
 }
@@ -125,10 +115,6 @@ interface ProjectPageDataLayer {
 }
 
 function extractProjectDataLayer(html: string): ProjectPageDataLayer | null {
-  // dataLayer pushes are JSON literals injected by their analytics layer.
-  // We want ONLY pageType="ProjectPage" — apartment pages emit pageType=
-  // "ApartmentPage" with the same projectId, and we'd otherwise treat each
-  // apartment URL as a separate project.
   const re = /window\.dataLayer\.push\((\{[^)]+\})\)/g;
   for (const match of html.matchAll(re)) {
     const literal = match[1];
@@ -153,9 +139,6 @@ function extractProjectDataLayer(html: string): ProjectPageDataLayer | null {
   return null;
 }
 
-// Address regex: street + house number, comma, LV-postal, comma, city word.
-// Stops at the city name word boundary so apartment-listing text after the
-// address ("Būvniecības stadija Brīvs Istabu skaits...") doesn't bleed in.
 const ADDRESS_RE =
   /([A-ZĀČĒĢĪĶĻŅŠŪŽ][a-zāčēģīķļņšūžA-ZĀČĒĢĪĶĻŅŠŪŽ.\s-]{2,40}\s\d+[a-z]?)\s*,?\s*(LV-\d{4})\s*,?\s*(Rīga|Jūrmala|Mārupe|Ogre|Salaspils|Ķekava|Babīte|Sigulda|Ādaži|Olaine|Carnikava|Liepāja|Daugavpils|Ventspils|Jelgava|Valmiera|Rēzekne)\b/;
 
@@ -175,7 +158,6 @@ function inferBuildStage(text: string): Project['buildStage'] {
 }
 
 function inferEnergyClass(text: string): Project['energyClass'] {
-  // YIT pages mention "A klases", "A++ energoefektivitāte" etc.
   const m = text.match(/\b(A\+{1,2}|A|B|C|D|E|F)\s*klas/i);
   if (m?.[1]) return m[1].toUpperCase() as Project['energyClass'];
   return 'unknown';
@@ -190,27 +172,22 @@ function inferConstructionType(text: string): Project['constructionType'] {
   return 'unknown';
 }
 
-interface ParseResult {
+interface ProjectParseResult {
   project: Project | null;
+  yitProjectId: string | null;
   errors: ScrapeError[];
 }
 
-async function parseProjectPage(url: string): Promise<ParseResult> {
+async function parseProjectPage(url: string): Promise<ProjectParseResult> {
   const res = await politeFetch(url);
-  if (!res.ok) return { project: null, errors: [res.error] };
+  if (!res.ok) return { project: null, yitProjectId: null, errors: [res.error] };
 
   const $ = load(res.body);
   const html = res.body;
   const dl = extractProjectDataLayer(html);
 
-  // Drop if it's not actually a project page (404, apartment page, redirected, etc.).
-  // The pageType discriminator means we silently skip every apartment URL the
-  // sitemap throws at us — those are Phase 3's job.
-  if (!dl) {
-    return { project: null, errors: [] };
-  }
+  if (!dl) return { project: null, yitProjectId: null, errors: [] };
 
-  // Address: try regex; fall back to "<area>, <city>, Latvia" so geocoder gets something.
   const bodyText = $('main, body').text();
   const parsedAddress = extractAddress(bodyText);
   const cityLabel = LV_CITY_LABELS[dl.city?.toLowerCase() ?? 'riga'] ?? 'Rīga';
@@ -219,6 +196,7 @@ async function parseProjectPage(url: string): Promise<ParseResult> {
   if (!address) {
     return {
       project: null,
+      yitProjectId: dl.projectId,
       errors: [parseError(`no address extractable at ${url}`, { url })],
     };
   }
@@ -226,7 +204,6 @@ async function parseProjectPage(url: string): Promise<ParseResult> {
   const projectId = buildProjectId(DEVELOPER, { address });
   const errors: ScrapeError[] = [];
 
-  // Geocode (cache-backed)
   let location: Project['location'] = { lat: 56.95, lng: 24.1, source: 'manual' };
   const geo = await geocode({ developer: DEVELOPER, address });
   if (geo) {
@@ -237,7 +214,6 @@ async function parseProjectPage(url: string): Promise<ParseResult> {
       message: `geocoder returned null for "${normalizeAddress(address)}"`,
       projectId,
     });
-    // Use city centroid as a last-resort fallback so the pin still renders.
   }
 
   const candidate: Project = {
@@ -265,10 +241,147 @@ async function parseProjectPage(url: string): Promise<ParseResult> {
     errors.push(
       validateError(`project at ${url} failed schema`, parsed.error.issues, { url, projectId }),
     );
-    return { project: null, errors };
+    return { project: null, yitProjectId: dl.projectId, errors };
   }
 
-  return { project: parsed.data, errors };
+  return { project: parsed.data, yitProjectId: dl.projectId, errors };
+}
+
+// ─── Per-apartment parsing ─────────────────────────────────────────────────
+
+interface ApartmentBlob {
+  crmId: string;
+  projectCRMId: string;
+  reservationStatusKey?: string;
+  numberOfRooms?: string;
+  floorNumber?: string;
+  cmsFloorNumberOfTotalFloors?: string;
+  apartmentSize?: number | string;
+  salesPrice?: number | string;
+  apartmentType?: string;
+}
+
+// The blob lives inline in the HTML as HTML-entity-encoded JSON. We find it by
+// locating the crmId field and slurping a JSON object around it, then decode
+// `&quot;` → `"` etc. before parsing.
+function extractApartmentBlob(html: string): ApartmentBlob | null {
+  // Try a tight, single-object match first. The blob starts with `{` and contains
+  // the encoded `crmId` literal `&quot;crmId&quot;`.
+  const re = /\{[^{}]{0,1500}&quot;crmId&quot;[^{}]{0,1500}\}/;
+  const match = html.match(re);
+  if (!match) return null;
+  const decoded = match[0]
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+  try {
+    return JSON.parse(decoded) as ApartmentBlob;
+  } catch {
+    return null;
+  }
+}
+
+const AVAILABILITY_MAP: Record<string, Apartment['availability']> = {
+  Free: 'available',
+  Available: 'available',
+  Reserved: 'reserved',
+  Sold: 'sold',
+};
+
+function parseRooms(blob: ApartmentBlob): number | null {
+  if (blob.numberOfRooms) {
+    const n = Number.parseInt(blob.numberOfRooms, 10);
+    if (Number.isFinite(n) && n > 0) return n;
+  }
+  // Fallback: parse from apartmentType like "2h+k" → 2
+  if (blob.apartmentType) {
+    const m = blob.apartmentType.match(/^(\d+)/);
+    if (m?.[1]) return Number.parseInt(m[1], 10);
+  }
+  return null;
+}
+
+interface ApartmentParseResult {
+  apartment: Apartment | null;
+  errors: ScrapeError[];
+}
+
+async function parseApartmentPage(
+  url: string,
+  projectIdByYit: Map<string, ProjectId>,
+): Promise<ApartmentParseResult> {
+  const res = await politeFetch(url);
+  if (!res.ok) return { apartment: null, errors: [res.error] };
+
+  const blob = extractApartmentBlob(res.body);
+  if (!blob || !blob.crmId || !blob.projectCRMId) {
+    // Apartment is gone / 404 / page restructured. Don't log — it's the common case for stale sitemap entries.
+    return { apartment: null, errors: [] };
+  }
+
+  const projectId = projectIdByYit.get(blob.projectCRMId);
+  if (!projectId) {
+    // Parent project wasn't scraped (filtered out, or under a sub-route we don't visit).
+    // Silently skip — the apartment is orphaned for us.
+    return { apartment: null, errors: [] };
+  }
+
+  const rooms = parseRooms(blob);
+  const area = typeof blob.apartmentSize === 'number'
+    ? blob.apartmentSize
+    : Number.parseFloat(String(blob.apartmentSize ?? ''));
+  const floor = blob.floorNumber ? Number.parseInt(blob.floorNumber, 10) : null;
+  const priceEur =
+    typeof blob.salesPrice === 'number'
+      ? blob.salesPrice
+      : Number.parseFloat(String(blob.salesPrice ?? ''));
+  const availability = AVAILABILITY_MAP[blob.reservationStatusKey ?? 'Free'] ?? 'available';
+
+  if (rooms === null || !Number.isFinite(area) || floor === null || !Number.isFinite(floor)) {
+    return {
+      apartment: null,
+      errors: [parseError(`incomplete apartment data at ${url}`, { url, projectId })],
+    };
+  }
+
+  const apartmentId = `${projectId}:${blob.crmId}` as ApartmentId;
+
+  const candidate: Apartment = {
+    id: apartmentId,
+    projectId,
+    rooms,
+    area,
+    floor,
+    price: Number.isFinite(priceEur) && priceEur > 0
+      ? { kind: 'amount', eur: priceEur, vatIncluded: true }
+      : { kind: 'unknown' },
+    pricePerSqm:
+      Number.isFinite(priceEur) && priceEur > 0 && area > 0
+        ? { kind: 'amount', eur: Math.round(priceEur / area), vatIncluded: true }
+        : { kind: 'unknown' },
+    availability,
+    deepLinkUrl: url,
+  };
+
+  if (blob.cmsFloorNumberOfTotalFloors) {
+    const total = Number.parseInt(blob.cmsFloorNumberOfTotalFloors, 10);
+    if (Number.isFinite(total) && total > 0) candidate.totalFloors = total;
+  }
+
+  const parsed = ApartmentSchema.safeParse(candidate);
+  if (!parsed.success) {
+    return {
+      apartment: null,
+      errors: [
+        validateError(`apartment at ${url} failed schema`, parsed.error.issues, {
+          url,
+          projectId,
+        }),
+      ],
+    };
+  }
+  return { apartment: parsed.data, errors: [] };
 }
 
 // ─── Public scraper interface ───────────────────────────────────────────────
@@ -282,12 +395,37 @@ export const yitScraper: Scraper = {
     const inventory = await fetchSitemap();
     allErrors.push(...inventory.errors);
 
-    const projects: Project[] = [];
+    // Pass 1: project pages.
+    const projectsByInternalId = new Map<ProjectId, Project>();
+    const projectIdByYit = new Map<string, ProjectId>();
     for (const url of inventory.projectUrls) {
-      const { project, errors } = await parseProjectPage(url);
+      const { project, yitProjectId, errors } = await parseProjectPage(url);
       allErrors.push(...errors);
-      if (project) projects.push(project);
+      if (project) {
+        projectsByInternalId.set(project.id, project);
+        if (yitProjectId) projectIdByYit.set(yitProjectId, project.id);
+      }
     }
+
+    // Pass 2: apartment pages.
+    const apartmentsByProjectId = new Map<ProjectId, Apartment[]>();
+    for (const url of inventory.apartmentUrls) {
+      const { apartment, errors } = await parseApartmentPage(url, projectIdByYit);
+      allErrors.push(...errors);
+      if (apartment) {
+        const list = apartmentsByProjectId.get(apartment.projectId) ?? [];
+        list.push(apartment);
+        apartmentsByProjectId.set(apartment.projectId, list);
+      }
+    }
+
+    // Merge apartments into their parent projects.
+    const projects: Project[] = [];
+    for (const project of projectsByInternalId.values()) {
+      const apartments = apartmentsByProjectId.get(project.id) ?? [];
+      projects.push({ ...project, apartments });
+    }
+
     await flushCache();
 
     const finishedAt = new Date().toISOString();
@@ -295,13 +433,19 @@ export const yitScraper: Scraper = {
     const apartmentCount = projects.reduce((sum, p) => sum + p.apartments.length, 0);
 
     let result: ScraperRunResult;
-    if (inventory.errors.length > 0 || (inventory.projectUrls.length > 0 && projects.length === 0)) {
+    if (
+      inventory.errors.length > 0 ||
+      (inventory.projectUrls.length > 0 && projects.length === 0)
+    ) {
+      const errs = allErrors.length > 0
+        ? (allErrors as [ScrapeError, ...ScrapeError[]])
+        : [fetchError('no errors recorded but zero projects produced')];
       result = {
         status: 'failed',
         developer: DEVELOPER,
         startedAt,
         finishedAt,
-        errors: allErrors.length > 0 ? (allErrors as [ScrapeError, ...ScrapeError[]]) : [fetchError('no errors recorded but zero projects produced')],
+        errors: errs,
         lastSuccessAt: startedAt,
       };
     } else if (allErrors.length > 0) {

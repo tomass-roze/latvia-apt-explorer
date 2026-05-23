@@ -1,1 +1,642 @@
-[]
+[
+  {
+    "area": 61,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102226",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102226",
+    "price": {
+      "eur": 165500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2713,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 7
+  },
+  {
+    "area": 43.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102227",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102227",
+    "price": {
+      "eur": 118900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2733,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 7
+  },
+  {
+    "area": 46,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102230",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102230",
+    "price": {
+      "eur": 122000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2652,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 7
+  },
+  {
+    "area": 45.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102231",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102231",
+    "price": {
+      "eur": 121300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2678,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 7
+  },
+  {
+    "area": 57.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102232",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102232",
+    "price": {
+      "eur": 152500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2638,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 7
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102233",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102233",
+    "price": {
+      "eur": 144700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2612,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 7
+  },
+  {
+    "area": 60.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102234",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102234",
+    "price": {
+      "eur": 159300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2633,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 7
+  },
+  {
+    "area": 43.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102235",
+    "floor": 7,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102235",
+    "price": {
+      "eur": 118900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2733,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 7
+  },
+  {
+    "area": 43.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102236",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102236",
+    "price": {
+      "eur": 117800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2708,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 61,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102237",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102237",
+    "price": {
+      "eur": 164100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2690,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 58.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102239",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102239",
+    "price": {
+      "eur": 155100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2638,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 46,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102240",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102240",
+    "price": {
+      "eur": 120800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2626,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 45.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102241",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102241",
+    "price": {
+      "eur": 120100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2651,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 57.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102242",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102242",
+    "price": {
+      "eur": 151000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2612,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102243",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102243",
+    "price": {
+      "eur": 143500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2590,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 60.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102244",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102244",
+    "price": {
+      "eur": 157900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2610,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 43.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102245",
+    "floor": 6,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102245",
+    "price": {
+      "eur": 117800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2708,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 61,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102247",
+    "floor": 5,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102247",
+    "price": {
+      "eur": 161100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2641,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 46,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102250",
+    "floor": 5,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102250",
+    "price": {
+      "eur": 118600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2578,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 45.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102251",
+    "floor": 5,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102251",
+    "price": {
+      "eur": 117900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2603,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 57.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102252",
+    "floor": 5,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102252",
+    "price": {
+      "eur": 148300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2566,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102253",
+    "floor": 5,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102253",
+    "price": {
+      "eur": 140700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2540,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 46,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102260",
+    "floor": 4,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102260",
+    "price": {
+      "eur": 116300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2528,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 4
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102263",
+    "floor": 4,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102263",
+    "price": {
+      "eur": 138100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2493,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 4
+  },
+  {
+    "area": 58.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102269",
+    "floor": 3,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102269",
+    "price": {
+      "eur": 146600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2493,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 57.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102272",
+    "floor": 3,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102272",
+    "price": {
+      "eur": 142700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2469,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102273",
+    "floor": 3,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102273",
+    "price": {
+      "eur": 135400,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2444,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 61,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102277",
+    "floor": 2,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102277",
+    "price": {
+      "eur": 151900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2490,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 58.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102279",
+    "floor": 2,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102279",
+    "price": {
+      "eur": 143600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2442,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 46,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102280",
+    "floor": 2,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102280",
+    "price": {
+      "eur": 111900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2433,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 2,
+    "totalFloors": 2
+  },
+  {
+    "area": 57.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102282",
+    "floor": 2,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102282",
+    "price": {
+      "eur": 139900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2420,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 60.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6/pdlv102284",
+    "floor": 2,
+    "id": "yit--f19bae23c3e5c9a2:PDLV102284",
+    "price": {
+      "eur": 146300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2418,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f19bae23c3e5c9a2",
+    "rooms": 3,
+    "totalFloors": 2
+  }
+]

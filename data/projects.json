@@ -14,11 +14,11 @@
       "source": "nominatim"
     },
     "name": "Ķīpsalas 41 - 1.kārta",
-    "scrapedAt": "2026-05-23T14:12:36.208Z",
+    "scrapedAt": "2026-05-23T14:39:10.321Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/kipsala/riverstone"
   },
   {
-    "apartmentCount": 0,
+    "apartmentCount": 40,
     "buildStage": "pre-sales",
     "city": "Rīga",
     "constructionType": "panel",
@@ -32,11 +32,11 @@
       "source": "manual"
     },
     "name": "Kaivas kvartāls 2",
-    "scrapedAt": "2026-05-23T14:11:52.065Z",
+    "scrapedAt": "2026-05-23T14:38:26.377Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2"
   },
   {
-    "apartmentCount": 0,
+    "apartmentCount": 49,
     "buildStage": "under-construction",
     "city": "Rīga",
     "constructionType": "unknown",
@@ -50,11 +50,11 @@
       "source": "nominatim"
     },
     "name": "Mārpagalmi 3",
-    "scrapedAt": "2026-05-23T14:11:54.226Z",
+    "scrapedAt": "2026-05-23T14:38:28.453Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-3"
   },
   {
-    "apartmentCount": 0,
+    "apartmentCount": 7,
     "buildStage": "pre-sales",
     "city": "Rīga",
     "constructionType": "panel",
@@ -68,7 +68,7 @@
       "source": "manual"
     },
     "name": "Kaivas kvartāls 1",
-    "scrapedAt": "2026-05-23T14:12:00.092Z",
+    "scrapedAt": "2026-05-23T14:38:34.201Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals"
   },
   {
@@ -86,7 +86,7 @@
       "source": "nominatim"
     },
     "name": "Mārpagalmi 4",
-    "scrapedAt": "2026-05-23T14:11:56.428Z",
+    "scrapedAt": "2026-05-23T14:38:30.656Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-4"
   },
   {
@@ -104,7 +104,7 @@
       "source": "nominatim"
     },
     "name": "Anniņmuižas iela 15A",
-    "scrapedAt": "2026-05-23T14:12:15.113Z",
+    "scrapedAt": "2026-05-23T14:38:49.275Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/zolitude/anninmuizas-iela-15a"
   },
   {
@@ -122,11 +122,11 @@
       "source": "nominatim"
     },
     "name": "Bauskas 191 - 1.karta",
-    "scrapedAt": "2026-05-23T14:12:30.062Z",
+    "scrapedAt": "2026-05-23T14:39:04.299Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/bisumuiza/bauskas-191"
   },
   {
-    "apartmentCount": 0,
+    "apartmentCount": 32,
     "buildStage": "under-construction",
     "city": "Rīga",
     "constructionType": "panel",
@@ -140,11 +140,11 @@
       "source": "nominatim"
     },
     "name": "Mārpagalmi 5",
-    "scrapedAt": "2026-05-23T14:11:55.326Z",
+    "scrapedAt": "2026-05-23T14:38:29.553Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5"
   },
   {
-    "apartmentCount": 0,
+    "apartmentCount": 32,
     "buildStage": "under-construction",
     "city": "Rīga",
     "constructionType": "unknown",
@@ -158,11 +158,11 @@
       "source": "nominatim"
     },
     "name": "Silvas Nami 6",
-    "scrapedAt": "2026-05-23T14:11:53.127Z",
+    "scrapedAt": "2026-05-23T14:38:27.353Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6"
   },
   {
-    "apartmentCount": 0,
+    "apartmentCount": 1,
     "buildStage": "pre-sales",
     "city": "Rīga",
     "constructionType": "unknown",
@@ -176,7 +176,7 @@
       "source": "nominatim"
     },
     "name": "Silvas Nami 5",
-    "scrapedAt": "2026-05-23T14:11:57.537Z",
+    "scrapedAt": "2026-05-23T14:38:31.759Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-5"
   }
 ]

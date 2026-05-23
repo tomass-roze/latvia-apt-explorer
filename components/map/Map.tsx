@@ -4,20 +4,33 @@ import {
   AttributionControl,
   Layer,
   Map as MapLibre,
+  type MapLayerMouseEvent,
   NavigationControl,
   Source,
 } from 'react-map-gl/maplibre';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { LATVIA_CENTER } from '@/lib/geo';
-import type { SlimProject } from '@/lib/data.server';
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/liberty';
 
-interface MapProps {
-  projects: SlimProject[];
+interface MapProject {
+  id: string;
+  name: string;
+  developer: string;
+  location: { lat: number; lng: number };
+  buildStage: string;
+  apartmentCount: number;
+  score?: number;
+  percentile?: number;
 }
 
-function toFeatureCollection(projects: SlimProject[]): GeoJSON.FeatureCollection {
+interface MapProps {
+  projects: MapProject[];
+  selectedId?: string | null;
+  onSelect?: (id: string | null) => void;
+}
+
+function toFeatureCollection(projects: MapProject[]): GeoJSON.FeatureCollection {
   return {
     type: 'FeatureCollection',
     features: projects.map((p) => ({
@@ -28,14 +41,25 @@ function toFeatureCollection(projects: SlimProject[]): GeoJSON.FeatureCollection
         developer: p.developer,
         apartmentCount: p.apartmentCount,
         buildStage: p.buildStage,
+        score: p.score ?? 0,
+        percentile: p.percentile ?? 0,
       },
       geometry: { type: 'Point', coordinates: [p.location.lng, p.location.lat] },
     })),
   };
 }
 
-export default function Map({ projects }: MapProps) {
+export default function Map({ projects, selectedId, onSelect }: MapProps) {
   const data = toFeatureCollection(projects);
+
+  const handleClick = (e: MapLayerMouseEvent) => {
+    const feature = e.features?.[0];
+    if (feature?.properties && typeof feature.properties.id === 'string') {
+      onSelect?.(feature.properties.id);
+    } else {
+      onSelect?.(null);
+    }
+  };
 
   return (
     <MapLibre
@@ -47,6 +71,9 @@ export default function Map({ projects }: MapProps) {
       mapStyle={MAP_STYLE}
       attributionControl={false}
       style={{ width: '100%', height: '100%' }}
+      interactiveLayerIds={['clusters', 'unclustered-point']}
+      onClick={handleClick}
+      cursor="pointer"
     >
       <NavigationControl position="bottom-left" />
       <AttributionControl
@@ -84,20 +111,24 @@ export default function Map({ projects }: MapProps) {
           type="circle"
           filter={['!', ['has', 'point_count']]}
           paint={{
+            // Color interpolates red → amber → green on the percentile.
             'circle-color': [
-              'match',
-              ['get', 'buildStage'],
-              'ready',
-              '#4F8A4A',
-              'nearly-complete',
+              'interpolate',
+              ['linear'],
+              ['get', 'percentile'],
+              0,
+              '#B23A2A',
+              0.5,
               '#D9A441',
-              'under-construction',
-              '#5D8AA8',
-              'pre-sales',
-              '#8A857B',
-              '#1A1A17',
+              1,
+              '#4F8A4A',
             ],
-            'circle-radius': 8,
+            'circle-radius': [
+              'case',
+              ['==', ['get', 'id'], selectedId ?? ''],
+              12,
+              8,
+            ],
             'circle-stroke-color': '#1A1A17',
             'circle-stroke-width': [
               'match',

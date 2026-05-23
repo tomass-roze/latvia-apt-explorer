@@ -1,1 +1,802 @@
-[]
+[
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgiw5",
+    "floor": 1,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGIW5",
+    "price": {
+      "eur": 110500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2335,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 1
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgiwl",
+    "floor": 1,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGIWL",
+    "price": {
+      "eur": 113600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2389,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 1
+  },
+  {
+    "area": 44.02,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgix1",
+    "floor": 1,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGIX1",
+    "price": {
+      "eur": 111400,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2531,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 1
+  },
+  {
+    "area": 60.41,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgiyd",
+    "floor": 2,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGIYD",
+    "price": {
+      "eur": 151200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2503,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgiyt",
+    "floor": 2,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGIYT",
+    "price": {
+      "eur": 116300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2458,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 2
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgiz9",
+    "floor": 2,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGIZ9",
+    "price": {
+      "eur": 119600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2515,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 2
+  },
+  {
+    "area": 44.02,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgizp",
+    "floor": 2,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGIZP",
+    "price": {
+      "eur": 114100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2592,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 2
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgj1h",
+    "floor": 3,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGJ1H",
+    "price": {
+      "eur": 118000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2494,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 3
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11vgj1x",
+    "floor": 3,
+    "id": "yit--0f7ab7740a3ca64c:1-11VGJ1X",
+    "price": {
+      "eur": 121300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2551,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 3
+  },
+  {
+    "area": 60.41,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4df9",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DF9",
+    "price": {
+      "eur": 155700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2577,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 4
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dfp",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DFP",
+    "price": {
+      "eur": 119700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2530,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 4
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dg5",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DG5",
+    "price": {
+      "eur": 123100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2589,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 4
+  },
+  {
+    "area": 60.41,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dhx",
+    "floor": 5,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DHX",
+    "price": {
+      "eur": 158000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2615,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4did",
+    "floor": 5,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DID",
+    "price": {
+      "eur": 121500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2568,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dit",
+    "floor": 5,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DIT",
+    "price": {
+      "eur": 125000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2629,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 60.41,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dkl",
+    "floor": 6,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DKL",
+    "price": {
+      "eur": 159500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2640,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dl1",
+    "floor": 6,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DL1",
+    "price": {
+      "eur": 122700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2593,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dlh",
+    "floor": 6,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DLH",
+    "price": {
+      "eur": 126100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2652,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 44.02,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dlx",
+    "floor": 6,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DLX",
+    "price": {
+      "eur": 120400,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2735,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dmt",
+    "floor": 1,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DMT",
+    "price": {
+      "eur": 113600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2389,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 1
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dn9",
+    "floor": 1,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DN9",
+    "price": {
+      "eur": 110500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2335,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 1
+  },
+  {
+    "area": 85.47,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4do5",
+    "floor": 1,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DO5",
+    "price": {
+      "eur": 202200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2366,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 4,
+    "totalFloors": 1
+  },
+  {
+    "area": 58.56,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dol",
+    "floor": 1,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DOL",
+    "price": {
+      "eur": 138000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2357,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 1
+  },
+  {
+    "area": 60.41,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dqd",
+    "floor": 2,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DQD",
+    "price": {
+      "eur": 151200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2503,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4ds5",
+    "floor": 3,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DS5",
+    "price": {
+      "eur": 121300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2551,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 3
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dsl",
+    "floor": 3,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DSL",
+    "price": {
+      "eur": 118000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2494,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 3
+  },
+  {
+    "area": 60.41,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dt1",
+    "floor": 3,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DT1",
+    "price": {
+      "eur": 153400,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2539,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 64.14,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dtx",
+    "floor": 3,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DTX",
+    "price": {
+      "eur": 162800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2538,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 44,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dud",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DUD",
+    "price": {
+      "eur": 120500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2739,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 4
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dut",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DUT",
+    "price": {
+      "eur": 123100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2589,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 4
+  },
+  {
+    "area": 60.41,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dvp",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DVP",
+    "price": {
+      "eur": 155700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2577,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 4
+  },
+  {
+    "area": 85.47,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dw5",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DW5",
+    "price": {
+      "eur": 219300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2566,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 4,
+    "totalFloors": 4
+  },
+  {
+    "area": 64.14,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dwl",
+    "floor": 4,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DWL",
+    "price": {
+      "eur": 165200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2576,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 4
+  },
+  {
+    "area": 44,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dx1",
+    "floor": 5,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DX1",
+    "price": {
+      "eur": 122200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2777,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dxh",
+    "floor": 5,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DXH",
+    "price": {
+      "eur": 125000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2629,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 60.41,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dyd",
+    "floor": 5,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DYD",
+    "price": {
+      "eur": 158000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2615,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 64.14,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4dz9",
+    "floor": 5,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4DZ9",
+    "price": {
+      "eur": 167600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2613,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 47.55,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4e05",
+    "floor": 6,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4E05",
+    "price": {
+      "eur": 126100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2652,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 47.32,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4e0l",
+    "floor": 6,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4E0L",
+    "price": {
+      "eur": 122700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2593,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 60.41,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2/1-11x4e11",
+    "floor": 6,
+    "id": "yit--0f7ab7740a3ca64c:1-11X4E11",
+    "price": {
+      "eur": 159500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2640,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--0f7ab7740a3ca64c",
+    "rooms": 3,
+    "totalFloors": 6
+  }
+]

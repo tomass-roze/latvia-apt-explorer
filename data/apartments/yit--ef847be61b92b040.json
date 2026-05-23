@@ -1,1 +1,642 @@
-[]
+[
+  {
+    "area": 60.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102615",
+    "floor": 6,
+    "id": "yit--ef847be61b92b040:PDLV102615",
+    "price": {
+      "eur": 193400,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3186,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 44.5,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102616",
+    "floor": 6,
+    "id": "yit--ef847be61b92b040:PDLV102616",
+    "price": {
+      "eur": 140900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3166,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 58.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102617",
+    "floor": 6,
+    "id": "yit--ef847be61b92b040:PDLV102617",
+    "price": {
+      "eur": 193200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3320,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 58.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102618",
+    "floor": 6,
+    "id": "yit--ef847be61b92b040:PDLV102618",
+    "price": {
+      "eur": 192800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3313,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 47.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102619",
+    "floor": 6,
+    "id": "yit--ef847be61b92b040:PDLV102619",
+    "price": {
+      "eur": 157700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3292,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 6
+  },
+  {
+    "area": 60.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102620",
+    "floor": 5,
+    "id": "yit--ef847be61b92b040:PDLV102620",
+    "price": {
+      "eur": 189900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3129,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 58.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102621",
+    "floor": 5,
+    "id": "yit--ef847be61b92b040:PDLV102621",
+    "price": {
+      "eur": 189600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3258,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 58.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102622",
+    "floor": 5,
+    "id": "yit--ef847be61b92b040:PDLV102622",
+    "price": {
+      "eur": 189200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3251,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 47.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102623",
+    "floor": 5,
+    "id": "yit--ef847be61b92b040:PDLV102623",
+    "price": {
+      "eur": 154700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3230,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 64.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102624",
+    "floor": 5,
+    "id": "yit--ef847be61b92b040:PDLV102624",
+    "price": {
+      "eur": 207200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3202,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 5
+  },
+  {
+    "area": 47.9,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102626",
+    "floor": 4,
+    "id": "yit--ef847be61b92b040:PDLV102626",
+    "price": {
+      "eur": 151800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3169,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 4
+  },
+  {
+    "area": 64.7,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102627",
+    "floor": 4,
+    "id": "yit--ef847be61b92b040:PDLV102627",
+    "price": {
+      "eur": 203200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3141,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 4
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102628",
+    "floor": 3,
+    "id": "yit--ef847be61b92b040:PDLV102628",
+    "price": {
+      "eur": 133100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2991,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 3
+  },
+  {
+    "area": 60.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102629",
+    "floor": 3,
+    "id": "yit--ef847be61b92b040:PDLV102629",
+    "price": {
+      "eur": 182700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3010,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 58.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102630",
+    "floor": 3,
+    "id": "yit--ef847be61b92b040:PDLV102630",
+    "price": {
+      "eur": 182500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3136,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 58.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102631",
+    "floor": 3,
+    "id": "yit--ef847be61b92b040:PDLV102631",
+    "price": {
+      "eur": 182100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3129,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 64.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102633",
+    "floor": 3,
+    "id": "yit--ef847be61b92b040:PDLV102633",
+    "price": {
+      "eur": 199300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3080,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 3
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102634",
+    "floor": 2,
+    "id": "yit--ef847be61b92b040:PDLV102634",
+    "price": {
+      "eur": 130400,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2930,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 2
+  },
+  {
+    "area": 60.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102635",
+    "floor": 2,
+    "id": "yit--ef847be61b92b040:PDLV102635",
+    "price": {
+      "eur": 179100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2951,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 58.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102636",
+    "floor": 2,
+    "id": "yit--ef847be61b92b040:PDLV102636",
+    "price": {
+      "eur": 178800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3072,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 58.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102637",
+    "floor": 2,
+    "id": "yit--ef847be61b92b040:PDLV102637",
+    "price": {
+      "eur": 178500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3067,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 64.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102638",
+    "floor": 6,
+    "id": "yit--ef847be61b92b040:PDLV102638",
+    "price": {
+      "eur": 211000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3261,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 6
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102639",
+    "floor": 5,
+    "id": "yit--ef847be61b92b040:PDLV102639",
+    "price": {
+      "eur": 138200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3106,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 5
+  },
+  {
+    "area": 58.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102640",
+    "floor": 1,
+    "id": "yit--ef847be61b92b040:PDLV102640",
+    "price": {
+      "eur": 171300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2943,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 1
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102641",
+    "floor": 4,
+    "id": "yit--ef847be61b92b040:PDLV102641",
+    "price": {
+      "eur": 135700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3049,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 4
+  },
+  {
+    "area": 60.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102642",
+    "floor": 4,
+    "id": "yit--ef847be61b92b040:PDLV102642",
+    "price": {
+      "eur": 186200,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3068,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 4
+  },
+  {
+    "area": 58.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102643",
+    "floor": 4,
+    "id": "yit--ef847be61b92b040:PDLV102643",
+    "price": {
+      "eur": 186000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3196,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 4
+  },
+  {
+    "area": 58.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102644",
+    "floor": 1,
+    "id": "yit--ef847be61b92b040:PDLV102644",
+    "price": {
+      "eur": 171600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2948,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 1
+  },
+  {
+    "area": 60.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102645",
+    "floor": 1,
+    "id": "yit--ef847be61b92b040:PDLV102645",
+    "price": {
+      "eur": 171800,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2830,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 1
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102646",
+    "floor": 1,
+    "id": "yit--ef847be61b92b040:PDLV102646",
+    "price": {
+      "eur": 126100,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2834,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 1
+  },
+  {
+    "area": 64.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102647",
+    "floor": 2,
+    "id": "yit--ef847be61b92b040:PDLV102647",
+    "price": {
+      "eur": 195400,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3020,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 3,
+    "totalFloors": 2
+  },
+  {
+    "area": 47.9,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102648",
+    "floor": 2,
+    "id": "yit--ef847be61b92b040:PDLV102648",
+    "price": {
+      "eur": 145900,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 3046,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--ef847be61b92b040",
+    "rooms": 2,
+    "totalFloors": 2
+  }
+]

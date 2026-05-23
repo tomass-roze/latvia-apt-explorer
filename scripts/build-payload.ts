@@ -16,6 +16,7 @@ const REPO_ROOT = process.cwd();
 const SCRAPED_DIR = join(REPO_ROOT, 'data', 'scraped');
 const APARTMENTS_DIR = join(REPO_ROOT, 'data', 'apartments');
 const PROJECTS_FILE = join(REPO_ROOT, 'data', 'projects.json');
+const APARTMENTS_FLAT_FILE = join(REPO_ROOT, 'data', 'apartments.json');
 const MANIFEST_FILE = join(REPO_ROOT, 'data', 'manifest.json');
 
 interface SlimProject {
@@ -91,7 +92,7 @@ async function main(): Promise<void> {
   const projects = await readScrapedDir();
   console.log(`[build-payload] loaded ${projects.length} projects from ${SCRAPED_DIR}`);
 
-  // Slim projection
+  // Slim projection (per-project)
   await atomicWrite(PROJECTS_FILE, stableStringify(projects.map(slim)));
 
   // Per-project apartments (always write, even if empty, for predictability)
@@ -100,6 +101,12 @@ async function main(): Promise<void> {
     await atomicWrite(join(APARTMENTS_DIR, `${p.id}.json`), stableStringify(p.apartments));
     apartmentCounts.set(p.id, p.apartments.length);
   }
+
+  // Flat apartments file — small enough at MVP scale (~100KB for 5k apts) for
+  // the client to fetch once and run filtering + scoring across all of them
+  // without lazy-loading per pin. Revisit when the dataset grows.
+  const flatApartments = projects.flatMap((p) => p.apartments);
+  await atomicWrite(APARTMENTS_FLAT_FILE, stableStringify(flatApartments));
 
   const manifest: Manifest = {
     builtAt: new Date().toISOString(),

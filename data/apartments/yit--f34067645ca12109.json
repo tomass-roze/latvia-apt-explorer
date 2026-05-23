@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "area": 53.91,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-5/1-zenql1",
+    "floor": 6,
+    "id": "yit--f34067645ca12109:1-ZENQL1",
+    "price": {
+      "eur": 158000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2931,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "yit--f34067645ca12109",
+    "rooms": 3,
+    "totalFloors": 6
+  }
+]
