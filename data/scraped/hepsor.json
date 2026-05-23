@@ -1,0 +1,355 @@
+[
+  {
+    "address": "Jūrmalas gatve 74, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Jūrmalas",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--2256987485ba8ce9",
+    "location": {
+      "lat": 56.952085,
+      "lng": 24.0208438,
+      "source": "nominatim"
+    },
+    "name": "Annenhof Mājas",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:34:57.121Z",
+    "sourceUrl": "https://hepsor.lv/project/annenhof-majas/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Āgenskalna ielā 24, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "iso": "2020-12-31",
+      "kind": "ready"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--41b96a2b04fc906a",
+    "location": {
+      "lat": 56.9446295,
+      "lng": 24.0600937,
+      "source": "nominatim"
+    },
+    "name": "Āgenskalna ielā 24",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:33:52.627Z",
+    "sourceUrl": "https://hepsor.lv/project/agenskalna-24/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Eiženijas iela 18, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--55acf32955ae69a2",
+    "location": {
+      "lat": 56.956873,
+      "lng": 24.05648,
+      "source": "nominatim"
+    },
+    "name": "Ķiršu Kalna Mājas",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:35:31.208Z",
+    "sourceUrl": "https://hepsor.lv/project/kirsu-kalna-majas/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Strēlnieku 4b, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "iso": "2020-12-31",
+      "kind": "ready"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Centrs",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--6c8d034af8aadad8",
+    "location": {
+      "lat": 56.9606608,
+      "lng": 24.1106198,
+      "source": "nominatim"
+    },
+    "name": "Strēlnieku 4b",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:35:12.030Z",
+    "sourceUrl": "https://hepsor.lv/project/strelnieku-4b/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Dreiliņi, Ulbrokas 34, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Dreiliņi",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--83bf175e2180dadd",
+    "location": {
+      "lat": 56.9487294,
+      "lng": 24.2197591,
+      "source": "nominatim"
+    },
+    "name": "StokOfiss U34",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:35:23.886Z",
+    "sourceUrl": "https://hepsor.lv/project/stokofiss-u34/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Āgenskalns, Gregora iela 2A, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "iso": "2023-12-31",
+      "kind": "ready"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--8895791bb45c5d0c",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Kuldīgas Parks",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:34:46.233Z",
+    "sourceUrl": "https://hepsor.lv/project/kuldigas-park/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Dzelzavas iela 74c, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--8d6c08e669975aa5",
+    "location": {
+      "lat": 56.9545327,
+      "lng": 24.1915467,
+      "source": "nominatim"
+    },
+    "name": "360° Dzelzavas Residences",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:35:28.157Z",
+    "sourceUrl": "https://hepsor.lv/project/360dzelavas-residences/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Baložu 9, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "iso": "2022-12-31",
+      "kind": "ready"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--959d6529d99f8dcb",
+    "location": {
+      "lat": 56.9441926,
+      "lng": 24.0738166,
+      "source": "nominatim"
+    },
+    "name": "Baložu 9",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:33:54.511Z",
+    "sourceUrl": "https://hepsor.lv/project/balozu-9/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Dreiliņi, Ulbrokas 30, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "iso": "2022-12-31",
+      "kind": "ready"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Dreiliņi",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--9fcdd73719ab1b84",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "StokOfiss U30",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:33:59.482Z",
+    "sourceUrl": "https://hepsor.lv/project/stokofiss-u30/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Mārupe, Lielā iela 45, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "iso": "2023-12-31",
+      "kind": "ready"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Mārupe",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--a749d822d6e2ad7a",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Mārupes Dārzs",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:34:43.917Z",
+    "sourceUrl": "https://hepsor.lv/project/marupes-darzs/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Krasta iela 1A, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "iso": "2023-12-31",
+      "kind": "ready"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Krasta",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--a89306aa8d5e8f2a",
+    "location": {
+      "lat": 56.9367205,
+      "lng": 24.1286506,
+      "source": "nominatim"
+    },
+    "name": "Krasta City biznesa komplekss",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:35:17.291Z",
+    "sourceUrl": "https://hepsor.lv/project/krasta-city-arikompleks/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Āgenskalns, Ranka dambis 5, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "hepsor--b097d7cc260ea91f",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Nameja Rezidence",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:35:10.023Z",
+    "sourceUrl": "https://hepsor.lv/project/nameja-rezidence/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  }
+]

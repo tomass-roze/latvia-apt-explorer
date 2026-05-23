@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        developer: [yit, bonava, pillar, invego]
+        developer: [yit, bonava, pillar, invego, hepsor]
     steps:
       - uses: actions/checkout@v5
         with:
@@ -37,6 +37,21 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      # Playwright browser binaries are required by the hepsor scraper only,
+      # but installing per-matrix-job is simpler than splitting the matrix.
+      # Restoring from cache when the lockfile hasn't changed avoids the
+      # ~90MB download on every run.
+      - name: Cache Playwright browsers
+        if: matrix.developer == 'hepsor'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+
+      - name: Install Playwright chromium
+        if: matrix.developer == 'hepsor'
+        run: pnpm exec playwright install --with-deps chromium
 
       - name: Run scraper
         env:

@@ -724,6 +724,220 @@
     "buildStage": "pre-sales",
     "city": "Rīga",
     "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Jūrmalas",
+    "energyClass": "unknown",
+    "id": "hepsor--2256987485ba8ce9",
+    "location": {
+      "lat": 56.952085,
+      "lng": 24.0208438,
+      "source": "nominatim"
+    },
+    "name": "Annenhof Mājas",
+    "scrapedAt": "2026-05-23T16:34:57.121Z",
+    "sourceUrl": "https://hepsor.lv/project/annenhof-majas/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "id": "hepsor--41b96a2b04fc906a",
+    "location": {
+      "lat": 56.9446295,
+      "lng": 24.0600937,
+      "source": "nominatim"
+    },
+    "name": "Āgenskalna ielā 24",
+    "scrapedAt": "2026-05-23T16:33:52.627Z",
+    "sourceUrl": "https://hepsor.lv/project/agenskalna-24/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "energyClass": "unknown",
+    "id": "hepsor--55acf32955ae69a2",
+    "location": {
+      "lat": 56.956873,
+      "lng": 24.05648,
+      "source": "nominatim"
+    },
+    "name": "Ķiršu Kalna Mājas",
+    "scrapedAt": "2026-05-23T16:35:31.208Z",
+    "sourceUrl": "https://hepsor.lv/project/kirsu-kalna-majas/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Centrs",
+    "energyClass": "unknown",
+    "id": "hepsor--6c8d034af8aadad8",
+    "location": {
+      "lat": 56.9606608,
+      "lng": 24.1106198,
+      "source": "nominatim"
+    },
+    "name": "Strēlnieku 4b",
+    "scrapedAt": "2026-05-23T16:35:12.030Z",
+    "sourceUrl": "https://hepsor.lv/project/strelnieku-4b/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Dreiliņi",
+    "energyClass": "unknown",
+    "id": "hepsor--83bf175e2180dadd",
+    "location": {
+      "lat": 56.9487294,
+      "lng": 24.2197591,
+      "source": "nominatim"
+    },
+    "name": "StokOfiss U34",
+    "scrapedAt": "2026-05-23T16:35:23.886Z",
+    "sourceUrl": "https://hepsor.lv/project/stokofiss-u34/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "id": "hepsor--8895791bb45c5d0c",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Kuldīgas Parks",
+    "scrapedAt": "2026-05-23T16:34:46.233Z",
+    "sourceUrl": "https://hepsor.lv/project/kuldigas-park/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "energyClass": "unknown",
+    "id": "hepsor--8d6c08e669975aa5",
+    "location": {
+      "lat": 56.9545327,
+      "lng": 24.1915467,
+      "source": "nominatim"
+    },
+    "name": "360° Dzelzavas Residences",
+    "scrapedAt": "2026-05-23T16:35:28.157Z",
+    "sourceUrl": "https://hepsor.lv/project/360dzelavas-residences/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "id": "hepsor--959d6529d99f8dcb",
+    "location": {
+      "lat": 56.9441926,
+      "lng": 24.0738166,
+      "source": "nominatim"
+    },
+    "name": "Baložu 9",
+    "scrapedAt": "2026-05-23T16:33:54.511Z",
+    "sourceUrl": "https://hepsor.lv/project/balozu-9/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Dreiliņi",
+    "energyClass": "unknown",
+    "id": "hepsor--9fcdd73719ab1b84",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "StokOfiss U30",
+    "scrapedAt": "2026-05-23T16:33:59.482Z",
+    "sourceUrl": "https://hepsor.lv/project/stokofiss-u30/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Mārupe",
+    "energyClass": "unknown",
+    "id": "hepsor--a749d822d6e2ad7a",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Mārupes Dārzs",
+    "scrapedAt": "2026-05-23T16:34:43.917Z",
+    "sourceUrl": "https://hepsor.lv/project/marupes-darzs/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Krasta",
+    "energyClass": "unknown",
+    "id": "hepsor--a89306aa8d5e8f2a",
+    "location": {
+      "lat": 56.9367205,
+      "lng": 24.1286506,
+      "source": "nominatim"
+    },
+    "name": "Krasta City biznesa komplekss",
+    "scrapedAt": "2026-05-23T16:35:17.291Z",
+    "sourceUrl": "https://hepsor.lv/project/krasta-city-arikompleks/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "hepsor",
+    "district": "Āgenskalns",
+    "energyClass": "unknown",
+    "id": "hepsor--b097d7cc260ea91f",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Nameja Rezidence",
+    "scrapedAt": "2026-05-23T16:35:10.023Z",
+    "sourceUrl": "https://hepsor.lv/project/nameja-rezidence/"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "constructionType": "unknown",
     "developer": "invego",
     "district": "Skanste",
     "energyClass": "unknown",

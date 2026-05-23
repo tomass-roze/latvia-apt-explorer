@@ -1,0 +1,31 @@
+{
+  "apartmentCount": 0,
+  "developer": "hepsor",
+  "errors": [
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"āgenskalns, gregora iela 2a, rīga\"",
+      "projectId": "hepsor--8895791bb45c5d0c"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"āgenskalns, ranka dambis 5, rīga\"",
+      "projectId": "hepsor--b097d7cc260ea91f"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"dreiliņi, ulbrokas 30, rīga\"",
+      "projectId": "hepsor--9fcdd73719ab1b84"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"mārupe, lielā iela 45, rīga\"",
+      "projectId": "hepsor--a749d822d6e2ad7a"
+    }
+  ],
+  "finishedAt": "2026-05-23T16:35:38.781Z",
+  "lastSuccessAt": "2026-05-23T16:33:49.423Z",
+  "projectCount": 12,
+  "startedAt": "2026-05-23T16:33:49.423Z",
+  "status": "partial"
+}
