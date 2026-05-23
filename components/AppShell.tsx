@@ -1,13 +1,15 @@
 'use client';
 
 import Link from 'next/link';
-import { type ReactNode, useMemo } from 'react';
+import { type ReactNode, useEffect, useMemo, useState } from 'react';
 import dynamic from 'next/dynamic';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { DataFreshness, StalenessBanner } from '@/components/map/DataFreshness';
 import { FilterPanel } from '@/components/filters/FilterPanel';
 import { ProjectDetail } from '@/components/project/ProjectDetail';
 import { WeightSliders } from '@/components/scoring/WeightSliders';
 import { SettingsMenu } from '@/components/settings/SettingsMenu';
+import type { ProjectImage } from '@/lib/data.server';
 import { FILTER_DEFAULTS, filterApartments, filtersAreDefault } from '@/lib/filtering';
 import { usePersonalState } from '@/lib/personal/hooks';
 import type { Apartment, Project, ScraperRunResult, Status } from '@/lib/schema';
@@ -49,9 +51,10 @@ interface AppShellProps {
   projects: Project[];
   apartments: Apartment[];
   runs: ScraperRunResult[];
+  images: Record<string, ProjectImage>;
 }
 
-export default function AppShell({ projects, apartments, runs }: AppShellProps) {
+export default function AppShell({ projects, apartments, runs, images }: AppShellProps) {
   const [filters, setFilters] = useFilters();
   const [weights] = useWeights();
   const { getEffectiveStatus } = usePersonalState();
@@ -170,6 +173,19 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
   const totalProjects = visibleProjects.length;
   const showEmptyState = totalProjects === 0;
 
+  // Sidebar collapse state. Both default open. The widths used here MUST match
+  // the design — left filter 340px, right detail/weights 420px. Closing slides
+  // a panel to width 0 via CSS transition; a small reopen button overlays the
+  // map's corresponding edge.
+  const [leftOpen, setLeftOpen] = useState(true);
+  const [rightOpen, setRightOpen] = useState(true);
+
+  // Selecting a pin while the right panel is collapsed would otherwise hide
+  // the detail the user just requested — so we auto-reopen the panel.
+  useEffect(() => {
+    if (selectedProject && !rightOpen) setRightOpen(true);
+  }, [selectedProject, rightOpen]);
+
   return (
     <div className="flex flex-col h-dvh">
       <header className="h-14 px-6 flex items-center justify-between border-b border-[var(--line)] bg-[var(--paper)] shrink-0">
@@ -193,7 +209,10 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
       </header>
 
       <main className="flex-1 flex min-h-0">
-        <div className="flex flex-col w-[340px] shrink-0 border-r border-[var(--line)] min-h-0 overflow-hidden">
+        <div
+          className={`flex flex-col shrink-0 ${leftOpen ? 'border-r border-[var(--line)]' : ''} min-h-0 overflow-hidden transition-[width] duration-200`}
+          style={{ width: leftOpen ? 340 : 0 }}
+        >
           <FilterPanel
             matchingApartments={totalApartments}
             matchingProjects={totalProjects}
@@ -207,16 +226,40 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
             onSelect={(id) => setFilters({ p: id })}
           />
           <StalenessBanner runs={runs} />
+          {/* Sidebar collapse/expand tabs sit on the map edges so they don't
+              overlap with the panels' own content. */}
+          <SidebarToggle
+            side="left"
+            open={leftOpen}
+            onToggle={() => setLeftOpen((v) => !v)}
+            label={leftOpen ? 'Aizvērt filtrus' : 'Filtri'}
+          />
+          <SidebarToggle
+            side="right"
+            open={rightOpen}
+            onToggle={() => setRightOpen((v) => !v)}
+            label={
+              rightOpen
+                ? 'Aizvērt paneli'
+                : selectedProject
+                  ? 'Projekta dati'
+                  : 'Svari'
+            }
+          />
           {showEmptyState ? (
             <EmptyState onReset={() => resetFilters(setFilters)} hadFilters={!filtersAreDefault(filters)} />
           ) : null}
         </div>
 
-        <div className="flex flex-col w-[420px] shrink-0 border-l border-[var(--line)] min-h-0 overflow-hidden">
+        <div
+          className={`flex flex-col shrink-0 ${rightOpen ? 'border-l border-[var(--line)]' : ''} min-h-0 overflow-hidden transition-[width] duration-200`}
+          style={{ width: rightOpen ? 420 : 0 }}
+        >
           {selectedProject ? (
             <ProjectDetail
               project={selectedProject}
               apartments={selectedApartments}
+              {...(images[selectedProject.id] ? { image: images[selectedProject.id]! } : {})}
               {...(selectedRanking
                 ? {
                     score: {
@@ -239,6 +282,37 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
         <span>Personīgie dati glabājas tikai jūsu pārlūkā — nav sīkdatņu, nav izsekošanas.</span>
       </footer>
     </div>
+  );
+}
+
+/**
+ * Vertical tab pinned to the map's left or right edge. Doubles as the
+ * collapse trigger (when sidebar is open) and the reopen trigger (when
+ * sidebar is closed) — the chevron direction conveys which.
+ */
+function SidebarToggle({
+  side,
+  open,
+  onToggle,
+  label,
+}: {
+  side: 'left' | 'right';
+  open: boolean;
+  onToggle: () => void;
+  label: string;
+}) {
+  const Icon = side === 'left' ? (open ? ChevronLeft : ChevronRight) : open ? ChevronRight : ChevronLeft;
+  const position = side === 'left' ? 'left-0 rounded-r-md border-l-0' : 'right-0 rounded-l-md border-r-0';
+  return (
+    <button
+      type="button"
+      onClick={onToggle}
+      aria-label={label}
+      title={label}
+      className={`absolute top-1/2 -translate-y-1/2 z-10 h-12 w-6 grid place-items-center bg-[var(--paper)]/95 border border-[var(--line)] hover:border-[var(--ink-3)] text-[var(--ink-2)] shadow-sm ${position}`}
+    >
+      <Icon className="w-4 h-4" />
+    </button>
   );
 }
 

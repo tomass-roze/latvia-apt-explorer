@@ -1,8 +1,18 @@
 // Display formatting for the Latvian UI. Single home for all human-readable
 // conversions — prevents every component from reinventing them.
 
-import type { CompletionEstimate, Price } from './schema';
+import type { Apartment, CompletionEstimate, Developer, Price } from './schema';
 import { assertNever } from './schema';
+
+export const DEVELOPER_LABELS: Record<Developer, string> = {
+  bonava: 'Bonava',
+  hepsor: 'Hepsor',
+  invego: 'Invego',
+  merks: 'Merks',
+  pillar: 'Pillar',
+  vastint: 'Vastint',
+  yit: 'YIT',
+};
 
 const PRICE_FORMATTER = new Intl.NumberFormat('lv-LV', {
   style: 'decimal',
@@ -49,6 +59,52 @@ export function formatPricePerSqm(price: Price): string {
 /** Format an area in m². */
 export function formatArea(m2: number): string {
   return `${AREA_FORMATTER.format(m2)} m²`;
+}
+
+/**
+ * Range helpers for project summaries: collapse to a single value when
+ * min == max, render a range otherwise, return null when there's no data.
+ */
+export function formatAreaRange(apartments: readonly Apartment[]): string | null {
+  const areas = apartments.map((a) => a.area).filter((n) => Number.isFinite(n) && n > 0);
+  if (areas.length === 0) return null;
+  const min = Math.min(...areas);
+  const max = Math.max(...areas);
+  if (Math.abs(max - min) < 0.1) return formatArea(min);
+  return `${formatArea(min)} – ${formatArea(max)}`;
+}
+
+export function formatPriceRange(apartments: readonly Apartment[]): string | null {
+  const prices = apartments
+    .map((a) => (a.price.kind === 'amount' ? a.price.eur : null))
+    .filter((n): n is number => n !== null && n > 0);
+  if (prices.length === 0) return null;
+  const min = Math.min(...prices);
+  const max = Math.max(...prices);
+  const fmt = (n: number) => `€${PRICE_FORMATTER.format(n)}`;
+  if (min === max) return fmt(min);
+  return `${fmt(min)} – ${fmt(max)}`;
+}
+
+export function formatPricePerSqmRange(apartments: readonly Apartment[]): string | null {
+  const prices = apartments
+    .map((a) => (a.pricePerSqm.kind === 'amount' ? a.pricePerSqm.eur : null))
+    .filter((n): n is number => n !== null && n > 0);
+  if (prices.length === 0) return null;
+  const min = Math.min(...prices);
+  const max = Math.max(...prices);
+  const fmt = (n: number) => `€${PRICE_FORMATTER.format(n)}/m²`;
+  if (min === max) return fmt(min);
+  return `${fmt(min)} – ${fmt(max)}`;
+}
+
+export function formatRoomsRange(apartments: readonly Apartment[]): string | null {
+  const rooms = apartments.map((a) => a.rooms).filter((n) => Number.isFinite(n) && n > 0);
+  if (rooms.length === 0) return null;
+  const min = Math.min(...rooms);
+  const max = Math.max(...rooms);
+  if (min === max) return `${min}`;
+  return `${min} – ${max}`;
 }
 
 /** Format a CompletionEstimate as a Latvian display string. */

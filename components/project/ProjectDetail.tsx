@@ -1,7 +1,20 @@
 'use client';
 
+import { useState } from 'react';
 import type { Apartment, Project } from '@/lib/schema';
-import { formatArea, formatCompletion, formatPrice, formatPricePerSqm } from '@/lib/format';
+import type { ProjectImage } from '@/lib/data.server';
+import {
+  DEVELOPER_LABELS,
+  formatArea,
+  formatAreaRange,
+  formatCompletion,
+  formatPrice,
+  formatPriceRange,
+  formatPricePerSqm,
+  formatPricePerSqmRange,
+  formatRoomsRange,
+} from '@/lib/format';
+import { AvailabilityBreakdown } from '@/components/project/AvailabilityBreakdown';
 import { ScoreBreakdownDetail } from '@/components/scoring/ScoreBreakdown';
 import { StatusNotes } from '@/components/project/StatusNotes';
 import type { ScoreBreakdown } from '@/lib/scoring/score';
@@ -9,6 +22,7 @@ import type { ScoreBreakdown } from '@/lib/scoring/score';
 interface ProjectDetailProps {
   project: Project;
   apartments: Apartment[];
+  image?: ProjectImage;
   score?: { breakdown: ScoreBreakdown; rank: number; total: number };
   onClose: () => void;
 }
@@ -40,12 +54,28 @@ const AVAILABILITY_LABELS: Record<Apartment['availability'], string> = {
   sold: 'Pārdots',
 };
 
-export function ProjectDetail({ project, apartments, score, onClose }: ProjectDetailProps) {
+export function ProjectDetail({
+  project,
+  apartments,
+  image,
+  score,
+  onClose,
+}: ProjectDetailProps) {
+  // Apartments visible inside the panel: filtered subset (used by the list +
+  // summary's "matching this filter" annotation, if we ever add one).
   const sortedApts = [...apartments].sort((a, b) => {
     const aPrice = a.price.kind === 'amount' ? a.price.eur : Number.POSITIVE_INFINITY;
     const bPrice = b.price.kind === 'amount' ? b.price.eur : Number.POSITIVE_INFINITY;
     return aPrice - bPrice;
   });
+
+  // Ranges + breakdown use the PROJECT'S full inventory, not the filter-narrowed
+  // list — the summary describes the project, not a query result.
+  const allApts = project.apartments;
+  const areaRange = formatAreaRange(allApts);
+  const priceRange = formatPriceRange(allApts);
+  const pricePerSqmRange = formatPricePerSqmRange(allApts);
+  const roomsRange = formatRoomsRange(allApts);
 
   return (
     <aside className="w-full h-full bg-[var(--paper)] overflow-y-auto">
@@ -67,10 +97,15 @@ export function ProjectDetail({ project, apartments, score, onClose }: ProjectDe
         </button>
       </header>
 
+      {image ? <HeroImage image={image} fallbackAlt={project.name} /> : null}
+
       <div className="p-6 bg-[var(--paper-2)] space-y-3">
-        <h2 className="font-display text-2xl">{project.name}</h2>
+        <div className="flex items-start justify-between gap-3">
+          <h2 className="font-display text-2xl leading-tight">{project.name}</h2>
+        </div>
         <p className="text-sm text-[var(--ink-2)]">{project.address}</p>
         <div className="flex flex-wrap items-center gap-1.5">
+          <SmallChip strong>{DEVELOPER_LABELS[project.developer]}</SmallChip>
           <SmallChip>{STAGE_LABELS[project.buildStage]}</SmallChip>
           <SmallChip>Energoklase {ENERGY_LABELS[project.energyClass]}</SmallChip>
           <SmallChip>{CONSTRUCTION_LABELS[project.constructionType]}</SmallChip>
@@ -86,6 +121,26 @@ export function ProjectDetail({ project, apartments, score, onClose }: ProjectDe
         ) : null}
       </div>
 
+      {/* Summary: project-wide ranges + availability breakdown. */}
+      {(areaRange || priceRange || allApts.length > 0) ? (
+        <section className="px-6 py-5 border-b border-[var(--line)] space-y-4">
+          <h3 className="text-[10px] uppercase tracking-wider text-[var(--ink-3)]">
+            Kopsavilkums
+          </h3>
+          <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
+            {roomsRange ? (
+              <SummaryRow label="Istabas" value={`${roomsRange} ist`} />
+            ) : null}
+            {areaRange ? <SummaryRow label="Platība" value={areaRange} /> : null}
+            {priceRange ? <SummaryRow label="Cena" value={priceRange} /> : null}
+            {pricePerSqmRange ? (
+              <SummaryRow label="Cena par m²" value={pricePerSqmRange} />
+            ) : null}
+          </dl>
+          <AvailabilityBreakdown apartments={allApts} />
+        </section>
+      ) : null}
+
       <section className="px-6 py-5 grid grid-cols-2 gap-x-6 gap-y-3 border-b border-[var(--line)]">
         <Fact label="Pilsēta" value={project.city} />
         {project.district ? <Fact label="Apkaime" value={project.district} /> : null}
@@ -99,7 +154,7 @@ export function ProjectDetail({ project, apartments, score, onClose }: ProjectDe
 
       <section className="px-6 py-5">
         <h3 className="text-xs uppercase tracking-wider text-[var(--ink-3)] mb-3">
-          Dzīvokļi ({apartments.length})
+          Dzīvokļi pēc filtra ({apartments.length})
         </h3>
         {sortedApts.length === 0 ? (
           <p className="text-sm text-[var(--ink-3)]">
@@ -130,6 +185,42 @@ export function ProjectDetail({ project, apartments, score, onClose }: ProjectDe
   );
 }
 
+function HeroImage({ image, fallbackAlt }: { image: ProjectImage; fallbackAlt: string }) {
+  const [broken, setBroken] = useState(false);
+  if (broken) {
+    return (
+      <div className="aspect-[16/9] w-full bg-[var(--paper-2)] flex items-center justify-center">
+        <span className="text-xs text-[var(--ink-3)]">Attēls nav pieejams</span>
+      </div>
+    );
+  }
+  return (
+    <div className="aspect-[16/9] w-full bg-[var(--paper-2)] overflow-hidden">
+      {/* biome-ignore lint/performance/noImgElement: hotlinked from developer CDN; next/image would proxy through Vercel's image optimizer and hit free-tier limits. */}
+      <img
+        src={image.url}
+        alt={image.alt ?? fallbackAlt}
+        loading="lazy"
+        decoding="async"
+        referrerPolicy="no-referrer"
+        className="w-full h-full object-cover"
+        onError={() => setBroken(true)}
+      />
+    </div>
+  );
+}
+
+function SummaryRow({ label, value }: { label: string; value: string }) {
+  return (
+    <>
+      <dt className="text-xs text-[var(--ink-3)] uppercase tracking-wider self-baseline">
+        {label}
+      </dt>
+      <dd className="text-sm text-[var(--ink)] tabular-nums">{value}</dd>
+    </>
+  );
+}
+
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div>
@@ -141,9 +232,15 @@ function Fact({ label, value }: { label: string; value: string }) {
   );
 }
 
-function SmallChip({ children }: { children: React.ReactNode }) {
+function SmallChip({ children, strong }: { children: React.ReactNode; strong?: boolean }) {
   return (
-    <span className="h-6 px-2 inline-flex items-center text-[11px] bg-[var(--paper)] border border-[var(--line)] rounded-md text-[var(--ink-2)]">
+    <span
+      className={`h-6 px-2 inline-flex items-center text-[11px] rounded-md border ${
+        strong
+          ? 'bg-[var(--ink)] border-[var(--ink)] text-[var(--paper)]'
+          : 'bg-[var(--paper)] border-[var(--line)] text-[var(--ink-2)]'
+      }`}
+    >
       {children}
     </span>
   );

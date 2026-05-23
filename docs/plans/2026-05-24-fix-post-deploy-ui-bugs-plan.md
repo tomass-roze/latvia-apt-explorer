@@ -686,7 +686,7 @@ When a project is selected, the right panel should surface, at minimum:
 | Developer | `project.developer` (literal enum) | ✓ |
 | m² range | `apartments[].area` | ✓ when apartments scraped |
 | Price range | `apartments[].price.eur` (when kind = 'amount') | ✓ when apartments scraped |
-| Bathroom count range | `apartments[].bathrooms` | **✗ NOT SCRAPED** — neither YIT's dataLayer nor Bonava's apartment JSON blob exposes a bathroom field. Confirmed by `jq` query against `data/scraped/bonava.json` and `yit.json`. The `bathrooms` field exists in our `ApartmentSchema` (optional), but no scraper populates it because the source pages don't surface it on public listings. |
+| Bathroom count range | `apartments[].bathrooms` | **✗ NOT AVAILABLE** — user pushed back ("I believe you can find this when scraping") so I re-investigated thoroughly: dumped all Title/Value pairs from Bonava apartment pages (5 fields total: Platība, Stāvs, Istabas, Cena, Cena par m² — no bathrooms), full-text grep for `vanna|sanmezgl|sanitar|bathroom|wc|tualet` across both YIT and Bonava apartment + project pages (0 hits), checked floor-plan image URLs and alt text (no encoded info). Bathroom count is genuinely not on the public listings — only visible to a human looking at the floor plan PDF. Decision: drop the row from the summary; bathroom info would need OCR of floor plans or direct outreach to developers, both out of scope. |
 | Thumbnail image | none today | Need a new override system. |
 | Apartment counts | `apartments[]` array | ✓ |
 

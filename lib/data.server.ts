@@ -4,6 +4,7 @@
 
 import { readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
+import { z } from 'zod';
 import {
   type Apartment,
   ApartmentSchema,
@@ -17,6 +18,7 @@ const REPO_ROOT = process.cwd();
 const SCRAPED_DIR = join(REPO_ROOT, 'data', 'scraped');
 const RUNS_DIR = join(REPO_ROOT, 'data', 'runs');
 const APARTMENTS_FLAT = join(REPO_ROOT, 'data', 'apartments.json');
+const IMAGES_OVERRIDE = join(REPO_ROOT, 'data', 'overrides', 'project-images.json');
 
 async function readJsonOr<T>(path: string, fallback: T): Promise<T | string> {
   try {
@@ -62,6 +64,46 @@ export async function loadApartments(): Promise<Apartment[]> {
     return [];
   }
   return result.data;
+}
+
+/**
+ * Per-project hero image, hand-curated via `data/overrides/project-images.json`.
+ * Keys are ProjectId strings (e.g., `yit--ef847be61b92b040`). Edit the file,
+ * commit, push — Vercel auto-redeploy picks them up. URLs are hotlinked; CSP
+ * already allows `img-src https:`. If a hotlink breaks the UI shows a neutral
+ * placeholder.
+ */
+const ProjectImageSchema = z.object({
+  url: z.string().url(),
+  alt: z.string().optional(),
+  attribution: z.string().optional(),
+});
+export type ProjectImage = z.infer<typeof ProjectImageSchema>;
+
+const ProjectImagesSchema = z.record(z.string(), ProjectImageSchema);
+
+export async function loadProjectImages(): Promise<Record<string, ProjectImage>> {
+  let raw: string;
+  try {
+    raw = await readFile(IMAGES_OVERRIDE, 'utf8');
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return {};
+    throw err;
+  }
+  try {
+    const parsed = ProjectImagesSchema.safeParse(JSON.parse(raw));
+    if (!parsed.success) {
+      console.warn(
+        '[data.server] project-images.json failed schema:',
+        parsed.error.issues.slice(0, 3),
+      );
+      return {};
+    }
+    return parsed.data;
+  } catch (err) {
+    console.warn('[data.server] project-images.json parse error:', err);
+    return {};
+  }
 }
 
 /** Load every per-developer scraper run report. */
