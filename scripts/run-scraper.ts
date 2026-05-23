@@ -5,11 +5,13 @@
 //   2. Add the literal to DEVELOPERS in lib/schema.ts.
 //   3. Add the developer to the matrix list in .github/workflows/scrape.yml.
 
+import { bonavaScraper } from '@/scrapers/bonava';
 import { yitScraper } from '@/scrapers/yit';
 import type { Scraper } from '@/scrapers/base/interface';
 import { writeScraped } from '@/scrapers/base/io';
 
 const SCRAPERS: Record<string, Scraper> = {
+  bonava: bonavaScraper,
   yit: yitScraper,
 };
 

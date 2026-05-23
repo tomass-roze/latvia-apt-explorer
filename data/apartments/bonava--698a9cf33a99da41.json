@@ -1,0 +1,36 @@
+[
+  {
+    "area": 69,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-pirma-karta/evalda-valtera-44-k1-21",
+    "floor": 3,
+    "id": "bonava--698a9cf33a99da41:evalda-valtera-44-k1-21",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--698a9cf33a99da41",
+    "rooms": 3
+  },
+  {
+    "area": 41.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-pirma-karta/evalda-valtera-44-k1-33",
+    "floor": 5,
+    "id": "bonava--698a9cf33a99da41:evalda-valtera-44-k1-33",
+    "price": {
+      "eur": 104500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2518,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--698a9cf33a99da41",
+    "rooms": 2
+  }
+]

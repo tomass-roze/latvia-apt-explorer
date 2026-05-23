@@ -1,0 +1,940 @@
+[
+  {
+    "area": 75.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---01",
+    "floor": 1,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---01",
+    "price": {
+      "eur": 164000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2181,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---03",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---03",
+    "price": {
+      "eur": 134000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2419,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 75.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---04",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---04",
+    "price": {
+      "eur": 169000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2247,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 48.7,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---05",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---05",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2136,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 44.5,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---06",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---06",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 70.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---07",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---07",
+    "price": {
+      "eur": 157000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2233,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 75.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---09",
+    "floor": 3,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---09",
+    "price": {
+      "eur": 172000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2287,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 48.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---10",
+    "floor": 3,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---10",
+    "price": {
+      "eur": 107000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2197,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 70.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---12",
+    "floor": 3,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---12",
+    "price": {
+      "eur": 160000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2276,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---13",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---13",
+    "price": {
+      "eur": 140000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2527,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 75.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---14",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---14",
+    "price": {
+      "eur": 175000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2327,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 48.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---15",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---15",
+    "price": {
+      "eur": 112000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 70.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---17",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---17",
+    "price": {
+      "eur": 163000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2319,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---18",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---18",
+    "price": {
+      "eur": 144000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2599,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 75.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---19",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---19",
+    "price": {
+      "eur": 179000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2380,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 48.7,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---20",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---20",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---21",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---21",
+    "price": {
+      "eur": 108000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2427,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 70.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---22",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---22",
+    "price": {
+      "eur": 167000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2376,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 55.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---23",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---23",
+    "price": {
+      "eur": 148000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2671,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 75.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---24",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---24",
+    "price": {
+      "eur": 183000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2434,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 48.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---25",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---25",
+    "price": {
+      "eur": 120000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2464,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---26",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---26",
+    "price": {
+      "eur": 112000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2517,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 70.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---27",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---27",
+    "price": {
+      "eur": 171000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2432,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 48.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---28",
+    "floor": 1,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---28",
+    "price": {
+      "eur": 99000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2045,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 71.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---29",
+    "floor": 1,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---29",
+    "price": {
+      "eur": 156000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2188,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 47.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---31",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---31",
+    "price": {
+      "eur": 102000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2156,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 48.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---32",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---32",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2149,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 46.8,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---33",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---33",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 64.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---34",
+    "floor": 2,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---34",
+    "price": {
+      "eur": 149000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2307,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 62.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---36",
+    "floor": 3,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---36",
+    "price": {
+      "eur": 149000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2373,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 47.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---37",
+    "floor": 3,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---37",
+    "price": {
+      "eur": 105000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2220,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 48.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---38",
+    "floor": 3,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---38",
+    "price": {
+      "eur": 107000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2211,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 64.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---40",
+    "floor": 3,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---40",
+    "price": {
+      "eur": 152000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2353,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 62.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---42",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---42",
+    "price": {
+      "eur": 152000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2420,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 47.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---43",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---43",
+    "price": {
+      "eur": 110000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2326,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 48.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---44",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---44",
+    "price": {
+      "eur": 112000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2314,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 46.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---45",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---45",
+    "price": {
+      "eur": 109000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2329,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 64.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---46",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---46",
+    "price": {
+      "eur": 155000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2399,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 88.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---47",
+    "floor": 4,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---47",
+    "price": {
+      "eur": 212000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2390,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 4
+  },
+  {
+    "area": 62.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---48",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---48",
+    "price": {
+      "eur": 156000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2484,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 47.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---49",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---49",
+    "price": {
+      "eur": 114000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2410,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 48.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---50",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---50",
+    "price": {
+      "eur": 116000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2397,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 46.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---51",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---51",
+    "price": {
+      "eur": 113000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2415,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 64.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---52",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---52",
+    "price": {
+      "eur": 159000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2461,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 88.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---53",
+    "floor": 5,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---53",
+    "price": {
+      "eur": 219000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2469,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 4
+  },
+  {
+    "area": 62.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---54",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---54",
+    "price": {
+      "eur": 160000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2548,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 47.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---55",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---55",
+    "price": {
+      "eur": 118000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2495,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 48.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---56",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---56",
+    "price": {
+      "eur": 120000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2479,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 2
+  },
+  {
+    "area": 64.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---58",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---58",
+    "price": {
+      "eur": 163000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2523,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 3
+  },
+  {
+    "area": 88.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja/skaistkalnes-e1---59",
+    "floor": 6,
+    "id": "bonava--dc4487aceee438f0:skaistkalnes-e1---59",
+    "price": {
+      "eur": 229000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2582,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--dc4487aceee438f0",
+    "rooms": 4
+  }
+]

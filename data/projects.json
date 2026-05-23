@@ -1,6 +1,726 @@
 [
   {
     "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--110761abca61d14c",
+    "location": {
+      "lat": 56.988865,
+      "lng": 24.3022553,
+      "source": "nominatim"
+    },
+    "name": "Dreilinga mājas Comfort, Robežu 7",
+    "scrapedAt": "2026-05-23T15:55:04.071Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-comfort-robeu-7"
+  },
+  {
+    "apartmentCount": 23,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Tornakalns",
+    "energyClass": "unknown",
+    "id": "bonava--1e0593cd5e93eef7",
+    "location": {
+      "lat": 56.9298391,
+      "lng": 24.0940113,
+      "source": "nominatim"
+    },
+    "name": "Hartmaņa kvartāls - Jaunais Bonava projekts Torņakalnā, Jelgavas ielā 55B",
+    "scrapedAt": "2026-05-23T15:55:20.623Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Centrs",
+    "energyClass": "unknown",
+    "id": "bonava--2b1b29b3783855f5",
+    "location": {
+      "lat": 56.9730966,
+      "lng": 24.1078698,
+      "source": "nominatim"
+    },
+    "name": "Ganību dambis 9",
+    "scrapedAt": "2026-05-23T15:54:41.993Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/centrs/fjordi/ganibu-dambis-9"
+  },
+  {
+    "apartmentCount": 93,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Tornakalns",
+    "energyClass": "unknown",
+    "id": "bonava--35a247b48c01f936",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Hartmaņa kvartāls, otrā un trešā māja",
+    "scrapedAt": "2026-05-23T15:55:19.560Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-otra-un-tresa-maja"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Krasta Rajons",
+    "energyClass": "unknown",
+    "id": "bonava--3c03ac1f6a7c16a7",
+    "location": {
+      "lat": 56.9305437,
+      "lng": 24.1601489,
+      "source": "nominatim"
+    },
+    "name": "Jaunais projekts Krasta kvartāls, Grēdu iela 15",
+    "scrapedAt": "2026-05-23T15:54:55.855Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/gredu-iela-15"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Krasta Rajons",
+    "energyClass": "unknown",
+    "id": "bonava--3e6a08c23bbacf26",
+    "location": {
+      "lat": 56.9305774,
+      "lng": 24.1619763,
+      "source": "nominatim"
+    },
+    "name": "Krasta Kvartāls Trend, Maskavas 190",
+    "scrapedAt": "2026-05-23T15:54:50.955Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/maskavas-iela-190"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Kengarags",
+    "energyClass": "unknown",
+    "id": "bonava--3eadc903c77937e2",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Blūmendāles mājas – Jaunais projekts Ķengaragā",
+    "scrapedAt": "2026-05-23T15:54:50.205Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/prusu-iela-pirma-karta"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--42fbe4c52588f3e7",
+    "location": {
+      "lat": 56.9884675,
+      "lng": 24.3020571,
+      "source": "nominatim"
+    },
+    "name": "Dreilinga mājas Trend, Robežu 3",
+    "scrapedAt": "2026-05-23T15:55:01.380Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/Robezu-iela-3"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--469cdc33a4e6e17f",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dreilinga mājas Comfort Robežu 15",
+    "scrapedAt": "2026-05-23T15:55:06.185Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-comfort-robeu-15"
+  },
+  {
+    "apartmentCount": 58,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Sampeteris",
+    "energyClass": "unknown",
+    "id": "bonava--53de055189e88ec1",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Šampētera kvartāls – zaļš un moderns jaunais projekts Pārdaugavā",
+    "scrapedAt": "2026-05-23T15:55:18.216Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta"
+  },
+  {
+    "apartmentCount": 37,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--57afc6cc7e3effde",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Valterciems, ceturtā māja",
+    "scrapedAt": "2026-05-23T15:55:12.889Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-ceturta-maja"
+  },
+  {
+    "apartmentCount": 2,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--698a9cf33a99da41",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Valterciems, pirmā māja",
+    "scrapedAt": "2026-05-23T15:55:16.742Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-pirma-karta"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Krasta Rajons",
+    "energyClass": "unknown",
+    "id": "bonava--6a8155871041962b",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dzīvoklis Krasta rajonā - Jaunais Projekts ar skatu uz Daugavu",
+    "scrapedAt": "2026-05-23T15:54:51.919Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/maskavas-iela-192"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Teika",
+    "energyClass": "unknown",
+    "id": "bonava--6d6a0b35f850e0ff",
+    "location": {
+      "lat": 56.977154,
+      "lng": 24.1689831,
+      "source": "nominatim"
+    },
+    "name": "Ropažu 16A, pirmā māja",
+    "scrapedAt": "2026-05-23T15:54:45.408Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/teika/ropazu-iela/ropazu-iela-16"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--7b9c6c7bafc11a77",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dreilinga mājas Trend, Mazā Robežu 2",
+    "scrapedAt": "2026-05-23T15:55:10.795Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/maza-robezu-2"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--7d7f5a5fdad1ecc9",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Jaunais Bonava Latvija projekts Dreiliņos - \"Dreilinga mājas\", Mazā Robežu iela 1",
+    "scrapedAt": "2026-05-23T15:55:11.842Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-maz-robeu-1"
+  },
+  {
+    "apartmentCount": 43,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Dzirciems",
+    "energyClass": "unknown",
+    "id": "bonava--7f2ced93cb5e26c3",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dzirciema pagalms, pirmā māja",
+    "scrapedAt": "2026-05-23T15:56:04.063Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--8242e08de341fe95",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dreilinga mājas Trend, Mazā Robežu 4",
+    "scrapedAt": "2026-05-23T15:55:07.525Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-maz-robeu-4"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--9cdba1a6e6f69c77",
+    "location": {
+      "lat": 56.9228117,
+      "lng": 24.0777985,
+      "source": "nominatim"
+    },
+    "name": "Dreilinga mājas Trend, Robežu 9",
+    "scrapedAt": "2026-05-23T15:54:57.505Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-9"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Ziepniekkalns",
+    "energyClass": "unknown",
+    "id": "bonava--9eb1501e2a48fb59",
+    "location": {
+      "lat": 56.9090836,
+      "lng": 24.1046542,
+      "source": "nominatim"
+    },
+    "name": "Tumes iela 25, Ziepniekkalns",
+    "scrapedAt": "2026-05-23T15:54:38.634Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-i"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--a7b87cc62c4bac2a",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dreilinga mājas Trend, Mazā Robežu 3",
+    "scrapedAt": "2026-05-23T15:55:00.309Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-majas-maza-robezu-3"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--aba7e19c374c0d23",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dzīvoklis Dreiliņos - Jaunais Projekts Mierīgā Apkaimē",
+    "scrapedAt": "2026-05-23T15:54:56.303Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-1"
+  },
+  {
+    "apartmentCount": 6,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--cce6b574b9b63b5d",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Valterciems, otrā māja",
+    "scrapedAt": "2026-05-23T15:55:15.161Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja"
+  },
+  {
+    "apartmentCount": 20,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Kengarags",
+    "energyClass": "unknown",
+    "id": "bonava--cf4790c5fafd69a9",
+    "location": {
+      "lat": 56.9173382,
+      "lng": 24.1787864,
+      "source": "nominatim"
+    },
+    "name": "Bonava jaunais projekts \"Blūmendāles mājas\" Ķengaragā - trešā ēka Prūšu ielā 1G",
+    "scrapedAt": "2026-05-23T15:54:47.562Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--d10c099c27bfb7ea",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dreilinga mājas Trend, Mazā Robežu 5",
+    "scrapedAt": "2026-05-23T15:55:09.543Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/maza-robezu-5"
+  },
+  {
+    "apartmentCount": 48,
+    "buildStage": "ready",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Ziepniekkalns",
+    "energyClass": "unknown",
+    "id": "bonava--d33a1cd248773e31",
+    "location": {
+      "lat": 56.9086943,
+      "lng": 24.1033601,
+      "source": "nominatim"
+    },
+    "name": "Tumes iela 27, otrā un trešā māja",
+    "scrapedAt": "2026-05-23T15:54:37.897Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Teika",
+    "energyClass": "unknown",
+    "id": "bonava--d3d1b1ee3c027671",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Jaunais projekts Ropažu 16",
+    "scrapedAt": "2026-05-23T15:54:44.791Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/teika/ropazu-iela/ropazu-k2"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--d4396d3b393fa016",
+    "location": {
+      "lat": 56.9229745,
+      "lng": 24.0741172,
+      "source": "nominatim"
+    },
+    "name": "Dreilinga mājas Comfort, Robežu 17",
+    "scrapedAt": "2026-05-23T15:55:08.420Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robeu-17"
+  },
+  {
+    "apartmentCount": 19,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--d6b59530effe0691",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Valterciems, trešā māja",
+    "scrapedAt": "2026-05-23T15:55:13.947Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-tresa-maja"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--d89d280ebb5312e9",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dreilinga mājas Trend Robežu 19 un 21",
+    "scrapedAt": "2026-05-23T15:55:05.576Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-robeu-19-un-21"
+  },
+  {
+    "apartmentCount": 50,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Ziepniekkalns",
+    "energyClass": "unknown",
+    "id": "bonava--dc4487aceee438f0",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Jaunais projekts Mūkusalas pagalmi pirmā māja",
+    "scrapedAt": "2026-05-23T15:54:40.289Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Centrs",
+    "energyClass": "unknown",
+    "id": "bonava--ddffdb14776d4890",
+    "location": {
+      "lat": 56.9761445,
+      "lng": 24.1115846,
+      "source": "nominatim"
+    },
+    "name": "Ganību dambis 11 un 11A",
+    "scrapedAt": "2026-05-23T15:54:40.929Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/centrs/fjordi/ganibu-dambis-11-un-11a"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Teika",
+    "energyClass": "unknown",
+    "id": "bonava--e01b1237525c6000",
+    "location": {
+      "lat": 56.9769029,
+      "lng": 24.1695586,
+      "source": "nominatim"
+    },
+    "name": "Jaunais projekts Teikā, Ropažu 16",
+    "scrapedAt": "2026-05-23T15:54:43.237Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/teika/ropazu-iela/ropazu16-tresa-maja"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--e796c31b83cfcb4c",
+    "location": {
+      "lat": 56.95,
+      "lng": 24.1,
+      "source": "manual"
+    },
+    "name": "Dreiliņi Comfort",
+    "scrapedAt": "2026-05-23T15:54:58.542Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-5"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Krasta Rajons",
+    "energyClass": "unknown",
+    "id": "bonava--e8c1f8b04b2b4ffb",
+    "location": {
+      "lat": 56.9311768,
+      "lng": 24.1613351,
+      "source": "nominatim"
+    },
+    "name": "Krasta kvartāls Trend, Maskavas 188",
+    "scrapedAt": "2026-05-23T15:54:53.701Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/krasta-kvartls-trend-maskavas-188"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Kengarags",
+    "energyClass": "unknown",
+    "id": "bonava--f4231b2b7da1a0eb",
+    "location": {
+      "lat": 56.9169319,
+      "lng": 24.1799065,
+      "source": "nominatim"
+    },
+    "name": "Prūšu iela 1H, otrā māja",
+    "scrapedAt": "2026-05-23T15:54:48.622Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/prusu-iela1h-otra-maja"
+  },
+  {
+    "apartmentCount": 22,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Kengarags",
+    "energyClass": "unknown",
+    "id": "bonava--f4663de754a7fac3",
+    "location": {
+      "lat": 56.9175187,
+      "lng": 24.1801796,
+      "source": "nominatim"
+    },
+    "name": "Prūšu iela 1I, ceturtā māja",
+    "scrapedAt": "2026-05-23T15:54:46.379Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--f822681561c22e7d",
+    "location": {
+      "lat": 56.9227699,
+      "lng": 24.0773376,
+      "source": "nominatim"
+    },
+    "name": "Dreilinga mājas Trend, Robežu 11",
+    "scrapedAt": "2026-05-23T15:55:01.878Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-11"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "panel",
+    "developer": "bonava",
+    "district": "Krasta Rajons",
+    "energyClass": "unknown",
+    "id": "bonava--fde4db214ccd16af",
+    "location": {
+      "lat": 56.9294628,
+      "lng": 24.161404,
+      "source": "nominatim"
+    },
+    "name": "Krasta kvartāls, Krīdenera dambis 4",
+    "scrapedAt": "2026-05-23T15:54:54.180Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/krasta-kvartls-krdenera-dambis-4"
+  },
+  {
+    "apartmentCount": 0,
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "constructionType": "unknown",
+    "developer": "bonava",
+    "district": "Dreilini",
+    "energyClass": "unknown",
+    "id": "bonava--fe306cab848e67f2",
+    "location": {
+      "lat": 56.9229318,
+      "lng": 24.076756,
+      "source": "nominatim"
+    },
+    "name": "Dreilinga mājas Trend, Robežu 13",
+    "scrapedAt": "2026-05-23T15:55:03.223Z",
+    "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-robeu-13"
+  },
+  {
+    "apartmentCount": 0,
     "buildStage": "pre-sales",
     "city": "Rīga",
     "constructionType": "unknown",

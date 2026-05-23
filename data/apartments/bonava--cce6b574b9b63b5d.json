@@ -1,0 +1,112 @@
+[
+  {
+    "area": 61.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja/evalda-valtera-44b-30",
+    "floor": 5,
+    "id": "bonava--cce6b574b9b63b5d:evalda-valtera-44b-30",
+    "price": {
+      "eur": 158500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2561,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cce6b574b9b63b5d",
+    "rooms": 3
+  },
+  {
+    "area": 61.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja/evalda-valtera-44b-36",
+    "floor": 6,
+    "id": "bonava--cce6b574b9b63b5d:evalda-valtera-44b-36",
+    "price": {
+      "eur": 160500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2593,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cce6b574b9b63b5d",
+    "rooms": 3
+  },
+  {
+    "area": 61.9,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja/evalda-valtera-44b-55",
+    "floor": 4,
+    "id": "bonava--cce6b574b9b63b5d:evalda-valtera-44b-55",
+    "price": {
+      "eur": 155500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2512,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cce6b574b9b63b5d",
+    "rooms": 3
+  },
+  {
+    "area": 60.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja/evalda-valtera-44b-59",
+    "floor": 4,
+    "id": "bonava--cce6b574b9b63b5d:evalda-valtera-44b-59",
+    "price": {
+      "eur": 149500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2483,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cce6b574b9b63b5d",
+    "rooms": 3
+  },
+  {
+    "area": 44.6,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja/evalda-valtera-44b-60",
+    "floor": 4,
+    "id": "bonava--cce6b574b9b63b5d:evalda-valtera-44b-60",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--cce6b574b9b63b5d",
+    "rooms": 2
+  },
+  {
+    "area": 60.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja/evalda-valtera-44b-71",
+    "floor": 6,
+    "id": "bonava--cce6b574b9b63b5d:evalda-valtera-44b-71",
+    "price": {
+      "eur": 154500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2566,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cce6b574b9b63b5d",
+    "rooms": 3
+  }
+]

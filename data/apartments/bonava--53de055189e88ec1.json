@@ -1,0 +1,1092 @@
+[
+  {
+    "area": 41.5,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-03",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-10-03",
+    "price": {
+      "eur": 96000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2313,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 64.1,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-14",
+    "floor": 2,
+    "id": "bonava--53de055189e88ec1:stendes-10-14",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 44.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-20",
+    "floor": 3,
+    "id": "bonava--53de055189e88ec1:stendes-10-20",
+    "price": {
+      "eur": 116000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2601,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 44.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-28",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-10-28",
+    "price": {
+      "eur": 118000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2646,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 44.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-29",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-10-29",
+    "price": {
+      "eur": 119000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2650,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 54.7,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-31",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-10-31",
+    "price": {
+      "eur": 142000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2596,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 44.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-36",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-10-36",
+    "price": {
+      "eur": 118000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2646,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 54.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-39",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-10-39",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 44.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-41",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-10-41",
+    "price": {
+      "eur": 117000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2623,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 42.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-43",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-10-43",
+    "price": {
+      "eur": 115000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2732,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 44.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-44",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-10-44",
+    "price": {
+      "eur": 119000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2656,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 45.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-45",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-10-45",
+    "price": {
+      "eur": 120000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2661,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 65.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-46",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-10-46",
+    "price": {
+      "eur": 173000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2653,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 54.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta/stendes-10-47",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-10-47",
+    "price": {
+      "eur": 151000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2750,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 43.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-02",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-02",
+    "price": {
+      "eur": 97000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2230,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 46,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-04",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-04",
+    "price": {
+      "eur": 103000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2239,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 48.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-05",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-05",
+    "price": {
+      "eur": 110000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2268,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 66.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-06",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-06",
+    "price": {
+      "eur": 148000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2236,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 72.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-12",
+    "floor": 2,
+    "id": "bonava--53de055189e88ec1:stendes-8-12",
+    "price": {
+      "eur": 168000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2327,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 4
+  },
+  {
+    "area": 43.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-14",
+    "floor": 3,
+    "id": "bonava--53de055189e88ec1:stendes-8-14",
+    "price": {
+      "eur": 102000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2323,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 41.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-15",
+    "floor": 3,
+    "id": "bonava--53de055189e88ec1:stendes-8-15",
+    "price": {
+      "eur": 97000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2360,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 48.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-17",
+    "floor": 3,
+    "id": "bonava--53de055189e88ec1:stendes-8-17",
+    "price": {
+      "eur": 116000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2377,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 72.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-18",
+    "floor": 3,
+    "id": "bonava--53de055189e88ec1:stendes-8-18",
+    "price": {
+      "eur": 173000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2380,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 4
+  },
+  {
+    "area": 43.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-20",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-20",
+    "price": {
+      "eur": 106000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2415,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 41.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-21",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-21",
+    "price": {
+      "eur": 100000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2433,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 48.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-23",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-23",
+    "price": {
+      "eur": 119000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2439,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 72.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-24",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-24",
+    "price": {
+      "eur": 178000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2448,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 4
+  },
+  {
+    "area": 65.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-25",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-25",
+    "price": {
+      "eur": 164000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2504,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 43.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-26",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-26",
+    "price": {
+      "eur": 110000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2506,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 41.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-27",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-27",
+    "price": {
+      "eur": 103000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2506,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 46.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-28",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-28",
+    "price": {
+      "eur": 117000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2522,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 48.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-29",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-29",
+    "price": {
+      "eur": 122000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 72.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-30",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-30",
+    "price": {
+      "eur": 183000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2517,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 4
+  },
+  {
+    "area": 65.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-31",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-31",
+    "price": {
+      "eur": 167000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2542,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 44.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-32",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-32",
+    "price": {
+      "eur": 114000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2585,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 41.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-33",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-33",
+    "price": {
+      "eur": 106000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2567,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 46.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-34",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-34",
+    "price": {
+      "eur": 119000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2554,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 49,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-35",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-35",
+    "price": {
+      "eur": 125000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2551,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 72.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-36",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-36",
+    "price": {
+      "eur": 188000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2579,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 4
+  },
+  {
+    "area": 62.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-37",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-37",
+    "price": {
+      "eur": 139000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2231,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 63.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-39",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-39",
+    "price": {
+      "eur": 145000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2276,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 56.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-40",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-40",
+    "price": {
+      "eur": 128000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2282,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 59.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-41",
+    "floor": 1,
+    "id": "bonava--53de055189e88ec1:stendes-8-41",
+    "price": {
+      "eur": 135000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2280,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 68.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-42",
+    "floor": 2,
+    "id": "bonava--53de055189e88ec1:stendes-8-42",
+    "price": {
+      "eur": 158000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2310,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 56.2,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-45",
+    "floor": 2,
+    "id": "bonava--53de055189e88ec1:stendes-8-45",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 68.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-47",
+    "floor": 3,
+    "id": "bonava--53de055189e88ec1:stendes-8-47",
+    "price": {
+      "eur": 161000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2340,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 68.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-52",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-52",
+    "price": {
+      "eur": 164000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2384,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 41.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-53",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-53",
+    "price": {
+      "eur": 103000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2464,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 57,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-55",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-55",
+    "price": {
+      "eur": 136000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2386,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 60.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-56",
+    "floor": 4,
+    "id": "bonava--53de055189e88ec1:stendes-8-56",
+    "price": {
+      "eur": 146000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2429,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 68.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-57",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-57",
+    "price": {
+      "eur": 166000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2413,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 41.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-58",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-58",
+    "price": {
+      "eur": 105000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2512,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 57,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-60",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-60",
+    "price": {
+      "eur": 139000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2439,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 60.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-61",
+    "floor": 5,
+    "id": "bonava--53de055189e88ec1:stendes-8-61",
+    "price": {
+      "eur": 149000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2479,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 69,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-62",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-62",
+    "price": {
+      "eur": 168000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2435,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 42,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-63",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-63",
+    "price": {
+      "eur": 108000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2571,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 2
+  },
+  {
+    "area": 64.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-64",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-64",
+    "price": {
+      "eur": 164000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2555,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  },
+  {
+    "area": 60.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/sampetera-kvartals-otra-maja/stendes-8-66",
+    "floor": 6,
+    "id": "bonava--53de055189e88ec1:stendes-8-66",
+    "price": {
+      "eur": 152000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2521,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--53de055189e88ec1",
+    "rooms": 3
+  }
+]

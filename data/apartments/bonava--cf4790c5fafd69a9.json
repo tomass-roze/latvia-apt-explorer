@@ -1,0 +1,382 @@
+[
+  {
+    "area": 41.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-03",
+    "floor": 1,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-03",
+    "price": {
+      "eur": 94000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2243,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  },
+  {
+    "area": 68.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-04",
+    "floor": 1,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-04",
+    "price": {
+      "eur": 148500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2181,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 67.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-05",
+    "floor": 1,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-05",
+    "price": {
+      "eur": 150000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2219,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 41.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-09",
+    "floor": 2,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-09",
+    "price": {
+      "eur": 98000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2339,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  },
+  {
+    "area": 41.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-15",
+    "floor": 3,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-15",
+    "price": {
+      "eur": 100500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2399,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  },
+  {
+    "area": 40.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-24",
+    "floor": 5,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-24",
+    "price": {
+      "eur": 100000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2475,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  },
+  {
+    "area": 67,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-36",
+    "floor": 1,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-36",
+    "price": {
+      "eur": 150000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2239,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 41.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-38",
+    "floor": 1,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-38",
+    "price": {
+      "eur": 94000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2243,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  },
+  {
+    "area": 59.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-39",
+    "floor": 1,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-39",
+    "price": {
+      "eur": 126500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2122,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 76.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-40",
+    "floor": 1,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-40",
+    "price": {
+      "eur": 188500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2451,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 4
+  },
+  {
+    "area": 41.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-43",
+    "floor": 2,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-43",
+    "price": {
+      "eur": 98000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2339,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  },
+  {
+    "area": 68.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-54",
+    "floor": 4,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-54",
+    "price": {
+      "eur": 159000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2328,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 60.6,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-57",
+    "floor": 4,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-57",
+    "price": {
+      "eur": 141000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2327,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 67.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-59",
+    "floor": 5,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-59",
+    "price": {
+      "eur": 163000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2418,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 68.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-60",
+    "floor": 5,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-60",
+    "price": {
+      "eur": 163000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2387,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 68.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-66",
+    "floor": 6,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-66",
+    "price": {
+      "eur": 166000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2430,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 42.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-67",
+    "floor": 6,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-67",
+    "price": {
+      "eur": 108000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2559,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  },
+  {
+    "area": 60.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-68",
+    "floor": 6,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-68",
+    "price": {
+      "eur": 144500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2392,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 60.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-69",
+    "floor": 6,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-69",
+    "price": {
+      "eur": 144000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2376,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 3
+  },
+  {
+    "area": 43.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja/prusu-1g-70",
+    "floor": 6,
+    "id": "bonava--cf4790c5fafd69a9:prusu-1g-70",
+    "price": {
+      "eur": 109000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2523,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--cf4790c5fafd69a9",
+    "rooms": 2
+  }
+]

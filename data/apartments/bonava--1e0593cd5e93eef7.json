@@ -1,0 +1,435 @@
+[
+  {
+    "area": 44.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-02",
+    "floor": 1,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-02",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2332,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 76.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-03",
+    "floor": 1,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-03",
+    "price": {
+      "eur": 198000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2592,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 4
+  },
+  {
+    "area": 48.4,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-12",
+    "floor": 1,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-12",
+    "price": {
+      "eur": 114000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2355,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 76.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-15",
+    "floor": 2,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-15",
+    "price": {
+      "eur": 214000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2801,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 4
+  },
+  {
+    "area": 59.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-28",
+    "floor": 3,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-28",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 3
+  },
+  {
+    "area": 77.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-39",
+    "floor": 4,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-39",
+    "price": {
+      "eur": 219000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2833,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 4
+  },
+  {
+    "area": 42.8,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-44",
+    "floor": 4,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-44",
+    "price": {
+      "eur": 116000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2710,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 44.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-50",
+    "floor": 5,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-50",
+    "price": {
+      "eur": 124000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2762,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 77.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-51",
+    "floor": 5,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-51",
+    "price": {
+      "eur": 226000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2924,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 4
+  },
+  {
+    "area": 59.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-52",
+    "floor": 5,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-52",
+    "price": {
+      "eur": 166000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2799,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 3
+  },
+  {
+    "area": 66,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-54",
+    "floor": 5,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-54",
+    "price": {
+      "eur": 177000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2682,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 3
+  },
+  {
+    "area": 62.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-55",
+    "floor": 5,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-55",
+    "price": {
+      "eur": 169000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2700,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 3
+  },
+  {
+    "area": 47.3,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-59",
+    "floor": 5,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-59",
+    "price": {
+      "eur": 129000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2727,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 44.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-51-62",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-51-62",
+    "price": {
+      "eur": 127000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2829,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 43.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-01",
+    "floor": 1,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-01",
+    "price": {
+      "eur": 105000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2419,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 42.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-56",
+    "floor": 5,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-56",
+    "price": {
+      "eur": 119000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2780,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 48.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-61",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-61",
+    "price": {
+      "eur": 135000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2766,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 59.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-64",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-64",
+    "price": {
+      "eur": 176000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2968,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 3
+  },
+  {
+    "area": 43.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-65",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-65",
+    "price": {
+      "eur": 127000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2926,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 66,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-66",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-66",
+    "price": {
+      "eur": 184000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2788,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 3
+  },
+  {
+    "area": 62.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-67",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-67",
+    "price": {
+      "eur": 177000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2827,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 3
+  },
+  {
+    "area": 42.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-68",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-68",
+    "price": {
+      "eur": 124000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2897,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  },
+  {
+    "area": 47.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta/jelgavas-55b-71",
+    "floor": 6,
+    "id": "bonava--1e0593cd5e93eef7:jelgavas-55b-71",
+    "price": {
+      "eur": 133000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2812,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--1e0593cd5e93eef7",
+    "rooms": 2
+  }
+]

@@ -1,0 +1,910 @@
+[
+  {
+    "area": 68.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-05",
+    "floor": 1,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-05",
+    "price": {
+      "eur": 152000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2232,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 43.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-06",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-06",
+    "price": {
+      "eur": 106000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2431,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 44.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-09",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-09",
+    "price": {
+      "eur": 110000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2483,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 70.1,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-10",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-10",
+    "price": {
+      "eur": 167000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2382,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 68.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-11",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-11",
+    "price": {
+      "eur": 160000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2349,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 68.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-17",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-17",
+    "price": {
+      "eur": 162000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2379,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 59.5,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-19",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-19",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 68,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-24",
+    "floor": 1,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-24",
+    "price": {
+      "eur": 152000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2235,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 67.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-29",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-29",
+    "price": {
+      "eur": 162000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2386,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 70.1,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-30",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-30",
+    "price": {
+      "eur": 167000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2382,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 44.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-31",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-31",
+    "price": {
+      "eur": 110000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2483,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 43.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-34",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-34",
+    "price": {
+      "eur": 106000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2431,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 70.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-36",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-36",
+    "price": {
+      "eur": 168000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2397,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 59.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-39",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-39",
+    "price": {
+      "eur": 138000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2319,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 43.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-40",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-40",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2385,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 44.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-43",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-43",
+    "price": {
+      "eur": 105000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2370,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 43.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k1-46",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k1-46",
+    "price": {
+      "eur": 103000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2362,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 42.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-10",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-10",
+    "price": {
+      "eur": 100000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2331,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 69.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-11",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-11",
+    "price": {
+      "eur": 155500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2247,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 43.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-16",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-16",
+    "price": {
+      "eur": 104500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2419,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 69.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-17",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-17",
+    "price": {
+      "eur": 160500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2299,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 39.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-21",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-21",
+    "price": {
+      "eur": 99000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2481,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 43.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-22",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-22",
+    "price": {
+      "eur": 105500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2442,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 69.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-23",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-23",
+    "price": {
+      "eur": 166500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2385,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 62.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-24",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-24",
+    "price": {
+      "eur": 145500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2328,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 43.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-28",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-28",
+    "price": {
+      "eur": 108000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 69.8,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-29",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-29",
+    "price": {
+      "eur": 167000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2393,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 62.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-30",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-30",
+    "price": {
+      "eur": 151500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2424,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 79.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-32",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-32",
+    "price": {
+      "eur": 196500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2472,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 4
+  },
+  {
+    "area": 40,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-33",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-33",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2600,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 69.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-35",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-35",
+    "price": {
+      "eur": 170500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2443,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 62.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-36",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-36",
+    "price": {
+      "eur": 151500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2424,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 69.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-44",
+    "floor": 2,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-44",
+    "price": {
+      "eur": 155500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2247,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 69.8,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-50",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-50",
+    "price": {
+      "eur": 161500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2314,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 60.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-52",
+    "floor": 3,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-52",
+    "price": {
+      "eur": 135000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2243,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 62.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-55",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-55",
+    "price": {
+      "eur": 147500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2360,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 69.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-56",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-56",
+    "price": {
+      "eur": 163500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2342,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 60.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-58",
+    "floor": 4,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-58",
+    "price": {
+      "eur": 141500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2350,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 62.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-61",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-61",
+    "price": {
+      "eur": 148500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2376,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 69.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-62",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-62",
+    "price": {
+      "eur": 168000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2407,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 43.3,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-63",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-63",
+    "price": {
+      "eur": 108000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2494,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  },
+  {
+    "area": 60.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-64",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-64",
+    "price": {
+      "eur": 142500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2371,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 61.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-65",
+    "floor": 5,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-65",
+    "price": {
+      "eur": 143500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2330,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 62.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-67",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-67",
+    "price": {
+      "eur": 153500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2456,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 69.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-68",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-68",
+    "price": {
+      "eur": 169000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2421,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 60.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-70",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-70",
+    "price": {
+      "eur": 147500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2450,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 61.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-71",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-71",
+    "price": {
+      "eur": 144500,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2346,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 3
+  },
+  {
+    "area": 46,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii/tumes-27-k2-72",
+    "floor": 6,
+    "id": "bonava--d33a1cd248773e31:tumes-27-k2-72",
+    "price": {
+      "eur": 111000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2413,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--d33a1cd248773e31",
+    "rooms": 2
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "apartmentCount": 421,
+  "developer": "bonava",
+  "errors": [
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"blūmendāles mājas – jaunais projekts ķengaragā, kengarags, rīga\"",
+      "projectId": "bonava--3eadc903c77937e2"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"dreilinga mājas comfort robežu 15, rīga\"",
+      "projectId": "bonava--469cdc33a4e6e17f"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"dreilinga mājas trend robežu 19, rīga\"",
+      "projectId": "bonava--d89d280ebb5312e9"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"dreiliņi comfort, dreilini, rīga\"",
+      "projectId": "bonava--e796c31b83cfcb4c"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"dzirciema pagalms, pirmā māja, dzirciems, rīga\"",
+      "projectId": "bonava--7f2ced93cb5e26c3"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"dzīvoklis dreiliņos - jaunais projekts mierīgā apkaimē, dreilini, rīga\"",
+      "projectId": "bonava--aba7e19c374c0d23"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"dzīvoklis krasta rajonā - jaunais projekts ar skatu uz daugavu, krasta rajons, rīga\"",
+      "projectId": "bonava--6a8155871041962b"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"hartmaņa kvartāls, otrā un trešā māja, tornakalns, rīga\"",
+      "projectId": "bonava--35a247b48c01f936"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"jaunais projekts mūkusalas pagalmi pirmā māja, ziepniekkalns, rīga\"",
+      "projectId": "bonava--dc4487aceee438f0"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"jaunais projekts ropažu 16, rīga\"",
+      "projectId": "bonava--d3d1b1ee3c027671"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"mazā robežu 2, rīga\"",
+      "projectId": "bonava--7b9c6c7bafc11a77"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"mazā robežu 3, rīga\"",
+      "projectId": "bonava--a7b87cc62c4bac2a"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"mazā robežu 4, rīga\"",
+      "projectId": "bonava--8242e08de341fe95"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"mazā robežu 5, rīga\"",
+      "projectId": "bonava--d10c099c27bfb7ea"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"mazā robežu iela 1, rīga\"",
+      "projectId": "bonava--7d7f5a5fdad1ecc9"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"šampētera kvartāls – zaļš un moderns jaunais projekts pārdaugavā, sampeteris, rīga\"",
+      "projectId": "bonava--53de055189e88ec1"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"šampētera kvartāls – zaļš un moderns jaunais projekts pārdaugavā, sampeteris, rīga\"",
+      "projectId": "bonava--53de055189e88ec1"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"valterciems, ceturtā māja, dreilini, rīga\"",
+      "projectId": "bonava--57afc6cc7e3effde"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"valterciems, otrā māja, dreilini, rīga\"",
+      "projectId": "bonava--cce6b574b9b63b5d"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"valterciems, pirmā māja, dreilini, rīga\"",
+      "projectId": "bonava--698a9cf33a99da41"
+    },
+    {
+      "kind": "geocode",
+      "message": "geocoder returned null for \"valterciems, trešā māja, dreilini, rīga\"",
+      "projectId": "bonava--d6b59530effe0691"
+    }
+  ],
+  "finishedAt": "2026-05-23T16:03:05.854Z",
+  "lastSuccessAt": "2026-05-23T15:54:36.409Z",
+  "projectCount": 40,
+  "startedAt": "2026-05-23T15:54:36.409Z",
+  "status": "partial"
+}

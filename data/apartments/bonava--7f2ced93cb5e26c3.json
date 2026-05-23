@@ -1,0 +1,803 @@
+[
+  {
+    "area": 77.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-02",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-02",
+    "price": {
+      "eur": 192000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2468,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 4
+  },
+  {
+    "area": 42.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-04",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-04",
+    "price": {
+      "eur": 98000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2300,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 68.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-05",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-05",
+    "price": {
+      "eur": 165000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2409,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 39.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-09",
+    "floor": 2,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-09",
+    "price": {
+      "eur": 98000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2487,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 43,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-16",
+    "floor": 3,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-16",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2419,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 69,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-17",
+    "floor": 3,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-17",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-19",
+    "floor": 4,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-19",
+    "price": {
+      "eur": 102000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2292,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 43,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-22",
+    "floor": 4,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-22",
+    "price": {
+      "eur": 106000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2465,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 39.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-27",
+    "floor": 5,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-27",
+    "price": {
+      "eur": 106000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2670,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 79.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-32",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-32",
+    "price": {
+      "eur": 219000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2769,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 4
+  },
+  {
+    "area": 39.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-33",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-33",
+    "price": {
+      "eur": 108000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2720,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 69,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-35",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-35",
+    "price": {
+      "eur": 184000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2667,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 61.3,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-37",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-37",
+    "price": {
+      "eur": 142000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2316,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 68.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-38",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-38",
+    "price": {
+      "eur": 160000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2336,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 42.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-39",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-39",
+    "price": {
+      "eur": 94000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2207,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 58.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-40",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-40",
+    "price": {
+      "eur": 136000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2309,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 59.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-41",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-41",
+    "price": {
+      "eur": 138000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2331,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 37.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-42",
+    "floor": 1,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-42",
+    "price": {
+      "eur": 88000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2328,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 42.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-45",
+    "floor": 2,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-45",
+    "price": {
+      "eur": 100000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2347,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 59.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-47",
+    "floor": 2,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-47",
+    "price": {
+      "eur": 145000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2449,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 44.1,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-48",
+    "floor": 2,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-48",
+    "price": {
+      "eur": 100000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2268,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 61.8,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-49",
+    "floor": 3,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-49",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 43,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-51",
+    "floor": 3,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-51",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2419,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 59.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-52",
+    "floor": 3,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-52",
+    "price": {
+      "eur": 149000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2496,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 60.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-53",
+    "floor": 3,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-53",
+    "price": {
+      "eur": 151000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2512,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-54",
+    "floor": 3,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-54",
+    "price": {
+      "eur": 104000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2337,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 61.8,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-55",
+    "floor": 4,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-55",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 69,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-56",
+    "floor": 4,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-56",
+    "price": {
+      "eur": 177000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2565,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 43,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-57",
+    "floor": 4,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-57",
+    "price": {
+      "eur": 106000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2465,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 59.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-58",
+    "floor": 4,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-58",
+    "price": {
+      "eur": 152000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2546,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 60.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-59",
+    "floor": 4,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-59",
+    "price": {
+      "eur": 154000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2562,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 61.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-61",
+    "floor": 5,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-61",
+    "price": {
+      "eur": 162000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2621,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 69,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-62",
+    "floor": 5,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-62",
+    "price": {
+      "eur": 181000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2623,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 43,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-63",
+    "floor": 5,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-63",
+    "price": {
+      "eur": 110000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2558,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 59.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-64",
+    "floor": 5,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-64",
+    "price": {
+      "eur": 156000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2613,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 60.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-65",
+    "floor": 5,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-65",
+    "price": {
+      "eur": 158000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2629,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 44.5,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-66",
+    "floor": 5,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-66",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 61.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-67",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-67",
+    "price": {
+      "eur": 165000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2670,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 69,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-68",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-68",
+    "price": {
+      "eur": 184000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2667,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 43,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-69",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-69",
+    "price": {
+      "eur": 112000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2605,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  },
+  {
+    "area": 59.7,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-70",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-70",
+    "price": {
+      "eur": 159000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2663,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 60.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-71",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-71",
+    "price": {
+      "eur": 161000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2679,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 3
+  },
+  {
+    "area": 44.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja/maz-stacijas-5-72",
+    "floor": 6,
+    "id": "bonava--7f2ced93cb5e26c3:maz-stacijas-5-72",
+    "price": {
+      "eur": 112000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2517,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--7f2ced93cb5e26c3",
+    "rooms": 2
+  }
+]

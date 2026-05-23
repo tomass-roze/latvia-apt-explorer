@@ -1,0 +1,408 @@
+[
+  {
+    "area": 88.7,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-01",
+    "floor": 1,
+    "id": "bonava--f4663de754a7fac3:pru-1i-01",
+    "price": {
+      "eur": 190000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2142,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 4
+  },
+  {
+    "area": 47.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-02",
+    "floor": 1,
+    "id": "bonava--f4663de754a7fac3:pru-1i-02",
+    "price": {
+      "eur": 94000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 1996,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 41.9,
+    "availability": "sold",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-03",
+    "floor": 1,
+    "id": "bonava--f4663de754a7fac3:pru-1i-03",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 64.6,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-04",
+    "floor": 1,
+    "id": "bonava--f4663de754a7fac3:pru-1i-04",
+    "price": {
+      "eur": 140000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2167,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 3
+  },
+  {
+    "area": 72.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-07",
+    "floor": 2,
+    "id": "bonava--f4663de754a7fac3:pru-1i-07",
+    "price": {
+      "eur": 169000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2321,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 4
+  },
+  {
+    "area": 47.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-08",
+    "floor": 2,
+    "id": "bonava--f4663de754a7fac3:pru-1i-08",
+    "price": {
+      "eur": 99000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2102,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 72.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-13",
+    "floor": 3,
+    "id": "bonava--f4663de754a7fac3:pru-1i-13",
+    "price": {
+      "eur": 172000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2363,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 4
+  },
+  {
+    "area": 41.9,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-15",
+    "floor": 3,
+    "id": "bonava--f4663de754a7fac3:pru-1i-15",
+    "price": {
+      "eur": 93000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2220,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 68.1,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-16",
+    "floor": 3,
+    "id": "bonava--f4663de754a7fac3:pru-1i-16",
+    "price": {
+      "eur": 147000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2159,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 3
+  },
+  {
+    "area": 40.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-18",
+    "floor": 4,
+    "id": "bonava--f4663de754a7fac3:pru-1i-18",
+    "price": {
+      "eur": 93000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2302,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 42.2,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-21",
+    "floor": 4,
+    "id": "bonava--f4663de754a7fac3:pru-1i-21",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 68.5,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-22",
+    "floor": 4,
+    "id": "bonava--f4663de754a7fac3:pru-1i-22",
+    "price": {
+      "kind": "unknown"
+    },
+    "pricePerSqm": {
+      "kind": "unknown"
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 3
+  },
+  {
+    "area": 68,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-23",
+    "floor": 4,
+    "id": "bonava--f4663de754a7fac3:pru-1i-23",
+    "price": {
+      "eur": 151000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2221,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 3
+  },
+  {
+    "area": 40.4,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-24",
+    "floor": 5,
+    "id": "bonava--f4663de754a7fac3:pru-1i-24",
+    "price": {
+      "eur": 95000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2351,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 73.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-25",
+    "floor": 5,
+    "id": "bonava--f4663de754a7fac3:pru-1i-25",
+    "price": {
+      "eur": 178000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2412,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 4
+  },
+  {
+    "area": 47.8,
+    "availability": "reserved",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-26",
+    "floor": 5,
+    "id": "bonava--f4663de754a7fac3:pru-1i-26",
+    "price": {
+      "eur": 108000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2259,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 68.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-28",
+    "floor": 5,
+    "id": "bonava--f4663de754a7fac3:pru-1i-28",
+    "price": {
+      "eur": 153000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2234,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 3
+  },
+  {
+    "area": 73.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-31",
+    "floor": 6,
+    "id": "bonava--f4663de754a7fac3:pru-1i-31",
+    "price": {
+      "eur": 181000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2453,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 4
+  },
+  {
+    "area": 47.8,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-32",
+    "floor": 6,
+    "id": "bonava--f4663de754a7fac3:pru-1i-32",
+    "price": {
+      "eur": 110000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2301,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 42.2,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-33",
+    "floor": 6,
+    "id": "bonava--f4663de754a7fac3:pru-1i-33",
+    "price": {
+      "eur": 102000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2417,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 2
+  },
+  {
+    "area": 68.5,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-34",
+    "floor": 6,
+    "id": "bonava--f4663de754a7fac3:pru-1i-34",
+    "price": {
+      "eur": 156000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2277,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 3
+  },
+  {
+    "area": 68,
+    "availability": "available",
+    "deepLinkUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja/pru-1i-35",
+    "floor": 6,
+    "id": "bonava--f4663de754a7fac3:pru-1i-35",
+    "price": {
+      "eur": 157000,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "pricePerSqm": {
+      "eur": 2309,
+      "kind": "amount",
+      "vatIncluded": true
+    },
+    "projectId": "bonava--f4663de754a7fac3",
+    "rooms": 3
+  }
+]
