@@ -20,7 +20,10 @@ const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
 const USER_AGENT =
   'LatviaApartmentExplorer/0.1 (+https://github.com/tomass/jp; contact: thomas@bubblebeeindustries.com)';
 const REPO_ROOT = process.cwd();
-const OUT_DIR = join(REPO_ROOT, 'data', 'overlays');
+// Public so the client can fetch them at /data/overlays/<key>.geojson.
+// (They were originally in data/overlays/, but Next.js only serves files under
+// public/ — data/ is purely server-side input to the build.)
+const OUT_DIR = join(REPO_ROOT, 'public', 'data', 'overlays');
 
 // Latvia bbox [south, west, north, east] per Overpass convention.
 const LATVIA_BBOX = '55.67,20.97,58.09,28.24';
