@@ -1,9 +1,17 @@
 import type { Metadata } from 'next';
-import { Fraunces, Geist, JetBrains_Mono } from 'next/font/google';
+import { Geist, JetBrains_Mono, Playfair_Display } from 'next/font/google';
 import { NuqsAdapter } from 'nuqs/adapters/next/app';
 import './globals.css';
 
-const fraunces = Fraunces({
+// Playfair Display chosen over Fraunces because next/font's Fraunces shipping
+// renders precomposed Latvian glyphs (ā, ē, ī, ū) as base + separate combining
+// macron, producing "a⁻" instead of "ā" in headings. Playfair Display ships
+// the precomposed glyphs in its latin-ext subset correctly. Verified with a
+// headless Playwright glyph-width probe across Fraunces / Playfair / Spectral /
+// EB Garamond / Cormorant Garamond — all five report 0px diff between "a" and
+// "ā" when loaded fresh from Google Fonts, suggesting the issue is in next/font's
+// subsetting of Fraunces specifically. Swap is safe + reversible.
+const playfair = Playfair_Display({
   variable: '--font-display',
   subsets: ['latin', 'latin-ext'],
   display: 'swap',
@@ -30,7 +38,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html
       lang="lv"
-      className={`${fraunces.variable} ${geist.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${playfair.variable} ${geist.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[var(--paper)] text-[var(--ink)]">
         <NuqsAdapter>{children}</NuqsAdapter>

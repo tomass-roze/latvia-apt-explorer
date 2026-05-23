@@ -54,7 +54,7 @@ interface AppShellProps {
 export default function AppShell({ projects, apartments, runs }: AppShellProps) {
   const [filters, setFilters] = useFilters();
   const [weights] = useWeights();
-  const { state: personal } = usePersonalState();
+  const { getEffectiveStatus } = usePersonalState();
   const normalizedWeights = useMemo(() => normalizeWeights(weights), [weights]);
 
   const projectsById = useMemo(() => {
@@ -137,7 +137,7 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
           apartmentCount: r.matchingApartmentCount,
           score: r.best.total,
           percentile: r.percentile,
-          status: personal.status[project.id] ?? null,
+          status: getEffectiveStatus(project.id),
         });
       } else if (project.apartments.length === 0 && !apartmentLevelFilterActive) {
         // Project-level-only data (Hepsor / Pillar / Invego, or scraped projects
@@ -149,14 +149,14 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
           location: project.location,
           buildStage: project.buildStage,
           apartmentCount: 0,
-          status: personal.status[project.id] ?? null,
+          status: getEffectiveStatus(project.id),
         });
       }
       // else: project has apartments but none match the user's apartment-level
       // filter — hide it (this is the filter doing its job).
     }
     return list;
-  }, [projectsById, rankedById, personal.status, filters.buildStage, apartmentLevelFilterActive]);
+  }, [projectsById, rankedById, getEffectiveStatus, filters.buildStage, apartmentLevelFilterActive]);
 
   const selectedProject = filters.p ? (projectsById.get(filters.p) ?? null) : null;
   const selectedApartments = selectedProject
@@ -183,17 +183,6 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
             {totalApartments} dzīvokļi · {totalProjects} projekti
           </span>
           <Link
-            href="/compare"
-            className="text-xs text-[var(--ink-2)] hover:text-[var(--ink)] flex items-center gap-1.5"
-          >
-            <span>Salīdzināt</span>
-            {personal.saved.length > 0 ? (
-              <span className="inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 rounded-full bg-[var(--accent)] text-[var(--paper)] text-[10px] tabular-nums">
-                {personal.saved.length}
-              </span>
-            ) : null}
-          </Link>
-          <Link
             href="/about"
             className="text-xs text-[var(--ink-2)] hover:text-[var(--ink)]"
           >
@@ -204,7 +193,7 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
       </header>
 
       <main className="flex-1 flex min-h-0">
-        <div className="flex flex-col w-[340px] shrink-0 border-r border-[var(--line)]">
+        <div className="flex flex-col w-[340px] shrink-0 border-r border-[var(--line)] min-h-0 overflow-hidden">
           <FilterPanel
             matchingApartments={totalApartments}
             matchingProjects={totalProjects}
@@ -223,7 +212,7 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
           ) : null}
         </div>
 
-        <div className="flex flex-col w-[360px] shrink-0 border-l border-[var(--line)]">
+        <div className="flex flex-col w-[420px] shrink-0 border-l border-[var(--line)] min-h-0 overflow-hidden">
           {selectedProject ? (
             <ProjectDetail
               project={selectedProject}

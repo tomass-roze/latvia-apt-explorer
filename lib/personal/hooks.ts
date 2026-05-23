@@ -60,14 +60,23 @@ export function usePersonalState() {
   });
 
   // Derived setters (atomic, type-safe).
+  // Setting 'new' (the default) is stored as deletion of the key — keeps the
+  // localStorage blob compact and lets `getEffectiveStatus` fall back to 'new'
+  // for any project the user hasn't explicitly tagged.
   const setStatus = (id: ProjectId, status: Status | null) => {
     setState((prev) => {
       const next = { ...prev.status };
-      if (status === null) delete next[id];
+      if (status === null || status === 'new') delete next[id];
       else next[id] = status;
       return { ...prev, status: next };
     });
   };
+
+  // Every project has an effective status. Untagged projects = 'new' (default).
+  // Use this anywhere you need to know what to render — pin color, chip selected
+  // state, status badge, etc. Status is the primary visual signal on the map;
+  // the score percentile gradient is reserved for the detail panel.
+  const getEffectiveStatus = (id: ProjectId): Status => state.status[id] ?? 'new';
 
   const toggleSaved = (id: ProjectId) => {
     setState((prev) =>
@@ -86,7 +95,7 @@ export function usePersonalState() {
     setState(DEFAULT_PERSONAL);
   };
 
-  return { state, setStatus, toggleSaved, wipeAll };
+  return { state, setStatus, getEffectiveStatus, toggleSaved, wipeAll };
 }
 
 // ─── Per-project notes with debounced writes ──────────────────────────────

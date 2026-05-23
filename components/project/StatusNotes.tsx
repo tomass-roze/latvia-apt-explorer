@@ -22,8 +22,8 @@ const STATUS_COLORS: Record<Status, string> = {
 };
 
 export function StatusNotes({ projectId }: StatusNotesProps) {
-  const { state, setStatus } = usePersonalState();
-  const current = state.status[projectId] ?? null;
+  const { getEffectiveStatus, setStatus } = usePersonalState();
+  const current = getEffectiveStatus(projectId);
   const [note, setNote] = useNote(projectId);
 
   return (
@@ -39,7 +39,9 @@ export function StatusNotes({ projectId }: StatusNotesProps) {
               <button
                 key={s}
                 type="button"
-                onClick={() => setStatus(projectId, active ? null : s)}
+                // Clicking the active chip clears to 'new' (the default).
+                // setStatus(_, 'new') is normalized to deletion in the hook.
+                onClick={() => setStatus(projectId, active ? 'new' : s)}
                 className={`flex items-center gap-1.5 h-7 px-2 rounded-md border text-xs transition-colors ${
                   active
                     ? 'border-[var(--ink-2)] bg-[var(--paper-2)] text-[var(--ink)]'

@@ -92,8 +92,30 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
 
   const handleClick = (e: MapLayerMouseEvent) => {
     const feature = e.features?.[0];
-    if (feature?.properties && typeof feature.properties.id === 'string') {
-      onSelect?.(feature.properties.id);
+    if (!feature) {
+      onSelect?.(null);
+      return;
+    }
+    const props = feature.properties ?? {};
+    // Cluster click → zoom in by one expansion level.
+    if (props.cluster && typeof props.cluster_id === 'number') {
+      const map = e.target;
+      const src = map.getSource('projects') as maplibregl.GeoJSONSource | undefined;
+      if (!src) return;
+      src
+        .getClusterExpansionZoom(props.cluster_id)
+        .then((zoom) => {
+          const geom = feature.geometry as GeoJSON.Point;
+          const [lng, lat] = geom.coordinates as [number, number];
+          map.easeTo({ center: [lng, lat], zoom });
+        })
+        .catch(() => {
+          // Ignore — cluster may have been split between event + lookup.
+        });
+      return;
+    }
+    if (typeof props.id === 'string') {
+      onSelect?.(props.id);
     } else {
       onSelect?.(null);
     }
@@ -153,11 +175,13 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
           type="circle"
           filter={['has', 'point_count']}
           paint={{
-            'circle-color': '#C3471A',
+            // Dark fill + light stroke — clusters are "structural" markers and
+            // must visually pop against the colorful project pins.
+            'circle-color': '#1A1A17',
             'circle-radius': ['step', ['get', 'point_count'], 18, 5, 24, 20, 30],
-            'circle-opacity': 0.85,
-            'circle-stroke-width': 2,
-            'circle-stroke-color': '#1A1A17',
+            'circle-opacity': 0.95,
+            'circle-stroke-width': 1.5,
+            'circle-stroke-color': '#F5F2EC',
           }}
         />
         <Layer
@@ -166,7 +190,7 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
           filter={['has', 'point_count']}
           layout={{
             'text-field': '{point_count_abbreviated}',
-            'text-size': 12,
+            'text-size': 13,
             'text-font': ['Noto Sans Regular'],
           }}
           paint={{ 'text-color': '#F5F2EC' }}
@@ -176,6 +200,9 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
           type="circle"
           filter={['!', ['has', 'point_count']]}
           paint={{
+            // Status always wins. Every project has an effective status
+            // (default 'new' from getEffectiveStatus), so this case chain
+            // covers all pins. Score gradient lives in the detail panel.
             'circle-color': [
               'case',
               ['==', ['get', 'status'], 'interested'],
@@ -184,22 +211,7 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
               '#6B4FBB',
               ['==', ['get', 'status'], 'passed'],
               '#8A857B',
-              ['==', ['get', 'status'], 'new'],
               '#5D8AA8',
-              // Unranked projects (no apartment-level data) get neutral grey.
-              ['!', ['get', 'hasScore']],
-              '#8A857B',
-              [
-                'interpolate',
-                ['linear'],
-                ['get', 'percentile'],
-                0,
-                '#B23A2A',
-                0.5,
-                '#D9A441',
-                1,
-                '#4F8A4A',
-              ],
             ],
             'circle-opacity': ['case', ['==', ['get', 'status'], 'passed'], 0.55, 0.95],
             'circle-radius': ['case', ['==', ['get', 'id'], selectedId ?? ''], 12, 8],

@@ -58,7 +58,7 @@ export function FilterPanel({ matchingApartments, matchingProjects }: FilterPane
   };
 
   return (
-    <aside className="w-[340px] shrink-0 border-r border-[var(--line)] bg-[var(--paper)] overflow-y-auto">
+    <aside className="w-full h-full bg-[var(--paper)] overflow-y-auto">
       <div className="p-5 space-y-5">
         <SectionLabel>Istabu skaits</SectionLabel>
         <div className="flex flex-wrap gap-1.5">
