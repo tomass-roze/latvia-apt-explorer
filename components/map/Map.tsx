@@ -49,9 +49,10 @@ function toFeatureCollection(projects: MapProject[]): GeoJSON.FeatureCollection 
         developer: p.developer,
         apartmentCount: p.apartmentCount,
         buildStage: p.buildStage,
-        score: p.score ?? 0,
+        // Flag for the paint expression: ranked pins use the score gradient,
+        // unranked (project-level-only data) fall back to neutral grey.
+        hasScore: p.percentile !== undefined,
         percentile: p.percentile ?? 0,
-        // Plain string (or empty) so MapLibre can `==` compare in expressions.
         status: p.status ?? '',
       },
       geometry: { type: 'Point', coordinates: [p.location.lng, p.location.lat] },
@@ -164,6 +165,9 @@ export default function Map({ projects, selectedId, onSelect }: MapProps) {
               '#8A857B',
               ['==', ['get', 'status'], 'new'],
               '#5D8AA8',
+              // Unranked projects (no apartment-level data) get neutral grey.
+              ['!', ['get', 'hasScore']],
+              '#8A857B',
               [
                 'interpolate',
                 ['linear'],

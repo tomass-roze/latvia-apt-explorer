@@ -83,27 +83,80 @@ export default function AppShell({ projects, apartments, runs }: AppShellProps) 
     [projectsById, apartmentsByProject, ctx, normalizedWeights],
   );
 
-  // Map projects ready for the map: only ones with matching apartments. Augment
-  // each with its percentile so the Map can color pins via data-driven style.
+  // Map pins: include EVERY project, not just the ones with matching apartments.
+  // Hepsor/Pillar/Invego scrape project-level only (no apartments), so they'd
+  // be invisible if we filtered to `ranked` alone. YIT/Bonava projects that
+  // happen to have zero apartments (sold-out, pre-sales without listed units)
+  // would similarly disappear. Unranked projects still show as pins — just
+  // neutral grey instead of a score gradient.
+  //
+  // Rule: a project drops off the map only when the user has applied apartment-
+  // level filters (rooms, area, price, etc.) and the project HAS scraped
+  // apartments that all fail those filters. Empty-apartments projects always
+  // ride along.
+  const rankedById = useMemo(() => new Map(ranked.map((r) => [r.projectId, r])), [ranked]);
+  const apartmentLevelFilterActive = useMemo(
+    () =>
+      filters.rooms.length > 0 ||
+      filters.areaMin !== null ||
+      filters.areaMax !== null ||
+      filters.priceMin !== null ||
+      filters.priceMax !== null ||
+      filters.pricePerSqmMin !== null ||
+      filters.pricePerSqmMax !== null ||
+      filters.floorMin !== null ||
+      filters.floorMax !== null,
+    [filters],
+  );
+
   const visibleProjects = useMemo(() => {
-    return ranked.map((r) => {
-      const p = projectsById.get(r.projectId);
-      // p is non-null because rankProjects only emits projects in the map.
-      // biome-ignore lint/style/noNonNullAssertion: see comment above
-      const project = p!;
-      return {
-        id: project.id,
-        name: project.name,
-        developer: project.developer,
-        location: project.location,
-        buildStage: project.buildStage,
-        apartmentCount: r.matchingApartmentCount,
-        score: r.best.total,
-        percentile: r.percentile,
-        status: personal.status[project.id] ?? null,
-      };
-    });
-  }, [ranked, projectsById, personal.status]);
+    const list: Array<{
+      id: string;
+      name: string;
+      developer: string;
+      location: { lat: number; lng: number };
+      buildStage: string;
+      apartmentCount: number;
+      score?: number;
+      percentile?: number;
+      status: Status | null;
+    }> = [];
+    for (const project of projectsById.values()) {
+      // Project-level build-stage filter applies to ALL pins.
+      if (filters.buildStage.length > 0 && !filters.buildStage.includes(project.buildStage)) {
+        continue;
+      }
+      const r = rankedById.get(project.id);
+      if (r) {
+        list.push({
+          id: project.id,
+          name: project.name,
+          developer: project.developer,
+          location: project.location,
+          buildStage: project.buildStage,
+          apartmentCount: r.matchingApartmentCount,
+          score: r.best.total,
+          percentile: r.percentile,
+          status: personal.status[project.id] ?? null,
+        });
+      } else if (project.apartments.length === 0 && !apartmentLevelFilterActive) {
+        // Project-level-only data (Hepsor / Pillar / Invego, or scraped projects
+        // without listed units). Show pin with neutral styling.
+        list.push({
+          id: project.id,
+          name: project.name,
+          developer: project.developer,
+          location: project.location,
+          buildStage: project.buildStage,
+          apartmentCount: 0,
+          status: personal.status[project.id] ?? null,
+        });
+      }
+      // else: project has apartments but none match the user's apartment-level
+      // filter — hide it (this is the filter doing its job).
+    }
+    return list;
+  }, [projectsById, rankedById, personal.status, filters.buildStage, apartmentLevelFilterActive]);
 
   const selectedProject = filters.p ? (projectsById.get(filters.p) ?? null) : null;
   const selectedApartments = selectedProject
