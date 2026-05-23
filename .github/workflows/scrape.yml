@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        developer: [yit, bonava, pillar]
+        developer: [yit, bonava, pillar, invego]
     steps:
       - uses: actions/checkout@v5
         with:

@@ -1,0 +1,259 @@
+[
+  {
+    "address": "Skanstes Rezidences, Skanste, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "district": "Skanste",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--0716e19404361a41",
+    "location": {
+      "lat": 56.9666578,
+      "lng": 24.1213852,
+      "source": "nominatim"
+    },
+    "name": "Skanstes Rezidences",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:41.104Z",
+    "sourceUrl": "https://skanstes.lv/en/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Mārupes Sirds, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--19aa3568dd8333d4",
+    "location": {
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim"
+    },
+    "name": "Mārupes Sirds",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:43.056Z",
+    "sourceUrl": "https://invego.lv/marupessirds/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Silves Hills, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--2ba0dc3b1a0fcf90",
+    "location": {
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim"
+    },
+    "name": "Silves Hills",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:42.006Z",
+    "sourceUrl": "http://www.silveshills.com",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Nordale, Mežciems, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "district": "Mežciems",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--37aa199417d9176c",
+    "location": {
+      "lat": 56.9784391,
+      "lng": 24.209816,
+      "source": "nominatim"
+    },
+    "name": "Nordale",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:45.421Z",
+    "sourceUrl": "http://invego.lv/nordale",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Miera Rezidences, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--6364971ff3582e28",
+    "location": {
+      "lat": 56.9714014,
+      "lng": 24.1386111,
+      "source": "nominatim"
+    },
+    "name": "Miera Rezidences",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:42.006Z",
+    "sourceUrl": "https://miera.lv",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Torņakalna Terases, Torņakalns, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "district": "Torņakalns",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--64ec853c0c321fa0",
+    "location": {
+      "lat": 56.9301787,
+      "lng": 24.093767,
+      "source": "nominatim"
+    },
+    "name": "Torņakalna Terases",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:45.420Z",
+    "sourceUrl": "https://invego.lv/tornakalna/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Vide Adazi, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--6714131494948543",
+    "location": {
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim"
+    },
+    "name": "Vide Adazi",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:38.905Z",
+    "sourceUrl": "https://videadazi.lv/en/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Vītolu Parks, Mežaparks, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "district": "Mežaparks",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--b3920717f483c5ed",
+    "location": {
+      "lat": 57.001796,
+      "lng": 24.1574993,
+      "source": "nominatim"
+    },
+    "name": "Vītolu Parks",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:36.748Z",
+    "sourceUrl": "https://vitolu.lv/",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Parka Kvartals, Centrs, Rīga",
+    "apartments": [],
+    "buildStage": "pre-sales",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "invego",
+    "district": "Centrs",
+    "energyClass": "unknown",
+    "energyClassSource": "developer-claim",
+    "id": "invego--e4a43854e40d736c",
+    "location": {
+      "lat": 56.9581275,
+      "lng": 24.123267,
+      "source": "nominatim"
+    },
+    "name": "Parka Kvartals",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-23T16:23:41.103Z",
+    "sourceUrl": "https://parkakvartals.lv",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  }
+]
