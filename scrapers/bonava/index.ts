@@ -26,7 +26,7 @@ import {
 import { buildProjectId } from '@/lib/schema.server';
 import { fetchError, parseError, validateError } from '../base/errors';
 import { politeFetch } from '../base/fetch';
-import { flushCache, geocode } from '../base/geocoder';
+import { flushCache, geocodeWithFallback } from '../base/geocoder';
 import type { Scraper, ScrapeOutput } from '../base/interface';
 
 const DEVELOPER = 'bonava' as const;
@@ -207,6 +207,30 @@ function deriveAddress(
   return [name, districtPart, cityLabel].filter(Boolean).join(', ');
 }
 
+// ─── Family-name fetch (cached per family slug) ─────────────────────────
+//
+// Bonava project pages have building-level titles (e.g.,
+// "Tumes iela 27, otrā un trešā māja"). The parent family — visible only
+// in the URL slug (e.g., `piladzu-majas`) — has a separate landing page at
+// `/dzivokli/<city>/<district>/<family>` that shows the brand-level name
+// ("Pīlādžu mājas") in its <title>. We fetch each family page once per
+// scraper run and cache the result.
+
+const familyNameCache = new Map<string, string | null>();
+
+async function fetchFamilyName(familyUrl: string): Promise<string | null> {
+  if (familyNameCache.has(familyUrl)) return familyNameCache.get(familyUrl) ?? null;
+  const res = await politeFetch(familyUrl);
+  if (!res.ok) {
+    familyNameCache.set(familyUrl, null);
+    return null;
+  }
+  const title = extractTitle(res.body);
+  // Empty/null result is cached as null so retries are skipped.
+  familyNameCache.set(familyUrl, title);
+  return title;
+}
+
 // ─── Per-project parsing ───────────────────────────────────────────────────
 
 interface ProjectParseResult {
@@ -249,20 +273,36 @@ async function parseProjectPage(url: string): Promise<ProjectParseResult> {
     return { project: null, projectUrl: url, errors: [] };
   }
 
-  const name = extractTitle(html) ?? unslugify(subSlug ?? familySlug ?? '');
+  // The leaf-level building name from <title>, e.g., "Tumes iela 27, otrā un trešā māja"
+  const leafName = extractTitle(html) ?? unslugify(subSlug ?? familySlug ?? '');
+
+  // Fetch the family page once per family. Family URL = project URL minus
+  // the last path segment. The family page title (e.g., "Pīlādžu mājas")
+  // is the brand name the user actually wants as the heading.
+  const familyUrl = `https://www.bonava.lv/dzivokli/${citySlug}/${districtSlug}/${familySlug}`;
+  const familyName = await fetchFamilyName(familyUrl);
+  // Use family name when it exists and differs from the leaf; otherwise the
+  // leaf IS the project (project family with a single building, e.g., Ganību dambis 9).
+  const hasFamily = familyName && familyName.trim() !== leafName.trim();
+  const finalName = hasFamily ? familyName! : leafName;
+
   const cityLabel = LV_CITY_LABELS[citySlug?.toLowerCase() ?? 'riga'] ?? 'Rīga';
   const district = districtSlug ? unslugify(districtSlug) : undefined;
 
-  // Address: prefer a street+number extracted from the page name (which has
-  // proper Latvian diacritics), fall back to the name itself, then to the
-  // unslugified URL parts. Slugs strip diacritics, which breaks Nominatim.
-  const address = deriveAddress(name, districtSlug, citySlug, cityLabel);
+  // Address: derive from the LEAF name (per-building) — that's where the
+  // street + number lives. The family name is a brand without an address.
+  const address = deriveAddress(leafName, districtSlug, citySlug, cityLabel);
 
   const projectId = buildProjectId(DEVELOPER, { address });
   const errors: ScrapeError[] = [];
 
+  const variants: { address: string; tier: 'street' | 'district' | 'city' }[] = [
+    { address, tier: 'street' },
+  ];
+  if (district) variants.push({ address: `${district}, ${cityLabel}`, tier: 'district' });
+  variants.push({ address: String(cityLabel), tier: 'city' });
   let location: Project['location'] = { lat: 56.95, lng: 24.1, source: 'manual' };
-  const geo = await geocode({ developer: DEVELOPER, address });
+  const geo = await geocodeWithFallback({ developer: DEVELOPER, variants });
   if (geo) {
     location = { lat: geo.lat, lng: geo.lng, source: geo.source };
   } else {
@@ -277,7 +317,7 @@ async function parseProjectPage(url: string): Promise<ProjectParseResult> {
   const candidate: Project = {
     id: projectId,
     developer: DEVELOPER,
-    name,
+    name: finalName,
     address,
     city: cityLabel,
     location,
@@ -292,6 +332,7 @@ async function parseProjectPage(url: string): Promise<ProjectParseResult> {
     apartments: [],
     scrapedAt: new Date().toISOString(),
   };
+  if (hasFamily) candidate.subName = leafName;
   if (district) candidate.district = district;
 
   const parsed = ProjectSchema.safeParse(candidate);

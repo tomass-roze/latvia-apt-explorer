@@ -19,7 +19,7 @@ import {
 import { buildProjectId } from '@/lib/schema.server';
 import { fetchError, parseError, validateError } from '../base/errors';
 import { politeFetch } from '../base/fetch';
-import { flushCache, geocode } from '../base/geocoder';
+import { flushCache, geocodeWithFallback } from '../base/geocoder';
 import type { Scraper, ScrapeOutput } from '../base/interface';
 
 const DEVELOPER = 'invego' as const;
@@ -159,26 +159,27 @@ export const invegoScraper: Scraper = {
 
       const projectId = buildProjectId(DEVELOPER, { address: addressForGeocoding });
 
+      // Invego project names are brands (Mārupes Sirds, Vītolu Parks), not
+      // street addresses, so the name+district query mostly misses Nominatim.
+      // The tiered fallback (street → district → city) covers this cleanly,
+      // and the source enum lets the UI flag district/city-level pins as
+      // approximate.
+      const variants: { address: string; tier: 'street' | 'district' | 'city' }[] = [
+        { address: addressForGeocoding, tier: 'street' },
+      ];
+      if (district) variants.push({ address: `${district}, Rīga`, tier: 'district' });
+      variants.push({ address: 'Rīga', tier: 'city' });
+
       let location: Project['location'] = { lat: 56.95, lng: 24.1, source: 'manual' };
-      const geo = await geocode({ developer: DEVELOPER, address: addressForGeocoding });
+      const geo = await geocodeWithFallback({ developer: DEVELOPER, variants });
       if (geo) {
         location = { lat: geo.lat, lng: geo.lng, source: geo.source };
       } else {
-        // Fallback: try the district alone. Invego project names are brands
-        // (Mārupes Sirds, Vītolu Parks), not street addresses, so the
-        // name+district query mostly misses. The district by itself reliably
-        // resolves to a neighborhood centroid.
-        const fallbackAddress = district ? `${district}, Rīga` : 'Rīga';
-        const geoFallback = await geocode({ developer: DEVELOPER, address: fallbackAddress });
-        if (geoFallback) {
-          location = { lat: geoFallback.lat, lng: geoFallback.lng, source: geoFallback.source };
-        } else {
-          allErrors.push({
-            kind: 'geocode',
-            message: `geocoder returned null for "${normalizeAddress(addressForGeocoding)}" and fallback "${normalizeAddress(fallbackAddress)}"`,
-            projectId,
-          });
-        }
+        allErrors.push({
+          kind: 'geocode',
+          message: `geocoder returned null for "${normalizeAddress(addressForGeocoding)}"`,
+          projectId,
+        });
       }
 
       const sourceUrl = entry.link?.url ?? `https://invego.lv/${entry.slug}`;

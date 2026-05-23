@@ -25,7 +25,7 @@ import { buildProjectId } from '@/lib/schema.server';
 import { renderPage, shutdownBrowser } from '../base/browser';
 import { fetchError, parseError, validateError } from '../base/errors';
 import { politeFetch } from '../base/fetch';
-import { flushCache, geocode } from '../base/geocoder';
+import { flushCache, geocodeWithFallback } from '../base/geocoder';
 import type { Scraper, ScrapeOutput } from '../base/interface';
 
 const DEVELOPER = 'hepsor' as const;
@@ -115,8 +115,19 @@ async function parseProjectPage(url: string): Promise<ProjectParseResult> {
   const projectId = buildProjectId(DEVELOPER, { address });
   const errors: ScrapeError[] = [];
 
+  // District inference for the fallback tier — we pulled it from the location
+  // string earlier (e.g., "Rīga, Āgenskalns").
+  const districtMatchEarly = location.match(/R[īi]ga,\s*([A-ZĀČĒĢĪĶĻŅŠŪŽ][a-zāčēģīķļņšūž]+)/);
+  const districtEarly = districtMatchEarly?.[1];
+
+  const variants: { address: string; tier: 'street' | 'district' | 'city' }[] = [
+    { address, tier: 'street' },
+  ];
+  if (districtEarly) variants.push({ address: `${districtEarly}, Rīga`, tier: 'district' });
+  variants.push({ address: 'Rīga', tier: 'city' });
+
   let geoLocation: Project['location'] = { lat: 56.95, lng: 24.1, source: 'manual' };
-  const geo = await geocode({ developer: DEVELOPER, address });
+  const geo = await geocodeWithFallback({ developer: DEVELOPER, variants });
   if (geo) {
     geoLocation = { lat: geo.lat, lng: geo.lng, source: geo.source };
   } else {

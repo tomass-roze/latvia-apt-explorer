@@ -54,6 +54,10 @@ const AVAILABILITY_LABELS: Record<Apartment['availability'], string> = {
   sold: 'Pārdots',
 };
 
+function isApproximateLocation(source: Project['location']['source']): boolean {
+  return source === 'nominatim-district' || source === 'nominatim-city';
+}
+
 export function ProjectDetail({
   project,
   apartments,
@@ -100,11 +104,19 @@ export function ProjectDetail({
       {image ? <HeroImage image={image} fallbackAlt={project.name} /> : null}
 
       <div className="p-6 bg-[var(--paper-2)] space-y-3">
-        <div className="flex items-start justify-between gap-3">
+        <div className="space-y-1">
           <h2 className="font-display text-2xl leading-tight">{project.name}</h2>
+          {project.subName ? (
+            <p className="text-sm text-[var(--ink-2)] font-medium">{project.subName}</p>
+          ) : null}
+          <p className="text-sm text-[var(--ink-3)]">{project.address}</p>
+          {isApproximateLocation(project.location.source) ? (
+            <p className="text-[11px] text-[var(--ink-3)] italic">
+              Aptuvena atrašanās (apkaimes centrs) — precīza vieta nav ģeokodēta
+            </p>
+          ) : null}
         </div>
-        <p className="text-sm text-[var(--ink-2)]">{project.address}</p>
-        <div className="flex flex-wrap items-center gap-1.5">
+        <div className="flex flex-wrap items-center gap-1.5 pt-2">
           <SmallChip strong>{DEVELOPER_LABELS[project.developer]}</SmallChip>
           <SmallChip>{STAGE_LABELS[project.buildStage]}</SmallChip>
           <SmallChip>Energoklase {ENERGY_LABELS[project.energyClass]}</SmallChip>

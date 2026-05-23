@@ -135,6 +135,10 @@ export const ProjectSchema = z.object({
   id: ProjectIdSchema,
   developer: z.enum(DEVELOPERS),
   name: z.string().min(1),
+  // Optional sub-name: building-level identifier when the project belongs to
+  // a larger family (e.g., name="Mārpagalmi", subName="Mārpagalmi 5"). When
+  // absent, name IS the leaf-level project.
+  subName: z.string().min(1).optional(),
   address: z.string().min(1),
   cadastreId: z.string().optional(),
   district: z.string().optional(),
@@ -142,7 +146,18 @@ export const ProjectSchema = z.object({
   location: z.object({
     lat: z.number().min(-90).max(90),
     lng: z.number().min(-180).max(180),
-    source: z.enum(['vzd', 'janas-seta', 'nominatim', 'manual']),
+    // 'nominatim' = street-level match. 'nominatim-district' / 'nominatim-city'
+    // = degraded centroid match (the street query failed, the geocoder fell
+    // back to district or city). Surface this in the UI so users know when
+    // the pin's location is approximate.
+    source: z.enum([
+      'vzd',
+      'janas-seta',
+      'nominatim',
+      'nominatim-district',
+      'nominatim-city',
+      'manual',
+    ]),
   }),
   buildStage: z.enum(BUILD_STAGES),
   completion: CompletionEstimateSchema,

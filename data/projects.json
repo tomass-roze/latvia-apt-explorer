@@ -13,8 +13,8 @@
       "lng": 24.3022553,
       "source": "nominatim"
     },
-    "name": "Dreilinga mājas Comfort, Robežu 7",
-    "scrapedAt": "2026-05-23T15:55:04.071Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:32.679Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-comfort-robeu-7"
   },
   {
@@ -32,7 +32,7 @@
       "source": "nominatim"
     },
     "name": "Hartmaņa kvartāls - Jaunais Bonava projekts Torņakalnā, Jelgavas ielā 55B",
-    "scrapedAt": "2026-05-23T15:55:20.623Z",
+    "scrapedAt": "2026-05-23T22:08:52.405Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-pirma-karta"
   },
   {
@@ -49,8 +49,8 @@
       "lng": 24.1078698,
       "source": "nominatim"
     },
-    "name": "Ganību dambis 9",
-    "scrapedAt": "2026-05-23T15:54:41.993Z",
+    "name": "Fjordi",
+    "scrapedAt": "2026-05-23T22:08:04.460Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/centrs/fjordi/ganibu-dambis-9"
   },
   {
@@ -63,12 +63,12 @@
     "energyClass": "unknown",
     "id": "bonava--35a247b48c01f936",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9301787,
+      "lng": 24.093767,
+      "source": "nominatim-district"
     },
-    "name": "Hartmaņa kvartāls, otrā un trešā māja",
-    "scrapedAt": "2026-05-23T15:55:19.560Z",
+    "name": "Hartmaņa kvartāls - Jaunais Bonava projekts Torņakalnā, Jelgavas ielā 55B",
+    "scrapedAt": "2026-05-23T22:08:51.289Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/tornakalns/hartmana-kvartals/hartmana-kvartals-otra-un-tresa-maja"
   },
   {
@@ -85,8 +85,8 @@
       "lng": 24.1601489,
       "source": "nominatim"
     },
-    "name": "Jaunais projekts Krasta kvartāls, Grēdu iela 15",
-    "scrapedAt": "2026-05-23T15:54:55.855Z",
+    "name": "Pārdod dzīvokļus jaunajā projektā \"Krasta kvartāls\"",
+    "scrapedAt": "2026-05-23T22:08:22.550Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/gredu-iela-15"
   },
   {
@@ -103,8 +103,8 @@
       "lng": 24.1619763,
       "source": "nominatim"
     },
-    "name": "Krasta Kvartāls Trend, Maskavas 190",
-    "scrapedAt": "2026-05-23T15:54:50.955Z",
+    "name": "Pārdod dzīvokļus jaunajā projektā \"Krasta kvartāls\"",
+    "scrapedAt": "2026-05-23T22:08:16.807Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/maskavas-iela-190"
   },
   {
@@ -117,12 +117,12 @@
     "energyClass": "unknown",
     "id": "bonava--3eadc903c77937e2",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.908907,
+      "lng": 24.1873513,
+      "source": "nominatim-district"
     },
-    "name": "Blūmendāles mājas – Jaunais projekts Ķengaragā",
-    "scrapedAt": "2026-05-23T15:54:50.205Z",
+    "name": "Blūmendāles mājas - jaunais projekts Rīgā",
+    "scrapedAt": "2026-05-23T22:08:15.327Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/prusu-iela-pirma-karta"
   },
   {
@@ -139,8 +139,8 @@
       "lng": 24.3020571,
       "source": "nominatim"
     },
-    "name": "Dreilinga mājas Trend, Robežu 3",
-    "scrapedAt": "2026-05-23T15:55:01.380Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:29.262Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/Robezu-iela-3"
   },
   {
@@ -153,12 +153,12 @@
     "energyClass": "unknown",
     "id": "bonava--469cdc33a4e6e17f",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dreilinga mājas Comfort Robežu 15",
-    "scrapedAt": "2026-05-23T15:55:06.185Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:34.684Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-comfort-robeu-15"
   },
   {
@@ -171,12 +171,12 @@
     "energyClass": "unknown",
     "id": "bonava--53de055189e88ec1",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9436364,
+      "lng": 24.042932,
+      "source": "nominatim-district"
     },
-    "name": "Šampētera kvartāls – zaļš un moderns jaunais projekts Pārdaugavā",
-    "scrapedAt": "2026-05-23T15:55:18.216Z",
+    "name": "Jaunais projekts Šampēterī - Stendes ielā 8",
+    "scrapedAt": "2026-05-23T22:08:48.858Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/sampeteris/stendes-iela/stendes-iela-10-pirma-karta"
   },
   {
@@ -189,12 +189,12 @@
     "energyClass": "unknown",
     "id": "bonava--57afc6cc7e3effde",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Valterciems, ceturtā māja",
-    "scrapedAt": "2026-05-23T15:55:12.889Z",
+    "name": "Jaunais projekts Dreiliņos \"Valterciems\" - Bonava",
+    "scrapedAt": "2026-05-23T22:08:41.786Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-ceturta-maja"
   },
   {
@@ -207,12 +207,12 @@
     "energyClass": "unknown",
     "id": "bonava--698a9cf33a99da41",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Valterciems, pirmā māja",
-    "scrapedAt": "2026-05-23T15:55:16.742Z",
+    "name": "Jaunais projekts Dreiliņos \"Valterciems\" - Bonava",
+    "scrapedAt": "2026-05-23T22:08:45.157Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-pirma-karta"
   },
   {
@@ -225,12 +225,12 @@
     "energyClass": "unknown",
     "id": "bonava--6a8155871041962b",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9248964,
+      "lng": 24.1668679,
+      "source": "nominatim-district"
     },
-    "name": "Dzīvoklis Krasta rajonā - Jaunais Projekts ar skatu uz Daugavu",
-    "scrapedAt": "2026-05-23T15:54:51.919Z",
+    "name": "Pārdod dzīvokļus jaunajā projektā \"Krasta kvartāls\"",
+    "scrapedAt": "2026-05-23T22:08:19.473Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/maskavas-iela-192"
   },
   {
@@ -247,8 +247,8 @@
       "lng": 24.1689831,
       "source": "nominatim"
     },
-    "name": "Ropažu 16A, pirmā māja",
-    "scrapedAt": "2026-05-23T15:54:45.408Z",
+    "name": "Ropažu 16",
+    "scrapedAt": "2026-05-23T22:08:09.742Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/teika/ropazu-iela/ropazu-iela-16"
   },
   {
@@ -261,12 +261,12 @@
     "energyClass": "unknown",
     "id": "bonava--7b9c6c7bafc11a77",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dreilinga mājas Trend, Mazā Robežu 2",
-    "scrapedAt": "2026-05-23T15:55:10.795Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:39.437Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/maza-robezu-2"
   },
   {
@@ -279,12 +279,12 @@
     "energyClass": "unknown",
     "id": "bonava--7d7f5a5fdad1ecc9",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Jaunais Bonava Latvija projekts Dreiliņos - \"Dreilinga mājas\", Mazā Robežu iela 1",
-    "scrapedAt": "2026-05-23T15:55:11.842Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:40.318Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-maz-robeu-1"
   },
   {
@@ -297,12 +297,12 @@
     "energyClass": "unknown",
     "id": "bonava--7f2ced93cb5e26c3",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.958516,
+      "lng": 24.0639817,
+      "source": "nominatim-district"
     },
-    "name": "Dzirciema pagalms, pirmā māja",
-    "scrapedAt": "2026-05-23T15:56:04.063Z",
+    "name": "Dzirciema pagalms",
+    "scrapedAt": "2026-05-23T22:09:37.810Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dzirciems/dzirciema-pagalms/dzirciema-pagalms-pirma-maja"
   },
   {
@@ -315,12 +315,12 @@
     "energyClass": "unknown",
     "id": "bonava--8242e08de341fe95",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dreilinga mājas Trend, Mazā Robežu 4",
-    "scrapedAt": "2026-05-23T15:55:07.525Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:35.992Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-maz-robeu-4"
   },
   {
@@ -337,8 +337,8 @@
       "lng": 24.0777985,
       "source": "nominatim"
     },
-    "name": "Dreilinga mājas Trend, Robežu 9",
-    "scrapedAt": "2026-05-23T15:54:57.505Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:26.537Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-9"
   },
   {
@@ -355,8 +355,8 @@
       "lng": 24.1046542,
       "source": "nominatim"
     },
-    "name": "Tumes iela 25, Ziepniekkalns",
-    "scrapedAt": "2026-05-23T15:54:38.634Z",
+    "name": "Pārdod jaunus dzīvokļus projektā \"Pīlādžu mājas\"",
+    "scrapedAt": "2026-05-23T22:07:58.437Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-i"
   },
   {
@@ -369,12 +369,12 @@
     "energyClass": "unknown",
     "id": "bonava--a7b87cc62c4bac2a",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dreilinga mājas Trend, Mazā Robežu 3",
-    "scrapedAt": "2026-05-23T15:55:00.309Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:28.378Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-majas-maza-robezu-3"
   },
   {
@@ -387,12 +387,12 @@
     "energyClass": "unknown",
     "id": "bonava--aba7e19c374c0d23",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dzīvoklis Dreiliņos - Jaunais Projekts Mierīgā Apkaimē",
-    "scrapedAt": "2026-05-23T15:54:56.303Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:24.907Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-1"
   },
   {
@@ -405,12 +405,12 @@
     "energyClass": "unknown",
     "id": "bonava--cce6b574b9b63b5d",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Valterciems, otrā māja",
-    "scrapedAt": "2026-05-23T15:55:15.161Z",
+    "name": "Jaunais projekts Dreiliņos \"Valterciems\" - Bonava",
+    "scrapedAt": "2026-05-23T22:08:44.354Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-otra-maja"
   },
   {
@@ -427,8 +427,8 @@
       "lng": 24.1787864,
       "source": "nominatim"
     },
-    "name": "Bonava jaunais projekts \"Blūmendāles mājas\" Ķengaragā - trešā ēka Prūšu ielā 1G",
-    "scrapedAt": "2026-05-23T15:54:47.562Z",
+    "name": "Blūmendāles mājas - jaunais projekts Rīgā",
+    "scrapedAt": "2026-05-23T22:08:12.610Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/tresa-maja"
   },
   {
@@ -441,12 +441,12 @@
     "energyClass": "unknown",
     "id": "bonava--d10c099c27bfb7ea",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dreilinga mājas Trend, Mazā Robežu 5",
-    "scrapedAt": "2026-05-23T15:55:09.543Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:38.135Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/maza-robezu-5"
   },
   {
@@ -463,8 +463,8 @@
       "lng": 24.1033601,
       "source": "nominatim"
     },
-    "name": "Tumes iela 27, otrā un trešā māja",
-    "scrapedAt": "2026-05-23T15:54:37.897Z",
+    "name": "Pārdod jaunus dzīvokļus projektā \"Pīlādžu mājas\"",
+    "scrapedAt": "2026-05-23T22:07:57.660Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/piladzu-majas/tumes-iela-25-ii"
   },
   {
@@ -477,12 +477,12 @@
     "energyClass": "unknown",
     "id": "bonava--d3d1b1ee3c027671",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9744177,
+      "lng": 24.183611,
+      "source": "nominatim-district"
     },
-    "name": "Jaunais projekts Ropažu 16",
-    "scrapedAt": "2026-05-23T15:54:44.791Z",
+    "name": "Ropažu 16",
+    "scrapedAt": "2026-05-23T22:08:08.424Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/teika/ropazu-iela/ropazu-k2"
   },
   {
@@ -495,12 +495,12 @@
     "energyClass": "unknown",
     "id": "bonava--d4396d3b393fa016",
     "location": {
-      "lat": 56.9229745,
-      "lng": 24.0741172,
+      "lat": 56.9227552,
+      "lng": 24.0762927,
       "source": "nominatim"
     },
-    "name": "Dreilinga mājas Comfort, Robežu 17",
-    "scrapedAt": "2026-05-23T15:55:08.420Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:37.598Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robeu-17"
   },
   {
@@ -513,12 +513,12 @@
     "energyClass": "unknown",
     "id": "bonava--d6b59530effe0691",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Valterciems, trešā māja",
-    "scrapedAt": "2026-05-23T15:55:13.947Z",
+    "name": "Jaunais projekts Dreiliņos \"Valterciems\" - Bonava",
+    "scrapedAt": "2026-05-23T22:08:43.125Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/valterciems/valterciems-tresa-maja"
   },
   {
@@ -531,12 +531,12 @@
     "energyClass": "unknown",
     "id": "bonava--d89d280ebb5312e9",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dreilinga mājas Trend Robežu 19 un 21",
-    "scrapedAt": "2026-05-23T15:55:05.576Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:33.706Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-robeu-19-un-21"
   },
   {
@@ -549,12 +549,12 @@
     "energyClass": "unknown",
     "id": "bonava--dc4487aceee438f0",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9030683,
+      "lng": 24.1034916,
+      "source": "nominatim-district"
     },
-    "name": "Jaunais projekts Mūkusalas pagalmi pirmā māja",
-    "scrapedAt": "2026-05-23T15:54:40.289Z",
+    "name": "Jaunais projekts Rīgā Pārdaugavā - Mūkusalas pagalmi",
+    "scrapedAt": "2026-05-23T22:08:01.958Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/ziepniekkalns/mukusalas-pagalmi/mukusalas-pagalmi-pirma-maja"
   },
   {
@@ -567,12 +567,12 @@
     "energyClass": "unknown",
     "id": "bonava--ddffdb14776d4890",
     "location": {
-      "lat": 56.9761445,
-      "lng": 24.1115846,
+      "lat": 56.9724956,
+      "lng": 24.1094818,
       "source": "nominatim"
     },
-    "name": "Ganību dambis 11 un 11A",
-    "scrapedAt": "2026-05-23T15:54:40.929Z",
+    "name": "Fjordi",
+    "scrapedAt": "2026-05-23T22:08:03.495Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/centrs/fjordi/ganibu-dambis-11-un-11a"
   },
   {
@@ -589,8 +589,8 @@
       "lng": 24.1695586,
       "source": "nominatim"
     },
-    "name": "Jaunais projekts Teikā, Ropažu 16",
-    "scrapedAt": "2026-05-23T15:54:43.237Z",
+    "name": "Ropažu 16",
+    "scrapedAt": "2026-05-23T22:08:06.304Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/teika/ropazu-iela/ropazu16-tresa-maja"
   },
   {
@@ -603,12 +603,12 @@
     "energyClass": "unknown",
     "id": "bonava--e796c31b83cfcb4c",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
-    "name": "Dreiliņi Comfort",
-    "scrapedAt": "2026-05-23T15:54:58.542Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:27.561Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-5"
   },
   {
@@ -625,8 +625,8 @@
       "lng": 24.1613351,
       "source": "nominatim"
     },
-    "name": "Krasta kvartāls Trend, Maskavas 188",
-    "scrapedAt": "2026-05-23T15:54:53.701Z",
+    "name": "Pārdod dzīvokļus jaunajā projektā \"Krasta kvartāls\"",
+    "scrapedAt": "2026-05-23T22:08:19.983Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/krasta-kvartls-trend-maskavas-188"
   },
   {
@@ -643,8 +643,8 @@
       "lng": 24.1799065,
       "source": "nominatim"
     },
-    "name": "Prūšu iela 1H, otrā māja",
-    "scrapedAt": "2026-05-23T15:54:48.622Z",
+    "name": "Blūmendāles mājas - jaunais projekts Rīgā",
+    "scrapedAt": "2026-05-23T22:08:13.123Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/prusu-iela1h-otra-maja"
   },
   {
@@ -661,8 +661,8 @@
       "lng": 24.1801796,
       "source": "nominatim"
     },
-    "name": "Prūšu iela 1I, ceturtā māja",
-    "scrapedAt": "2026-05-23T15:54:46.379Z",
+    "name": "Blūmendāles mājas - jaunais projekts Rīgā",
+    "scrapedAt": "2026-05-23T22:08:11.075Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/kengarags/blumendales-majas/Prusu-iela-1I-ceturta-maja"
   },
   {
@@ -679,8 +679,8 @@
       "lng": 24.0773376,
       "source": "nominatim"
     },
-    "name": "Dreilinga mājas Trend, Robežu 11",
-    "scrapedAt": "2026-05-23T15:55:01.878Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:30.377Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/robezu-iela-11"
   },
   {
@@ -697,8 +697,8 @@
       "lng": 24.161404,
       "source": "nominatim"
     },
-    "name": "Krasta kvartāls, Krīdenera dambis 4",
-    "scrapedAt": "2026-05-23T15:54:54.180Z",
+    "name": "Pārdod dzīvokļus jaunajā projektā \"Krasta kvartāls\"",
+    "scrapedAt": "2026-05-23T22:08:21.522Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/krasta-rajons/krasta-kvartals/krasta-kvartls-krdenera-dambis-4"
   },
   {
@@ -715,8 +715,8 @@
       "lng": 24.076756,
       "source": "nominatim"
     },
-    "name": "Dreilinga mājas Trend, Robežu 13",
-    "scrapedAt": "2026-05-23T15:55:03.223Z",
+    "name": "Jaunais projekts - pārdod dzīvokļus Rīgā, Dreiliņos",
+    "scrapedAt": "2026-05-23T22:08:31.757Z",
     "sourceUrl": "https://www.bonava.lv/dzivokli/riga/dreilini/dreilinga-majas/dreilinga-mjas-trend-robeu-13"
   },
   {
@@ -734,7 +734,7 @@
       "source": "nominatim"
     },
     "name": "Annenhof Mājas",
-    "scrapedAt": "2026-05-23T16:34:57.121Z",
+    "scrapedAt": "2026-05-23T22:18:29.275Z",
     "sourceUrl": "https://hepsor.lv/project/annenhof-majas/"
   },
   {
@@ -752,7 +752,7 @@
       "source": "nominatim"
     },
     "name": "Āgenskalna ielā 24",
-    "scrapedAt": "2026-05-23T16:33:52.627Z",
+    "scrapedAt": "2026-05-23T22:17:09.693Z",
     "sourceUrl": "https://hepsor.lv/project/agenskalna-24/"
   },
   {
@@ -769,7 +769,7 @@
       "source": "nominatim"
     },
     "name": "Ķiršu Kalna Mājas",
-    "scrapedAt": "2026-05-23T16:35:31.208Z",
+    "scrapedAt": "2026-05-23T22:19:15.264Z",
     "sourceUrl": "https://hepsor.lv/project/kirsu-kalna-majas/"
   },
   {
@@ -787,7 +787,7 @@
       "source": "nominatim"
     },
     "name": "Strēlnieku 4b",
-    "scrapedAt": "2026-05-23T16:35:12.030Z",
+    "scrapedAt": "2026-05-23T22:18:49.524Z",
     "sourceUrl": "https://hepsor.lv/project/strelnieku-4b/"
   },
   {
@@ -805,7 +805,7 @@
       "source": "nominatim"
     },
     "name": "StokOfiss U34",
-    "scrapedAt": "2026-05-23T16:35:23.886Z",
+    "scrapedAt": "2026-05-23T22:19:05.823Z",
     "sourceUrl": "https://hepsor.lv/project/stokofiss-u34/"
   },
   {
@@ -818,12 +818,12 @@
     "energyClass": "unknown",
     "id": "hepsor--8895791bb45c5d0c",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9370249,
+      "lng": 24.0697444,
+      "source": "nominatim-district"
     },
     "name": "Kuldīgas Parks",
-    "scrapedAt": "2026-05-23T16:34:46.233Z",
+    "scrapedAt": "2026-05-23T22:18:19.011Z",
     "sourceUrl": "https://hepsor.lv/project/kuldigas-park/"
   },
   {
@@ -840,7 +840,7 @@
       "source": "nominatim"
     },
     "name": "360° Dzelzavas Residences",
-    "scrapedAt": "2026-05-23T16:35:28.157Z",
+    "scrapedAt": "2026-05-23T22:19:11.325Z",
     "sourceUrl": "https://hepsor.lv/project/360dzelavas-residences/"
   },
   {
@@ -858,7 +858,7 @@
       "source": "nominatim"
     },
     "name": "Baložu 9",
-    "scrapedAt": "2026-05-23T16:33:54.511Z",
+    "scrapedAt": "2026-05-23T22:17:12.375Z",
     "sourceUrl": "https://hepsor.lv/project/balozu-9/"
   },
   {
@@ -871,12 +871,12 @@
     "energyClass": "unknown",
     "id": "hepsor--9fcdd73719ab1b84",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
     "name": "StokOfiss U30",
-    "scrapedAt": "2026-05-23T16:33:59.482Z",
+    "scrapedAt": "2026-05-23T22:17:18.197Z",
     "sourceUrl": "https://hepsor.lv/project/stokofiss-u30/"
   },
   {
@@ -889,12 +889,12 @@
     "energyClass": "unknown",
     "id": "hepsor--a749d822d6e2ad7a",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9325323,
+      "lng": 24.0454439,
+      "source": "nominatim-district"
     },
     "name": "Mārupes Dārzs",
-    "scrapedAt": "2026-05-23T16:34:43.917Z",
+    "scrapedAt": "2026-05-23T22:18:13.896Z",
     "sourceUrl": "https://hepsor.lv/project/marupes-darzs/"
   },
   {
@@ -912,7 +912,7 @@
       "source": "nominatim"
     },
     "name": "Krasta City biznesa komplekss",
-    "scrapedAt": "2026-05-23T16:35:17.291Z",
+    "scrapedAt": "2026-05-23T22:18:56.453Z",
     "sourceUrl": "https://hepsor.lv/project/krasta-city-arikompleks/"
   },
   {
@@ -925,12 +925,12 @@
     "energyClass": "unknown",
     "id": "hepsor--b097d7cc260ea91f",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9370249,
+      "lng": 24.0697444,
+      "source": "nominatim-district"
     },
     "name": "Nameja Rezidence",
-    "scrapedAt": "2026-05-23T16:35:10.023Z",
+    "scrapedAt": "2026-05-23T22:18:45.660Z",
     "sourceUrl": "https://hepsor.lv/project/nameja-rezidence/"
   },
   {
@@ -948,7 +948,7 @@
       "source": "nominatim"
     },
     "name": "Skanstes Rezidences",
-    "scrapedAt": "2026-05-23T16:23:41.104Z",
+    "scrapedAt": "2026-05-23T22:16:56.381Z",
     "sourceUrl": "https://skanstes.lv/en/"
   },
   {
@@ -962,10 +962,10 @@
     "location": {
       "lat": 56.9493977,
       "lng": 24.1051846,
-      "source": "nominatim"
+      "source": "nominatim-city"
     },
     "name": "Mārupes Sirds",
-    "scrapedAt": "2026-05-23T16:23:43.056Z",
+    "scrapedAt": "2026-05-23T22:16:59.263Z",
     "sourceUrl": "https://invego.lv/marupessirds/"
   },
   {
@@ -979,10 +979,10 @@
     "location": {
       "lat": 56.9493977,
       "lng": 24.1051846,
-      "source": "nominatim"
+      "source": "nominatim-city"
     },
     "name": "Silves Hills",
-    "scrapedAt": "2026-05-23T16:23:42.006Z",
+    "scrapedAt": "2026-05-23T22:16:57.001Z",
     "sourceUrl": "http://www.silveshills.com"
   },
   {
@@ -1000,7 +1000,7 @@
       "source": "nominatim"
     },
     "name": "Nordale",
-    "scrapedAt": "2026-05-23T16:23:45.421Z",
+    "scrapedAt": "2026-05-23T22:17:02.636Z",
     "sourceUrl": "http://invego.lv/nordale"
   },
   {
@@ -1017,7 +1017,7 @@
       "source": "nominatim"
     },
     "name": "Miera Rezidences",
-    "scrapedAt": "2026-05-23T16:23:42.006Z",
+    "scrapedAt": "2026-05-23T22:16:58.161Z",
     "sourceUrl": "https://miera.lv"
   },
   {
@@ -1032,10 +1032,10 @@
     "location": {
       "lat": 56.9301787,
       "lng": 24.093767,
-      "source": "nominatim"
+      "source": "nominatim-district"
     },
     "name": "Torņakalna Terases",
-    "scrapedAt": "2026-05-23T16:23:45.420Z",
+    "scrapedAt": "2026-05-23T22:17:01.947Z",
     "sourceUrl": "https://invego.lv/tornakalna/"
   },
   {
@@ -1049,10 +1049,10 @@
     "location": {
       "lat": 56.9493977,
       "lng": 24.1051846,
-      "source": "nominatim"
+      "source": "nominatim-city"
     },
     "name": "Vide Adazi",
-    "scrapedAt": "2026-05-23T16:23:38.905Z",
+    "scrapedAt": "2026-05-23T22:16:52.438Z",
     "sourceUrl": "https://videadazi.lv/en/"
   },
   {
@@ -1067,10 +1067,10 @@
     "location": {
       "lat": 57.001796,
       "lng": 24.1574993,
-      "source": "nominatim"
+      "source": "nominatim-district"
     },
     "name": "Vītolu Parks",
-    "scrapedAt": "2026-05-23T16:23:36.748Z",
+    "scrapedAt": "2026-05-23T22:16:50.942Z",
     "sourceUrl": "https://vitolu.lv/"
   },
   {
@@ -1085,10 +1085,10 @@
     "location": {
       "lat": 56.9581275,
       "lng": 24.123267,
-      "source": "nominatim"
+      "source": "nominatim-district"
     },
     "name": "Parka Kvartals",
-    "scrapedAt": "2026-05-23T16:23:41.103Z",
+    "scrapedAt": "2026-05-23T22:16:55.059Z",
     "sourceUrl": "https://parkakvartals.lv"
   },
   {
@@ -1105,7 +1105,7 @@
       "source": "nominatim"
     },
     "name": "Dārzciema liepas",
-    "scrapedAt": "2026-05-23T16:16:09.415Z",
+    "scrapedAt": "2026-05-23T22:16:45.368Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/darzciema-liepas/par-projektu"
   },
   {
@@ -1122,7 +1122,7 @@
       "source": "nominatim"
     },
     "name": "Dreiliņu priedes",
-    "scrapedAt": "2026-05-23T16:16:07.784Z",
+    "scrapedAt": "2026-05-23T22:16:44.614Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/dreilinu-priedes/par-projektu"
   },
   {
@@ -1139,7 +1139,7 @@
       "source": "nominatim"
     },
     "name": "Purvciema mājas",
-    "scrapedAt": "2026-05-23T16:16:11.667Z",
+    "scrapedAt": "2026-05-23T22:16:47.539Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/purvciema-majas/par-projektu"
   },
   {
@@ -1151,12 +1151,12 @@
     "energyClass": "A",
     "id": "pillar--a0f243d8c3e08ad1",
     "location": {
-      "lat": 56.9717868,
-      "lng": 24.0520033,
+      "lat": 56.969718,
+      "lng": 24.0476264,
       "source": "nominatim"
     },
     "name": "Iļģuciema mājas",
-    "scrapedAt": "2026-05-23T16:16:10.068Z",
+    "scrapedAt": "2026-05-23T22:16:46.663Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/ilguciema-majas/par-projektu"
   },
   {
@@ -1168,12 +1168,12 @@
     "energyClass": "A",
     "id": "pillar--af40a85e978794df",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim-city"
     },
     "name": "Mežciema mājas",
-    "scrapedAt": "2026-05-23T16:16:06.697Z",
+    "scrapedAt": "2026-05-23T22:16:43.711Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/mezciema-majas/par-projektu"
   },
   {
@@ -1191,7 +1191,7 @@
       "source": "nominatim"
     },
     "name": "Ķīpsalas 41 - 1.kārta",
-    "scrapedAt": "2026-05-23T14:39:10.321Z",
+    "scrapedAt": "2026-05-23T22:22:21.442Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/kipsala/riverstone"
   },
   {
@@ -1204,12 +1204,12 @@
     "energyClass": "A+",
     "id": "yit--0f7ab7740a3ca64c",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
+      "lat": 56.93875,
+      "lng": 24.22421,
       "source": "manual"
     },
-    "name": "Kaivas kvartāls 2",
-    "scrapedAt": "2026-05-23T14:38:26.377Z",
+    "name": "Kaivas kvartāls",
+    "scrapedAt": "2026-05-23T22:21:37.239Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2"
   },
   {
@@ -1226,8 +1226,8 @@
       "lng": 24.0723103,
       "source": "nominatim"
     },
-    "name": "Mārpagalmi 3",
-    "scrapedAt": "2026-05-23T14:38:28.453Z",
+    "name": "Mārpagalmi",
+    "scrapedAt": "2026-05-23T22:21:39.454Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-3"
   },
   {
@@ -1240,12 +1240,12 @@
     "energyClass": "unknown",
     "id": "yit--3595812d1f652588",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
+      "lat": 56.93875,
+      "lng": 24.22421,
       "source": "manual"
     },
-    "name": "Kaivas kvartāls 1",
-    "scrapedAt": "2026-05-23T14:38:34.201Z",
+    "name": "Kaivas kvartāls",
+    "scrapedAt": "2026-05-23T22:21:45.389Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals"
   },
   {
@@ -1262,8 +1262,8 @@
       "lng": 24.0697444,
       "source": "nominatim"
     },
-    "name": "Mārpagalmi 4",
-    "scrapedAt": "2026-05-23T14:38:30.656Z",
+    "name": "Mārpagalmi",
+    "scrapedAt": "2026-05-23T22:21:41.281Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-4"
   },
   {
@@ -1281,7 +1281,7 @@
       "source": "nominatim"
     },
     "name": "Anniņmuižas iela 15A",
-    "scrapedAt": "2026-05-23T14:38:49.275Z",
+    "scrapedAt": "2026-05-23T22:22:00.341Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/zolitude/anninmuizas-iela-15a"
   },
   {
@@ -1299,7 +1299,7 @@
       "source": "nominatim"
     },
     "name": "Bauskas 191 - 1.karta",
-    "scrapedAt": "2026-05-23T14:39:04.299Z",
+    "scrapedAt": "2026-05-23T22:22:15.369Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/bisumuiza/bauskas-191"
   },
   {
@@ -1316,8 +1316,8 @@
       "lng": 24.0720201,
       "source": "nominatim"
     },
-    "name": "Mārpagalmi 5",
-    "scrapedAt": "2026-05-23T14:38:29.553Z",
+    "name": "Mārpagalmi",
+    "scrapedAt": "2026-05-23T22:21:40.410Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5"
   },
   {
@@ -1334,8 +1334,8 @@
       "lng": 24.2105802,
       "source": "nominatim"
     },
-    "name": "Silvas Nami 6",
-    "scrapedAt": "2026-05-23T14:38:27.353Z",
+    "name": "Silvas nami",
+    "scrapedAt": "2026-05-23T22:21:38.433Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6"
   },
   {
@@ -1352,8 +1352,8 @@
       "lng": 24.2123591,
       "source": "nominatim"
     },
-    "name": "Silvas Nami 5",
-    "scrapedAt": "2026-05-23T14:38:31.759Z",
+    "name": "Silvas nami",
+    "scrapedAt": "2026-05-23T22:21:42.395Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-5"
   }
 ]

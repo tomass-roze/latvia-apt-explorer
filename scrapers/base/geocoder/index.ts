@@ -1,15 +1,16 @@
 // Geocoder fallback chain:
 //   manual override → cache → Jāņa sēta → Nominatim → fail
 //
-// Cache and override are committed to git: `data/cache/geocoding.json` and
-// `data/overrides/geocoding.json`. Cache is append-only (entries never
-// expire); to force a re-geocode delete the entry. Override wins over
-// everything else.
+// The single-address `geocode()` API is what scrapers historically called.
+// `geocodeWithFallback()` takes ordered variants — typically
+// [street_address, "district, city", "city"] — and tries each in turn,
+// tagging the result with the degraded source enum ('nominatim-district' /
+// 'nominatim-city') so the UI can mark pins as approximate.
 //
-// The cache key is `<developer>:<normalizedAddress>` so identical
-// addresses across developers share a result. The address is the
-// normalized form from lib/schema.normalizeAddress (lowercased, NFC,
-// whitespace-collapsed).
+// Cache + overrides are committed to git: `data/cache/geocoding.json` and
+// `data/overrides/geocoding.json`. Cache is append-only (entries never
+// expire). Cache keys include the developer to avoid cross-developer
+// contamination on identical-looking addresses.
 
 import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -22,9 +23,16 @@ const REPO_ROOT = process.cwd();
 const CACHE_PATH = join(REPO_ROOT, 'data', 'cache', 'geocoding.json');
 const OVERRIDES_PATH = join(REPO_ROOT, 'data', 'overrides', 'geocoding.json');
 
+export type GeocodeSource =
+  | 'vzd'
+  | 'janas-seta'
+  | 'nominatim'
+  | 'nominatim-district'
+  | 'nominatim-city'
+  | 'manual';
+
 type CacheRecord = { lat: number; lng: number; source: GeocodeSource };
 type CacheMap = Record<string, CacheRecord>;
-export type GeocodeSource = 'vzd' | 'janas-seta' | 'nominatim' | 'manual';
 
 export interface GeocodeResult extends GeocodeHit {
   source: GeocodeSource;
@@ -69,14 +77,13 @@ export interface GeocodeInput {
 }
 
 /**
- * Resolve an address to lat/lng. Order:
+ * Single-address geocode. Order:
  *   1. manual override (data/overrides/geocoding.json)
  *   2. persistent cache (data/cache/geocoding.json)
  *   3. Jāņa sēta API (stub today)
  *   4. Nominatim (rate-limited)
  *
- * On success, the result is appended to the cache (in-memory; flushed via
- * `flushCache()` at end of scraper run).
+ * Result cached on hit. Returns null on miss.
  */
 export async function geocode({ developer, address }: GeocodeInput): Promise<GeocodeResult | null> {
   const key = cacheKey(developer, address);
@@ -102,6 +109,71 @@ export async function geocode({ developer, address }: GeocodeInput): Promise<Geo
     return result;
   }
 
+  return null;
+}
+
+export interface GeocodeFallbackInput {
+  developer: Developer;
+  /**
+   * Ordered candidate addresses. The first that resolves wins. By convention:
+   *   [0] full street + number + city  (best precision)
+   *   [1] district + city               (fallback if street unknown)
+   *   [2] city                          (last resort centroid)
+   */
+  variants: Array<{ address: string; tier: 'street' | 'district' | 'city' }>;
+}
+
+/**
+ * Try multiple address variants in order until one resolves. The returned
+ * `source` is degraded to reflect which tier matched ('nominatim' for street,
+ * 'nominatim-district' for district, 'nominatim-city' for city). The cache
+ * stores the degraded source so subsequent runs honour it.
+ *
+ * Manual overrides (keyed on the FIRST variant's address) still take
+ * precedence — they're declarative truth.
+ */
+export async function geocodeWithFallback({
+  developer,
+  variants,
+}: GeocodeFallbackInput): Promise<GeocodeResult | null> {
+  // Manual overrides keyed on the primary (most specific) address.
+  if (variants.length === 0) return null;
+  const primary = variants[0]!;
+  const ov = await getOverrides();
+  const overrideHit = ov[cacheKey(developer, primary.address)];
+  if (overrideHit) {
+    return { lat: overrideHit.lat, lng: overrideHit.lng, source: 'manual' };
+  }
+
+  const c = await getCache();
+
+  for (const variant of variants) {
+    const key = cacheKey(developer, variant.address);
+    const cached = c[key];
+    if (cached) {
+      return { lat: cached.lat, lng: cached.lng, source: cached.source };
+    }
+    // Try Jāņa sēta (stub today) then Nominatim for this variant.
+    const fromJanasSeta = await geocodeJanasSeta(variant.address);
+    if (fromJanasSeta) {
+      const result: GeocodeResult = { ...fromJanasSeta, source: 'janas-seta' };
+      c[key] = result;
+      return result;
+    }
+    const fromNominatim = await geocodeNominatim(variant.address);
+    if (fromNominatim) {
+      const source: GeocodeSource =
+        variant.tier === 'street'
+          ? 'nominatim'
+          : variant.tier === 'district'
+            ? 'nominatim-district'
+            : 'nominatim-city';
+      const result: GeocodeResult = { ...fromNominatim, source };
+      c[key] = result;
+      return result;
+    }
+    // Variant didn't resolve — try the next tier.
+  }
   return null;
 }
 

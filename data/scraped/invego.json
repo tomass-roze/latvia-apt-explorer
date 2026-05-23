@@ -22,7 +22,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:41.104Z",
+    "scrapedAt": "2026-05-23T22:16:56.381Z",
     "sourceUrl": "https://skanstes.lv/en/",
     "storagePrice": {
       "kind": "unknown"
@@ -44,13 +44,13 @@
     "location": {
       "lat": 56.9493977,
       "lng": 24.1051846,
-      "source": "nominatim"
+      "source": "nominatim-city"
     },
     "name": "Mārupes Sirds",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:43.056Z",
+    "scrapedAt": "2026-05-23T22:16:59.263Z",
     "sourceUrl": "https://invego.lv/marupessirds/",
     "storagePrice": {
       "kind": "unknown"
@@ -72,13 +72,13 @@
     "location": {
       "lat": 56.9493977,
       "lng": 24.1051846,
-      "source": "nominatim"
+      "source": "nominatim-city"
     },
     "name": "Silves Hills",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:42.006Z",
+    "scrapedAt": "2026-05-23T22:16:57.001Z",
     "sourceUrl": "http://www.silveshills.com",
     "storagePrice": {
       "kind": "unknown"
@@ -107,7 +107,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:45.421Z",
+    "scrapedAt": "2026-05-23T22:17:02.636Z",
     "sourceUrl": "http://invego.lv/nordale",
     "storagePrice": {
       "kind": "unknown"
@@ -135,7 +135,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:42.006Z",
+    "scrapedAt": "2026-05-23T22:16:58.161Z",
     "sourceUrl": "https://miera.lv",
     "storagePrice": {
       "kind": "unknown"
@@ -158,13 +158,13 @@
     "location": {
       "lat": 56.9301787,
       "lng": 24.093767,
-      "source": "nominatim"
+      "source": "nominatim-district"
     },
     "name": "Torņakalna Terases",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:45.420Z",
+    "scrapedAt": "2026-05-23T22:17:01.947Z",
     "sourceUrl": "https://invego.lv/tornakalna/",
     "storagePrice": {
       "kind": "unknown"
@@ -186,13 +186,13 @@
     "location": {
       "lat": 56.9493977,
       "lng": 24.1051846,
-      "source": "nominatim"
+      "source": "nominatim-city"
     },
     "name": "Vide Adazi",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:38.905Z",
+    "scrapedAt": "2026-05-23T22:16:52.438Z",
     "sourceUrl": "https://videadazi.lv/en/",
     "storagePrice": {
       "kind": "unknown"
@@ -215,13 +215,13 @@
     "location": {
       "lat": 57.001796,
       "lng": 24.1574993,
-      "source": "nominatim"
+      "source": "nominatim-district"
     },
     "name": "Vītolu Parks",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:36.748Z",
+    "scrapedAt": "2026-05-23T22:16:50.942Z",
     "sourceUrl": "https://vitolu.lv/",
     "storagePrice": {
       "kind": "unknown"
@@ -244,13 +244,13 @@
     "location": {
       "lat": 56.9581275,
       "lng": 24.123267,
-      "source": "nominatim"
+      "source": "nominatim-district"
     },
     "name": "Parka Kvartals",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:23:41.103Z",
+    "scrapedAt": "2026-05-23T22:16:55.059Z",
     "sourceUrl": "https://parkakvartals.lv",
     "storagePrice": {
       "kind": "unknown"

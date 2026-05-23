@@ -17,7 +17,7 @@ import {
 import { buildProjectId } from '@/lib/schema.server';
 import { fetchError, parseError, validateError } from '../base/errors';
 import { politeFetch } from '../base/fetch';
-import { flushCache, geocode } from '../base/geocoder';
+import { flushCache, geocodeWithFallback } from '../base/geocoder';
 import type { Scraper, ScrapeOutput } from '../base/interface';
 
 const DEVELOPER = 'pillar' as const;
@@ -150,7 +150,13 @@ export const pillarScraper: Scraper = {
       const projectId = buildProjectId(DEVELOPER, { address: addressForGeocoding });
 
       let location: Project['location'] = { lat: 56.95, lng: 24.1, source: 'manual' };
-      const geo = await geocode({ developer: DEVELOPER, address: addressForGeocoding });
+      const geo = await geocodeWithFallback({
+        developer: DEVELOPER,
+        variants: [
+          { address: addressForGeocoding, tier: 'street' },
+          { address: 'Rīga', tier: 'city' },
+        ],
+      });
       if (geo) {
         location = { lat: geo.lat, lng: geo.lng, source: geo.source };
       } else {

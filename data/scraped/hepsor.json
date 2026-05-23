@@ -22,7 +22,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:34:57.121Z",
+    "scrapedAt": "2026-05-23T22:18:29.275Z",
     "sourceUrl": "https://hepsor.lv/project/annenhof-majas/",
     "storagePrice": {
       "kind": "unknown"
@@ -52,7 +52,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:33:52.627Z",
+    "scrapedAt": "2026-05-23T22:17:09.693Z",
     "sourceUrl": "https://hepsor.lv/project/agenskalna-24/",
     "storagePrice": {
       "kind": "unknown"
@@ -80,7 +80,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:35:31.208Z",
+    "scrapedAt": "2026-05-23T22:19:15.264Z",
     "sourceUrl": "https://hepsor.lv/project/kirsu-kalna-majas/",
     "storagePrice": {
       "kind": "unknown"
@@ -110,7 +110,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:35:12.030Z",
+    "scrapedAt": "2026-05-23T22:18:49.524Z",
     "sourceUrl": "https://hepsor.lv/project/strelnieku-4b/",
     "storagePrice": {
       "kind": "unknown"
@@ -139,7 +139,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:35:23.886Z",
+    "scrapedAt": "2026-05-23T22:19:05.823Z",
     "sourceUrl": "https://hepsor.lv/project/stokofiss-u34/",
     "storagePrice": {
       "kind": "unknown"
@@ -161,15 +161,15 @@
     "energyClassSource": "developer-claim",
     "id": "hepsor--8895791bb45c5d0c",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9370249,
+      "lng": 24.0697444,
+      "source": "nominatim-district"
     },
     "name": "Kuldīgas Parks",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:34:46.233Z",
+    "scrapedAt": "2026-05-23T22:18:19.011Z",
     "sourceUrl": "https://hepsor.lv/project/kuldigas-park/",
     "storagePrice": {
       "kind": "unknown"
@@ -197,7 +197,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:35:28.157Z",
+    "scrapedAt": "2026-05-23T22:19:11.325Z",
     "sourceUrl": "https://hepsor.lv/project/360dzelavas-residences/",
     "storagePrice": {
       "kind": "unknown"
@@ -227,7 +227,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:33:54.511Z",
+    "scrapedAt": "2026-05-23T22:17:12.375Z",
     "sourceUrl": "https://hepsor.lv/project/balozu-9/",
     "storagePrice": {
       "kind": "unknown"
@@ -249,15 +249,15 @@
     "energyClassSource": "developer-claim",
     "id": "hepsor--9fcdd73719ab1b84",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9511117,
+      "lng": 24.2298369,
+      "source": "nominatim-district"
     },
     "name": "StokOfiss U30",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:33:59.482Z",
+    "scrapedAt": "2026-05-23T22:17:18.197Z",
     "sourceUrl": "https://hepsor.lv/project/stokofiss-u30/",
     "storagePrice": {
       "kind": "unknown"
@@ -279,15 +279,15 @@
     "energyClassSource": "developer-claim",
     "id": "hepsor--a749d822d6e2ad7a",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9325323,
+      "lng": 24.0454439,
+      "source": "nominatim-district"
     },
     "name": "Mārupes Dārzs",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:34:43.917Z",
+    "scrapedAt": "2026-05-23T22:18:13.896Z",
     "sourceUrl": "https://hepsor.lv/project/marupes-darzs/",
     "storagePrice": {
       "kind": "unknown"
@@ -317,7 +317,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:35:17.291Z",
+    "scrapedAt": "2026-05-23T22:18:56.453Z",
     "sourceUrl": "https://hepsor.lv/project/krasta-city-arikompleks/",
     "storagePrice": {
       "kind": "unknown"
@@ -338,15 +338,15 @@
     "energyClassSource": "developer-claim",
     "id": "hepsor--b097d7cc260ea91f",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
-      "source": "manual"
+      "lat": 56.9370249,
+      "lng": 24.0697444,
+      "source": "nominatim-district"
     },
     "name": "Nameja Rezidence",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T16:35:10.023Z",
+    "scrapedAt": "2026-05-23T22:18:45.660Z",
     "sourceUrl": "https://hepsor.lv/project/nameja-rezidence/",
     "storagePrice": {
       "kind": "unknown"

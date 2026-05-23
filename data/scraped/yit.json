@@ -22,7 +22,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:39:10.321Z",
+    "scrapedAt": "2026-05-23T22:22:21.442Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/kipsala/riverstone",
     "storagePrice": {
       "kind": "unknown"
@@ -844,19 +844,20 @@
     "energyClassSource": "developer-claim",
     "id": "yit--0f7ab7740a3ca64c",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
+      "lat": 56.93875,
+      "lng": 24.22421,
       "source": "manual"
     },
-    "name": "Kaivas kvartāls 2",
+    "name": "Kaivas kvartāls",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:26.377Z",
+    "scrapedAt": "2026-05-23T22:21:37.239Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals-2",
     "storagePrice": {
       "kind": "unknown"
-    }
+    },
+    "subName": "Kaivas kvartāls 2"
   },
   {
     "address": "Zemaišu iela 7, LV-1002 Rīga",
@@ -1858,15 +1859,16 @@
       "lng": 24.0723103,
       "source": "nominatim"
     },
-    "name": "Mārpagalmi 3",
+    "name": "Mārpagalmi",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:28.453Z",
+    "scrapedAt": "2026-05-23T22:21:39.454Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-3",
     "storagePrice": {
       "kind": "unknown"
-    }
+    },
+    "subName": "Mārpagalmi 3"
   },
   {
     "address": "Kaivas iela 48a, LV-1021 Rīga",
@@ -2024,19 +2026,20 @@
     "energyClassSource": "developer-claim",
     "id": "yit--3595812d1f652588",
     "location": {
-      "lat": 56.95,
-      "lng": 24.1,
+      "lat": 56.93875,
+      "lng": 24.22421,
       "source": "manual"
     },
-    "name": "Kaivas kvartāls 1",
+    "name": "Kaivas kvartāls",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:34.201Z",
+    "scrapedAt": "2026-05-23T22:21:45.389Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/dreilini/kaivaskvartals/kaivas-kvartals",
     "storagePrice": {
       "kind": "unknown"
-    }
+    },
+    "subName": "Kaivas kvartāls 1"
   },
   {
     "address": "Āgenskalns, Rīga",
@@ -2057,15 +2060,16 @@
       "lng": 24.0697444,
       "source": "nominatim"
     },
-    "name": "Mārpagalmi 4",
+    "name": "Mārpagalmi",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:30.656Z",
+    "scrapedAt": "2026-05-23T22:21:41.281Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-4",
     "storagePrice": {
       "kind": "unknown"
-    }
+    },
+    "subName": "Mārpagalmi 4"
   },
   {
     "address": "Zolitūde, Rīga",
@@ -2090,7 +2094,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:49.275Z",
+    "scrapedAt": "2026-05-23T22:22:00.341Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/zolitude/anninmuizas-iela-15a",
     "storagePrice": {
       "kind": "unknown"
@@ -2119,7 +2123,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:39:04.299Z",
+    "scrapedAt": "2026-05-23T22:22:15.369Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/bisumuiza/bauskas-191",
     "storagePrice": {
       "kind": "unknown"
@@ -2270,7 +2274,7 @@
       },
       {
         "area": 58.2,
-        "availability": "reserved",
+        "availability": "available",
         "deepLinkUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5/pdlv102622",
         "floor": 5,
         "id": "yit--ef847be61b92b040:PDLV102622",
@@ -2785,15 +2789,16 @@
       "lng": 24.0720201,
       "source": "nominatim"
     },
-    "name": "Mārpagalmi 5",
+    "name": "Mārpagalmi",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:29.553Z",
+    "scrapedAt": "2026-05-23T22:21:40.410Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/agenskalns/marpagalmi/marpagalmi-5",
     "storagePrice": {
       "kind": "unknown"
-    }
+    },
+    "subName": "Mārpagalmi 5"
   },
   {
     "address": "Lielvārdes iela 132, LV-1082 Rīga",
@@ -3455,15 +3460,16 @@
       "lng": 24.2105802,
       "source": "nominatim"
     },
-    "name": "Silvas Nami 6",
+    "name": "Silvas nami",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:27.353Z",
+    "scrapedAt": "2026-05-23T22:21:38.433Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-6",
     "storagePrice": {
       "kind": "unknown"
-    }
+    },
+    "subName": "Silvas Nami 6"
   },
   {
     "address": "Dzelzavas iela 104, LV-1084 Rīga",
@@ -3505,14 +3511,15 @@
       "lng": 24.2123591,
       "source": "nominatim"
     },
-    "name": "Silvas Nami 5",
+    "name": "Silvas nami",
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-23T14:38:31.759Z",
+    "scrapedAt": "2026-05-23T22:21:42.395Z",
     "sourceUrl": "https://www.yit.lv/dzivojamas-majas/riga/purvciems/silvasnami/silvas-nami-5",
     "storagePrice": {
       "kind": "unknown"
-    }
+    },
+    "subName": "Silvas Nami 5"
   }
 ]

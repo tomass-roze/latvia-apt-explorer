@@ -29,7 +29,7 @@ import {
 import { buildProjectId } from '@/lib/schema.server';
 import { fetchError, parseError, validateError } from '../base/errors';
 import { politeFetch } from '../base/fetch';
-import { flushCache, geocode } from '../base/geocoder';
+import { flushCache, geocodeWithFallback } from '../base/geocoder';
 import type { Scraper, ScrapeOutput } from '../base/interface';
 
 const DEVELOPER = 'yit' as const;
@@ -204,8 +204,15 @@ async function parseProjectPage(url: string): Promise<ProjectParseResult> {
   const projectId = buildProjectId(DEVELOPER, { address });
   const errors: ScrapeError[] = [];
 
+  // Geocode with tiered fallback: street → district → city. Marking the
+  // result's source tier so the UI can flag approximate pins.
+  const variants: { address: string; tier: 'street' | 'district' | 'city' }[] = [
+    { address, tier: 'street' },
+  ];
+  if (dl.area) variants.push({ address: `${dl.area}, ${cityLabel}`, tier: 'district' });
+  variants.push({ address: String(cityLabel), tier: 'city' });
   let location: Project['location'] = { lat: 56.95, lng: 24.1, source: 'manual' };
-  const geo = await geocode({ developer: DEVELOPER, address });
+  const geo = await geocodeWithFallback({ developer: DEVELOPER, variants });
   if (geo) {
     location = { lat: geo.lat, lng: geo.lng, source: geo.source };
   } else {
@@ -216,10 +223,18 @@ async function parseProjectPage(url: string): Promise<ProjectParseResult> {
     });
   }
 
+  // YIT's dataLayer surfaces a `subarea` field on project pages that holds
+  // the project FAMILY name with proper Latvian diacritics (e.g., "Mārpagalmi"),
+  // while `project` holds the per-building leaf name ("Mārpagalmi 5"). Prefer
+  // the family name and keep the leaf as subName, falling back to the leaf
+  // name when subarea isn't usable.
+  const hasFamily =
+    dl.subarea && dl.subarea !== 'N/A' && dl.subarea.trim() !== dl.project.trim();
+  const finalName = hasFamily ? dl.subarea! : dl.project;
   const candidate: Project = {
     id: projectId,
     developer: DEVELOPER,
-    name: dl.project,
+    name: finalName,
     address,
     city: cityLabel,
     location,
@@ -234,6 +249,7 @@ async function parseProjectPage(url: string): Promise<ProjectParseResult> {
     apartments: [],
     scrapedAt: new Date().toISOString(),
   };
+  if (hasFamily) candidate.subName = dl.project;
   if (dl.area) candidate.district = dl.area;
 
   const parsed = ProjectSchema.safeParse(candidate);
