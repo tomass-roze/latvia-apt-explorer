@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { CompareTable } from '@/components/compare/CompareTable';
 import { loadApartments, loadProjects } from '@/lib/data.server';
 
+// CompareTable reads URL state via nuqs.
+export const dynamic = 'force-dynamic';
+
 export default async function ComparePage() {
   const [projects, apartments] = await Promise.all([loadProjects(), loadApartments()]);
   return (
