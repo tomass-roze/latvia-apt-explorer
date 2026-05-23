@@ -4,7 +4,16 @@ const cspDirectives = [
   "default-src 'self'",
   // 'unsafe-inline' on style-src is required by MapLibre and many React setups; revisit with nonces post-MVP.
   "style-src 'self' 'unsafe-inline'",
-  "script-src 'self' 'unsafe-eval' 'wasm-unsafe-eval'", // 'wasm-unsafe-eval' for MapLibre's projection WASM; 'unsafe-eval' for Next dev/Turbopack.
+  // 'unsafe-inline' is required for Next.js's hydration scripts (route/data
+  // injection happens via inline <script> tags). The proper-grade alternative
+  // is per-request nonces via middleware — significant complexity for the
+  // marginal additional defense at this stage. Other directives still hold:
+  // object-src 'none', frame-ancestors 'none', img-src restricted to https,
+  // connect-src restricted to OpenFreeMap, and the input-side defenses
+  // (SafeUrlSchema / ImageUrlSchema) reject javascript:/svg payloads.
+  // 'wasm-unsafe-eval' for MapLibre's projection WASM. 'unsafe-eval' for Next
+  // dev/Turbopack runtime.
+  "script-src 'self' 'unsafe-eval' 'unsafe-inline' 'wasm-unsafe-eval'",
   "img-src 'self' https: data: blob:", // hotlinked developer floorplans, OpenFreeMap tiles
   "font-src 'self' data:", // next/font self-hosts; data: covers WOFF inlining edge cases
   "connect-src 'self' https://tiles.openfreemap.org https://*.openfreemap.org",
