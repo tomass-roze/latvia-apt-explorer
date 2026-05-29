@@ -21,8 +21,36 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-28T06:15:54.244Z",
+    "scrapedAt": "2026-05-29T06:17:41.129Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/darzciema-liepas/par-projektu",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Drīzumā  Zentas Mauriņas iela 10, Rīga",
+    "apartments": [],
+    "buildStage": "nearly-complete",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "pillar",
+    "energyClass": "A",
+    "energyClassSource": "developer-claim",
+    "id": "pillar--25913f070903626c",
+    "location": {
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim-city"
+    },
+    "name": "Purvciema mājas",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-05-29T06:17:40.073Z",
+    "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/purvciema-majas/par-projektu",
     "storagePrice": {
       "kind": "unknown"
     }
@@ -49,36 +77,8 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-28T06:15:54.244Z",
+    "scrapedAt": "2026-05-29T06:17:41.129Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/dreilinu-priedes/par-projektu",
-    "storagePrice": {
-      "kind": "unknown"
-    }
-  },
-  {
-    "address": "Zentas Mauriņas iela 10, Rīga",
-    "apartments": [],
-    "buildStage": "nearly-complete",
-    "city": "Rīga",
-    "completion": {
-      "kind": "unknown"
-    },
-    "constructionType": "unknown",
-    "developer": "pillar",
-    "energyClass": "A",
-    "energyClassSource": "developer-claim",
-    "id": "pillar--81bec6562f9aa4bc",
-    "location": {
-      "lat": 56.9510163,
-      "lng": 24.1910008,
-      "source": "nominatim"
-    },
-    "name": "Purvciema mājas",
-    "parkingPrice": {
-      "kind": "unknown"
-    },
-    "scrapedAt": "2026-05-28T06:15:54.244Z",
-    "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/purvciema-majas/par-projektu",
     "storagePrice": {
       "kind": "unknown"
     }
@@ -105,7 +105,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-28T06:15:54.244Z",
+    "scrapedAt": "2026-05-29T06:17:41.129Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/ilguciema-majas/par-projektu",
     "storagePrice": {
       "kind": "unknown"
@@ -133,7 +133,7 @@
     "parkingPrice": {
       "kind": "unknown"
     },
-    "scrapedAt": "2026-05-28T06:15:54.240Z",
+    "scrapedAt": "2026-05-29T06:17:41.128Z",
     "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/mezciema-majas/par-projektu",
     "storagePrice": {
       "kind": "unknown"
