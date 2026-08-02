@@ -1,4 +1,39 @@
 {
+  "invego:centrs, rīga": {
+    "lat": 56.9581275,
+    "lng": 24.123267,
+    "source": "nominatim-district"
+  },
+  "invego:mežaparks, rīga": {
+    "lat": 57.001796,
+    "lng": 24.1574993,
+    "source": "nominatim-district"
+  },
+  "invego:miera rezidences, rīga": {
+    "lat": 56.9714014,
+    "lng": 24.1386111,
+    "source": "nominatim"
+  },
+  "invego:nordale, mežciems, rīga": {
+    "lat": 56.9784391,
+    "lng": 24.209816,
+    "source": "nominatim"
+  },
+  "invego:rīga": {
+    "lat": 56.9493977,
+    "lng": 24.1051846,
+    "source": "nominatim-city"
+  },
+  "invego:skanstes rezidences, skanste, rīga": {
+    "lat": 56.9666578,
+    "lng": 24.1213852,
+    "source": "nominatim"
+  },
+  "invego:torņakalns, rīga": {
+    "lat": 56.9301787,
+    "lng": 24.093767,
+    "source": "nominatim-district"
+  },
   "pillar:franča trasuna iela 17, rīga": {
     "lat": 56.9420737,
     "lng": 24.1719024,
