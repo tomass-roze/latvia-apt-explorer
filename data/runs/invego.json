@@ -1,8 +1,14 @@
 {
-  "apartmentCount": 0,
   "developer": "invego",
-  "finishedAt": "2026-09-01T07:27:30.093Z",
-  "projectCount": 9,
-  "startedAt": "2026-09-01T07:27:23.179Z",
-  "status": "ok"
+  "errors": [
+    {
+      "kind": "parse",
+      "message": "posts_data blob not found or unparseable",
+      "url": "https://invego.lv/dzivojamas-ekas/"
+    }
+  ],
+  "finishedAt": "2026-09-04T07:02:33.744Z",
+  "lastSuccessAt": "2026-09-04T07:02:30.815Z",
+  "startedAt": "2026-09-04T07:02:30.815Z",
+  "status": "failed"
 }
