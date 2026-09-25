@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "address": "Drīzumā  Zentas Mauriņas iela 10, Rīga",
+    "apartments": [],
+    "buildStage": "nearly-complete",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "pillar",
+    "energyClass": "A",
+    "energyClassSource": "developer-claim",
+    "id": "pillar--25913f070903626c",
+    "location": {
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim-city"
+    },
+    "name": "Purvciema mājas",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-09-25T07:18:03.053Z",
+    "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/purvciema-majas/par-projektu",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Ēvalda Valtera iela 1/1a/1b, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "pillar",
+    "energyClass": "A",
+    "energyClassSource": "developer-claim",
+    "id": "pillar--28265ed12ea96bf8",
+    "location": {
+      "lat": 56.9445533,
+      "lng": 24.2371525,
+      "source": "nominatim"
+    },
+    "name": "Dreiliņu priedes",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-09-25T07:18:03.053Z",
+    "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/dreilinu-priedes/par-projektu",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Spilves iela 27/29, Rīga",
+    "apartments": [],
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "pillar",
+    "energyClass": "A",
+    "energyClassSource": "developer-claim",
+    "id": "pillar--a0f243d8c3e08ad1",
+    "location": {
+      "lat": 56.969718,
+      "lng": 24.0476264,
+      "source": "nominatim"
+    },
+    "name": "Iļģuciema mājas",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-09-25T07:18:01.461Z",
+    "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/ilguciema-majas/par-projektu",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "2.kārta drīzumā  Eizenšteina iela 47/47a, Rīga",
+    "apartments": [],
+    "buildStage": "ready",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "pillar",
+    "energyClass": "A",
+    "energyClassSource": "developer-claim",
+    "id": "pillar--af40a85e978794df",
+    "location": {
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim-city"
+    },
+    "name": "Mežciema mājas",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-09-25T07:18:01.950Z",
+    "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/mezciema-majas/par-projektu",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "address": "Izpārdots   Franča Trasuna iela 17, Rīga",
+    "apartments": [],
+    "buildStage": "under-construction",
+    "city": "Rīga",
+    "completion": {
+      "kind": "unknown"
+    },
+    "constructionType": "unknown",
+    "developer": "pillar",
+    "energyClass": "A",
+    "energyClassSource": "developer-claim",
+    "id": "pillar--e843f6afbf4d141d",
+    "location": {
+      "lat": 56.9493977,
+      "lng": 24.1051846,
+      "source": "nominatim-city"
+    },
+    "name": "Dārzciema liepas",
+    "parkingPrice": {
+      "kind": "unknown"
+    },
+    "scrapedAt": "2026-09-25T07:18:04.151Z",
+    "sourceUrl": "https://pillar.lv/lv/jaunie-projekti/darzciema-liepas/par-projektu",
+    "storagePrice": {
+      "kind": "unknown"
+    }
+  }
+]
